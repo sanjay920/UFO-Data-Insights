@@ -2,11 +2,90 @@ var client = new $.es.Client({
   hosts: 'localhost:9200'
 });
 
+function loadUKMap(){
+  var width = 960,
+    height = 1160;
+
+  var projection = d3.geo.albers()
+      .center([0, 53.4])
+      .rotate([4.4, 0])
+      .parallels([50, 60])
+      .scale(4000)
+      .translate([width / 2, height / 2]);
+
+  var path = d3.geo.path()
+      .projection(projection)
+      .pointRadius(2);
+
+  var svg = d3.select("#mapArea").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  d3.json("uk.json", function(error, uk) {
+    var subunits = topojson.object(uk, uk.objects.subunits)
+
+    svg.selectAll(".subunit")
+        .data(subunits.geometries)
+      .enter().append("path")
+        .attr("class", function(d) { return "subunit " + d.id; })
+        .attr("d", path);
+
+    svg.append("path")
+        .datum(topojson.mesh(uk, uk.objects.subunits, function(a, b) { return a !== b && a.id !== "IRL"; }))
+        .attr("d", path)
+        .attr("class", "subunit-boundary");
+
+    svg.append("path")
+        .datum(topojson.mesh(uk, uk.objects.subunits, function(a, b) { return a === b && a.id === "IRL"; }))
+        .attr("d", path)
+        .attr("class", "subunit-boundary IRL");
+
+    svg.selectAll(".subunit-label")
+        .data(subunits.geometries)
+      .enter().append("text")
+        .attr("class", function(d) { return "subunit-label " + d.id; })
+        .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
+        .attr("dy", ".35em")
+        .text(function(d) { return d.properties.name; });
+  });
+
+  client.search({
+    body: {
+      query:{
+        "exists" : { "field" : "lat" }
+      },
+      _source: ['lon', 'lat'],
+      size: 4000
+    }
+  }).then(function(body){
+    var hits = body.hits.hits;
+    console.log(hits);
+    ufo_coords = [];
+
+    _.forEach(hits, function(val){
+      console.log();
+      var resultObj = val['_source']
+      ufo_coords.push([resultObj['lon'], resultObj['lat']]);
+    });
+
+    svg.selectAll(".cities")
+        .data(ufo_coords).enter()
+        .append("circle")
+        .attr("cx", function(d){ return projection(d)[0]; })
+        .attr("cy", function(d){ return projection(d)[1]; })
+        .attr("r", "3px")
+        .attr('class', 'cities')
+
+
+  })
+
+}
+
 function loadUSMap(){
   var width = 960,
 	height = 500;
 
-  var svg = d3.select('#mapContainer').append('svg')
+  var svg = d3.select('#mapArea').append('svg')
       .attr('width', width)
       .attr('height', height);
 
@@ -144,5 +223,24 @@ function loadWorldMap(){
 } //loadWorldMap
 
 $(function(){
+  // loading the us map by default
   loadUSMap();
+
+  var selectOpt = window.parent.$("#countries")
+  selectOpt.on('change', function(e){
+    // Get the current selection and display the appropriate map
+    var selection = selectOpt.val();
+    switch (selection) {
+      case 'us':
+        d3.select("#mapArea").selectAll("svg").remove();
+        loadUSMap();
+        break;
+      case 'uk':
+        d3.select("#mapArea").selectAll("svg").remove();
+        loadUKMap();
+        break;
+      default:
+
+    }
+  })
 })
