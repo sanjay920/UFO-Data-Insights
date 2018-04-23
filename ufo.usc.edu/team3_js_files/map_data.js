@@ -82,45 +82,6 @@ function loadUKMap(){
 
 }
 
-function loadUSMap(ufoCoords){
-  var width = 960,
-	height = 500;
-
-  var svg = d3.select('#mapArea').append('svg')
-      .attr('width', width)
-      .attr('height', height);
-
-  var projection = d3.geo.albersUsa()
-  	.scale(1000)
-  	.translate([width / 2, height / 2]);
-
-  var path = d3.geo.path()
-  	.projection(projection);
-
-  queue()
-  	.defer(d3.json, 'states.json')
-  	.defer(d3.json, 'cities.json')
-  	.await(makeMyMap);
-
-  function makeMyMap(error, states, cities) {
-    if(error){
-      console.log("Error is ",error);
-    }
-
-  	svg.append('path')
-  		.datum(topojson.feature(states, states.objects.usStates))
-  			.attr('d', path)
-  			.attr('class', 'states');
-
-          svg.selectAll(".cities")
-              .data(ufoCoords).enter()
-              .append("circle")
-              .attr("cx", function(d){if(!projection(d)){console.log("projection is null", d)}else{return projection(d)[0];} })
-              .attr("cy", function(d){if(!projection(d)){console.log("projection is null", d)}else{return projection(d)[1];} })
-              .attr("r", "3px")
-              .attr('class', 'cities')
-  }
-}
 
 function loadMetroOverlap(ufoCoords){
   //Width and height of map
@@ -144,9 +105,11 @@ function loadMetroOverlap(ufoCoords){
    	.defer(d3.csv, 'sports_franchises.csv')
    	.defer(d3.csv, 'state-densities.csv')
     .defer(d3.json, 'us-states.json')
+    .defer(d3.csv, 'meteorite-landings.csv')
+    .defer(d3.csv, 'airports.csv')
    	.await(makeMyMap);
 
-    function makeMyMap(error, sports, stateDensities, states){
+    function makeMyMap(error, sports, stateDensities, states, metorites, airports){
       for (var j = 0; j < states.features.length; j++)  {
         states.features[j].properties.population = 0.0;
         states.features[j].properties.density_rank = -1.0
@@ -178,44 +141,23 @@ function loadMetroOverlap(ufoCoords){
       }
 
 
+
       svg.selectAll("path")
         .data(states.features)
         .enter()
         .append("path")
         .attr("d", path)
-        .style("stroke", "#fff")
+        .style("stroke", "#FF5733")
         .style("stroke-width", "1")
-        .style("fill", function(d) {
-            // Get data value
-            var value = d.properties.density_rank;
-            if (value) {
-                if (value == 1)
-                    return "rgb(255,192,208)"
-                else if (value == 2)
-                    return "rgb(255,128,160)"
-                else if (value == 3)
-                    return "rgb(255,64,112)"
-                else if (value == 4)
-                    return "rgb(255,0,64)"
-                else if (value == 5)
-                    return "rgb(192,0,48)"
-                else
-                    console.log("ERROR");
-                    return "rgb(213,222,217)";
-            } else {
-//                    console.log("NOOOO");
-                //If value is undefined…
-                return "rgb(213,222,217)";
-            }
-        });
+        .style("fill", "#FFFFFF")
 
 
         svg.selectAll("circle")
           .data(sports)
           .enter()
           .append("circle")
+          .attr("class","sports")
           .attr("cx", function(d) {
-//                console.log([parseFloat(d.ua_lon), parseFloat(d.ua_lat)]);
               return projection([parseFloat(d.ua_lon), parseFloat(d.ua_lat)])[0];
           })
           .attr("cy", function(d) {
@@ -245,7 +187,62 @@ function loadMetroOverlap(ufoCoords){
 
               }
           })
-          .style("opacity", 0.95)
+          .style("opacity", 0.0)
+
+          svg.selectAll("circle")
+            .data(airports)
+            .enter()
+            .append("circle")
+            .attr("class", "airports")
+            .attr("cx", function(d) {
+              proj = projection([parseFloat(d.longitude_deg), parseFloat(d.latitude_deg)]);
+              if (proj == null)
+                  return
+              return proj[0];
+            })
+            .attr("cy", function(d) {
+              proj = projection([parseFloat(d.longitude_deg), parseFloat(d.latitude_deg)]);
+              if (proj == null)
+                  return
+              return proj[1];
+            })
+            .attr("r", function(d) {
+              if (d.type === "small_airport")
+                  return 0.7
+              else if (d.type === "medium_airport")
+                  return 1.7
+              else
+                  return 5.0
+
+            })
+            .style("fill", "rgb(30,9,207)")
+            .style("opacity", 0.0)
+
+            // NOTE : PLotting metorite data here
+            svg.selectAll("circle")
+            .data(metorites)
+            .enter()
+            .append("circle")
+            .attr("class", "metorites")
+            .attr("cx", function(d) {
+                proj = projection([parseFloat(d.reclong), parseFloat(d.reclat)]);
+                if (proj == null)
+                    return
+                return proj[0];
+            })
+            .attr("cy", function(d) {
+                proj = projection([parseFloat(d.reclong), parseFloat(d.reclat)]);
+                if (proj == null)
+                    return
+                return proj[1];
+            })
+            .attr("r", function(d) {
+                return 1.5;
+            })
+            .style("fill", "rgb(0,0,0)")
+            .style("opacity", 0.8)
+
+
 
           svg.selectAll("circle")
             .data(ufoCoords)
@@ -257,9 +254,83 @@ function loadMetroOverlap(ufoCoords){
             .style("fill", "rgb(253,255,137)")
             .style("opacity", .5);
 
+          //TODO: Really long function, need to make it more generic
+          // Handling checkbox values
+          d3.selectAll(".ufoFilter").on("change", update);
+          function update(){
+            var choices = [];
+            d3.selectAll(".ufoFilter").each(function(d){
+              cb = d3.select(this);
+              if(cb.property("checked")){
+                choices.push(cb.property("value"));
+              }
+            });
+
+            if(_.contains(choices, "population")){
+              svg.selectAll("path")
+              .attr("d", path)
+              .style("stroke", "#fff")
+              .style("stroke-width", "1")
+              .style("fill", function(d) {
+                  // Get data value
+                  var value = d.properties.density_rank;
+                  if (value) {
+                      if (value == 1)
+                          return "rgb(255,192,208)"
+                      else if (value == 2)
+                          return "rgb(255,128,160)"
+                      else if (value == 3)
+                          return "rgb(255,64,112)"
+                      else if (value == 4)
+                          return "rgb(255,0,64)"
+                      else if (value == 5)
+                          return "rgb(192,0,48)"
+                      else
+                          console.log("ERROR");
+                          return "rgb(213,222,217)";
+                  } else {
+                      return "rgb(213,222,217)";
+                  }
+              });
+            }else{
+              svg.selectAll("path")
+              .attr("d", path)
+              .style("stroke", "#FF5733")
+              .style("stroke-width", "1")
+              .style("fill", "#FFFFFF")
+            }
+
+            if(_.contains(choices, "metro")){
+              svg.selectAll("circle.sports")
+              .style("opacity", 0.95)
+            }else{
+              console.log("Inside else");
+              svg.selectAll("circle.sports")
+              .style("opacity", 0.0)
+            }
+
+
+            if(_.contains(choices, "airport")){
+              svg.selectAll("circle.airports")
+              .style("opacity", 0.7)
+            }else{
+              svg.selectAll("circle.airports")
+              .style("opacity", 0.0)
+            }
+
+            if(_.contains(choices, "metorite")){
+              svg.selectAll("circle.metorites")
+              .style("opacity", 0.8)
+            }else{
+              svg.selectAll("circle.metorites")
+              .style("opacity", 0.0)
+            }
+
+          }
     }
 }
 
+// This function is called when the document is loaded
 $(function(){
 
   // lets get the ufo coordinates before we visualize the map
@@ -287,8 +358,6 @@ $(function(){
       }, handleData)
     }else{
       console.log('all done');
-      // loadUSMap(ufoCoords);
-      console.log(ufoCoords.length);
       loadMetroOverlap(ufoCoords);
       // loadUKMap();
       var selectOpt = window.parent.$("#countries")
