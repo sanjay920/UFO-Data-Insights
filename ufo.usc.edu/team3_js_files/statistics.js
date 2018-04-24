@@ -20,7 +20,7 @@ $(function(){
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-var formatPercent = d3.format(".0%");
+var formatPercent = d3.format(" ");
 
 var x = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);
@@ -41,7 +41,7 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<strong>Document Count:</strong> <span style='color:red'>" + d.doc_count + "</span>";
+    return "<strong>"+d.key+" : </strong> <span style='color:red'>" + d.doc_count + "</span>";
   })
 
 var svg = d3.select("body").append("svg")
@@ -64,6 +64,7 @@ var svg = d3.select("body").append("svg")
       ['Colorado', 'CO'],
       ['Connecticut', 'CT'],
       ['Delaware', 'DE'],
+      ['District of Columbia','DC'],
       ['Florida', 'FL'],
       ['Georgia', 'GA'],
       ['Hawaii', 'HI'],
@@ -157,7 +158,7 @@ var svg = d3.select("body").append("svg")
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Frequency");
+      .text("Number of UFO Sightings");
 
   svg.selectAll(".bar")
       .data(stateCount)
