@@ -48,7 +48,6 @@ $(function(){
                 .attr('dx', '1em')
                 .attr('dy', '1em')
                 .text(function(d) {
-                    console.log(d);
                     return d;
                 });
         }
@@ -271,7 +270,6 @@ $(function(){
     }
 
     function genData(ufoData) {
-        console.log("Generate data ", ufoData);
         var type = ['UFO'];
         var unit = ['C'];
         // var cat = ['Google Drive', 'Dropbox', 'iCloud', 'OneDrive', 'Box'];
