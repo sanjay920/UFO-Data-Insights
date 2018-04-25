@@ -102,11 +102,11 @@ function loadMetroOverlap(ufoCoords){
      .attr('height', height);
 
    queue()
-   	.defer(d3.csv, 'sports_franchises.csv')
-   	.defer(d3.csv, 'state-densities.csv')
-    .defer(d3.json, 'us-states.json')
-    .defer(d3.csv, 'meteorite-landings.csv')
-    .defer(d3.csv, 'airports.csv')
+   	.defer(d3.csv, '../data_files/sports_franchises.csv')
+   	.defer(d3.csv, '../data_files/state-densities.csv')
+    .defer(d3.json, '../data_files/us-states.json')
+    .defer(d3.csv, '../data_files/meteorite-landings.csv')
+    .defer(d3.csv, '../data_files/airports.csv')
    	.await(makeMyMap);
 
     function makeMyMap(error, sports, stateDensities, states, metorites, airports){
@@ -240,7 +240,7 @@ function loadMetroOverlap(ufoCoords){
                 return 1.5;
             })
             .style("fill", "rgb(0,0,0)")
-            .style("opacity", 0.8)
+            .style("opacity", 0.0)
 
 
 
@@ -250,8 +250,8 @@ function loadMetroOverlap(ufoCoords){
             .append("circle")
             .attr("cx", function(d){if(projection(d))return projection(d)[0];})
             .attr("cy", function(d){if(projection(d))return projection(d)[1];})
-            .attr("r", function(d) {return .7;})
-            .style("fill", "rgb(253,255,137)")
+            .attr("r", function(d) {return 2;})
+            .style("fill", "rgb(102,255,102)")
             .style("opacity", .5);
 
           //TODO: Really long function, need to make it more generic
