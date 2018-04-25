@@ -2,6 +2,8 @@ var client = new $.es.Client({
  hosts: 'localhost:9200'
 });
 
+// Referred from  : http://blockbuilder.org/EfratVil/d956f19f2e56a05c31fb6583beccfda7
+
 $(function(){
 
   client.search({
@@ -10,94 +12,141 @@ $(function(){
         "exists": {"field": "closest_LARGE_airport_distance"}
       },
       "_source": ["closest_LARGE_airport_distance", "closest_MEDIUM_airport_distance", "closest_SMALL_airport_distance"],
-      "size": 100
+      "size": 1000
     }
   })
   .then(function(body){
-    console.log(body);
     var hits = body.hits.hits;
+    // Create data
+        function randomData(elasticData) {
+            var data = []
+              // random = d3.randomNormal();
 
-    var margin = {top: 30, right: 50, bottom: 40, left:40};
-  	var width = 960 - margin.left - margin.right;
-  	var height = 500 - margin.top - margin.bottom;
+            for (i = 0; i < elasticData.length; i++) {
+                data.push({
+                    x: elasticData[i]['_source']['closest_MEDIUM_airport_distance'],
+                    y: elasticData[i]['_source']['closest_LARGE_airport_distance']
+                });
+            }
+            return data;
+        }
 
-    var svg = d3.select('body')
-  		.append('svg')
-  		.attr('width', width + margin.left + margin.right)
-  		.attr('height', height + margin.top + margin.bottom)
-  	.append('g')
-  		.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+        var data = randomData(hits);
 
+        var margin = { top: 20, right: 10, bottom: 30, left: 30 };
+        width = 900 - margin.left - margin.right,
+        height = 480 - margin.top - margin.bottom;
 
-      // The API for scales have changed in v4. There is a separate module d3-scale which can be used instead. The main change here is instead of d3.scale.linear, we have d3.scaleLinear.
-  	var xScale = d3.scaleLinear()
-  		.range([0, width]);
+        var tooltip = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
 
-  	var yScale = d3.scaleLinear()
-  		.range([height, 0]);
+        var x = d3.scaleLinear()
+              .range([0, width])
+              .nice();
 
-  	// square root scale.
-  	var radius = d3.scaleSqrt()
-  		.range([2,5]);
+        var y = d3.scaleLinear()
+            .range([height, 0]);
 
-  	// the axes are much cleaner and easier now. No need to rotate and orient the axis, just call axisBottom, axisLeft etc.
-  	var xAxis = d3.axisBottom()
-  		.scale(xScale);
+        var xAxis = d3.axisBottom(x).ticks(12),
+            yAxis = d3.axisLeft(y).ticks(12 * height / width);
 
-  	var yAxis = d3.axisLeft()
-  		.scale(yScale);
+        var brush = d3.brush().extent([[0, 0], [width, height]]).on("end", brushended),
+            idleTimeout,
+            idleDelay = 350;
 
-  	// again scaleOrdinal
-  	var color = d3.scaleOrdinal(d3.schemeCategory20);
+        var svg = d3.select("body").append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    hits.forEach(function(d){
-      d.closest_LARGE_airport_distance = d._source.closest_LARGE_airport_distance;
-      d.closest_MEDIUM_airport_distance = d._source.closest_MEDIUM_airport_distance;
-      d.closest_SMALL_airport_distance = d._source.closest_SMALL_airport_distance;
-      if(d.closest_SMALL_airport_distance <= 10){
-        d.category = "Close";
-      }else if(d.closest_MEDIUM_airport_distance > 10 &&  d.closest_MEDIUM_airport_distance <= 20){
-        d.category = "Medium";
-      }else{
-        d.category = "Far";
-      }
-    });
+        var clip = svg.append("defs").append("svg:clipPath")
+            .attr("id", "clip")
+            .append("svg:rect")
+            .attr("width", width )
+            .attr("height", height )
+            .attr("x", 0)
+            .attr("y", 0);
 
-    xScale.domain(d3.extent(hits, function(d){
-			return d.closest_LARGE_airport_distance;
-		})).nice();
+        var xExtent = d3.extent(data, function (d) { return d.x; });
+        var yExtent = d3.extent(data, function (d) { return d.y; });
+        x.domain(d3.extent(data, function (d) { return d.x; })).nice();
+        y.domain(d3.extent(data, function (d) { return d.y; })).nice();
 
-		yScale.domain(d3.extent(hits, function(d){
-			return d.closest_SMALL_airport_distance;
-		})).nice();
+        var scatter = svg.append("g")
+             .attr("id", "scatterplot")
+             .attr("clip-path", "url(#clip)");
 
-		radius.domain(d3.extent(hits, function(d){
-			return d.closest_SMALL_airport_distance;
-		})).nice();
+        scatter.selectAll(".dot")
+            .data(data)
+          .enter().append("circle")
+            .attr("class", "dot")
+            .attr("r", 4)
+            .attr("cx", function (d) { return x(d.x); })
+            .attr("cy", function (d) { return y(d.y); })
+            .attr("opacity", 0.5)
+            .style("fill", "#4292c6");
 
+        // x axis
+        svg.append("g")
+           .attr("class", "x axis")
+           .attr('id', "axis--x")
+           .attr("transform", "translate(0," + height + ")")
+           .call(xAxis);
 
-    // adding axes is also simpler now, just translate x-axis to (0,height) and it's alread defined to be a bottom axis.
-		svg.append('g')
-			.attr('transform', 'translate(0,' + height + ')')
-			.attr('class', 'x axis')
-			.call(xAxis);
+        svg.append("text")
+         .style("text-anchor", "end")
+            .attr("x", width)
+            .attr("y", height - 8)
+         .text("Medium Airport Distance");
 
-		// y-axis is translated to (0,0)
-		svg.append('g')
-			.attr('transform', 'translate(0,0)')
-			.attr('class', 'y axis')
-			.call(yAxis);
+        // y axis
+        svg.append("g")
+            .attr("class", "y axis")
+            .attr('id', "axis--y")
+            .call(yAxis);
 
-    var bubble = svg.selectAll('.bubble')
-			.data(hits)
-			.enter().append('circle')
-			.attr('class', 'bubble')
-			.attr('cx', function(d){return xScale(d.closest_LARGE_airport_distance);})
-			.attr('cy', function(d){ return yScale(d.closest_MEDIUM_airport_distance); })
-			.attr('r', function(d){ return radius(d.closest_SMALL_airport_distance); })
-			.style('fill', function(d){ return color(d.category); });
+        svg.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", "1em")
+            .style("text-anchor", "end")
+            .text("Large Airport Distance");
 
-    console.log(hits);
+        scatter.append("g")
+            .attr("class", "brush")
+            .call(brush);
+
+        function brushended() {
+
+            var s = d3.event.selection;
+            if (!s) {
+                if (!idleTimeout) return idleTimeout = setTimeout(idled, idleDelay);
+                x.domain(d3.extent(data, function (d) { return d.x; })).nice();
+                y.domain(d3.extent(data, function (d) { return d.y; })).nice();
+            } else {
+
+                x.domain([s[0][0], s[1][0]].map(x.invert, x));
+                y.domain([s[1][1], s[0][1]].map(y.invert, y));
+                scatter.select(".brush").call(brush.move, null);
+            }
+            zoom();
+        }
+
+        function idled() {
+            idleTimeout = null;
+        }
+
+        function zoom() {
+
+            var t = scatter.transition().duration(750);
+            svg.select("#axis--x").transition(t).call(xAxis);
+            svg.select("#axis--y").transition(t).call(yAxis);
+            scatter.selectAll("circle").transition(t)
+            .attr("cx", function (d) { return x(d.x); })
+            .attr("cy", function (d) { return y(d.y); });
+        }
 
   })
 
