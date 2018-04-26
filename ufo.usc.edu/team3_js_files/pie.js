@@ -40,7 +40,7 @@ $(function(){
       .attr("fill", function(d){return color(d.data.day_of_week)});
 
     arc.append("text")
-      .attr("transform", function(d){return "translate(" + label.centroid(d) + ")"})
+      // .attr("transform", function(d){return "translate(" + label.centroid(d) + ")"})
       .attr("dy", "0.35em")
       .text(function(d){return d.data.day_of_week});
 

@@ -194,11 +194,13 @@ $(function(){
                     .attr("transform", "translate(" +
                     (d.y
                             + xScale(d.data.value/96) + 90) + ","
-                            + (d.x + 18) + ")");
+                            + (d.x + 19) + ")");
 
             ballGMovement.select("circle")
                     .style("fill", d.data.color)
-                    .attr("r", 22);
+                    .attr("r", 22)
+                    .attr("stroke","#4D4D4D")
+                    .attr("stroke-width","1.5");
 
             ballGMovement.select("text")
                     .delay(300)

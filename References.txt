@@ -1,0 +1,21 @@
+The D3 visualizations were referenced. All the references for them are mentioned as below:
+
+1) Relation Graph Visualization: "https://bl.ocks.org/heybignick/3faf257bbbbc7743bb72310d03b86ee8"
+
+2) Maps Visualization:""
+
+3) Statistics Bar Chart: "http://bl.ocks.org/Caged/6476579"
+
+4) Indented Tree visualization: "https://bl.ocks.org/mbostock/1093025"
+
+5) Scatter Plot Visualization: "http://blockbuilder.org/EfratVil/d956f19f2e56a05c31fb6583beccfda7"
+
+6) Donut Chart visualization: "http://bl.ocks.org/erichoco/6694616"
+
+7) Pie Chart Visualization: "https://jsfiddle.net/1w44oc44/"
+
+8) Bubble Chart visualization: "http://bl.ocks.org/phuonghuynh/54a2f97950feadb45b07"
+
+9) Dendrogram visualization: "https://bl.ocks.org/dahis39/f28369f0b17b456ac2f1fa9b937c5002"
+
+10) Word Cloud: "http://bl.ocks.org/ericcoopey/6382449"
