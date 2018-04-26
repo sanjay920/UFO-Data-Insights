@@ -1,83 +1,94 @@
 
-        var width = 960,
-            height = 500;
 
-        var colorNode = d3.scale.category20(),
-            colorLink = d3.scale.category10();
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+    .force("charge", d3.forceManyBody())
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+d3.json("../data_files/relation.json", function(error, graph) {
+  if (error) throw error;
+
+  var link = svg.append("g")
+      .attr("class", "links")
+    .selectAll("line")
+    .data(graph.links)
+    .enter().append("line")
+      .attr("stroke-width", function(d) { return Math.sqrt(d.value); })
+      .attr("stroke-length", function(d) { return Math.sqrt(25); });
+
+  var node = svg.append("g")
+      .attr("class", "nodes")
+    .selectAll("g")
+    .data(graph.nodes)
+    .enter().append("g")
+    
+  var circles = node.append("circle")
+      .attr("r", 8)
+      .attr("fill", function(d) { return color(d.group); })
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
 
 
+    
+    node.append("text")
+      .text(function(d) {
+        if(d.id!="closest_LARGE_airport_distance" && d.id!="closest_MEDIUM_airport_distance" && d.id!="closest_SMALL_airport_distance" && d.id!="closest_metro_distance" && d.id!="closest_metro_pop" && d.id!="closest_metro_m4"&&d.id!="closest_metro_m6" && d.id!="population"&&d.id!="meteor_sighting"&&d.id!="NER"&&d.id!="Description"&&d.id!="Classes"&&d.id!="Captions"){
+        return d.id;
+      }
+      })
+      .attr('x', 8)
+      .attr('y', 8);
 
-        var force = d3.layout.force()
-            .charge(-120)
-            .linkDistance(35)
-            .size([width, height]);
+  
+  
 
-        var svg = d3.select("body").append("svg")
-            .attr("width", width)
-            .attr("height", height);
+  node.append("title")
+      .text(function(d) { return d.id; });
 
-        d3.json("../data_files/relation.json", function(error, graph) {
-            force
-                .nodes(graph.nodes)
-                .links(graph.links)
-                .start();
+  simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
 
-            var link = svg.selectAll(".link")
-                .data(graph.links)
-              .enter().append("line")
-                .attr("class", "link")
-                .style("stroke-width", 2)
-                .style("stroke", function(d) { return colorLink(d.value); });
+  simulation.force("link")
+      .links(graph.links);
 
-            var node = svg.selectAll(".node")
-                .data(graph.nodes)
-              .enter().append("circle")
-                .attr("class", "node")
-                .attr("r", 7)
-                .style("fill", function(d) { return colorNode(d.group); })
-                .call(force.drag);
+  function ticked() {
+    link
+        .attr("x1", function(d) { return (d.source.x); })
+        .attr("y1", function(d) { return (d.source.y); })
+        .attr("x2", function(d) { return (d.target.x); })
+        .attr("y2", function(d) { return (d.target.y); });
 
-            node.append("title")
-                .text(function(d) { return d.name; });
+    node
+        .attr("transform", function(d) {
+          return "translate(" + (d.x)+2+ "," + (d.y)+2+ ")";
+        })
+  }
+});
 
-           
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.5).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
 
-            force.on("tick", function() {
-                link.attr("x1", function(d) { return d.source.x; })
-                    .attr("y1", function(d) { return d.source.y; })
-                    .attr("x2", function(d) { return d.target.x; })
-                    .attr("y2", function(d) { return d.target.y; });
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
 
-                node.attr("cx", function(d) { return d.x; })
-                    .attr("cy", function(d) { return d.y; });
-            });
-            
-
-             
-            var legend = svg.selectAll(".legend")
-           .data(["UFO","US","UK","Meteor","Airports","Population","Metro","NER","Description","Caption","Classes"])
-         // .data(function(d) { return d;})
-          .enter().append("g")
-          .attr("class", "legend")
-          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-
-            legend.append('circle')
-                .attr('class', 'legend-icon')
-                .attr('r', 5)
-                .style('fill', function(d, i) {
-                    return d3.scale.category20()(d.group);
-                });
-
-            legend.append('text')
-                .attr('dx', '1em')
-                .attr('dy', '1em')
-                .text(function(d) {
-                    return d;
-                });
-
-        });
-
-             
-
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
 
 
