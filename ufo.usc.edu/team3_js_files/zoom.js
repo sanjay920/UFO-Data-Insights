@@ -25,7 +25,7 @@ var g = svg.append("g");
 
 //d3.json("us.json", function(error, usa) {
   
-  d3.json("../team3_js_files/us.json", function(error, usa) {
+  d3.json("../data_files/us.json", function(error, usa) {
   if (error) throw error;
 
   g.append("g")
