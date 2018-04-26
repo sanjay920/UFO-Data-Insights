@@ -99,12 +99,13 @@
       <li><a data-toggle="tab" href="#dendogram" data-toggle="tab">Dendogram</a></li>
       <li><a data-toggle="tab" href="#wordcloud" data-toggle="tab">Word Cloud</a></li>
       <li><a data-toggle="tab" href="#zoom" data-toggle="tab">Zoomable Map</a></li>
+
     </ul>
     </div>
 
     <div class="tab-content">
 
-        <div role="tabpanel" class="tab-pane fade" id="relation">
+        <div role="tabpanel" class="tab-pane fade in active" id="relation">
             <div class="container">
               <h3>Relationship Graph</h3>
                 <p> This is a collapsable visualization showing poplulation as well as UFO sightings per state.
@@ -114,7 +115,7 @@
         </div>
 
 
-        <div role="tabpanel" class="tab-pane fade in active" id="map">
+        <div role="tabpanel" class="tab-pane fade" id="map">
           <div id="mapContainer" class="container">
             <p>
               Maps:
@@ -197,10 +198,8 @@
                 <p> This is a collapsable visualization showing poplulation as well as UFO sightings per state.
                 </p>
                 <iframe src="dendogram.html" width="960" height="960"></iframe>
-              </div>
             </div>
         </div>
-
 
         <div role="tabpanel" class="tab-pane fade" id="wordcloud">
           <div class="container">
@@ -218,6 +217,8 @@
             <iframe src="zoom.html" width="960" height="960"></iframe>
           </div>
         </div>
+
+    </div>
 
 </body>
 
