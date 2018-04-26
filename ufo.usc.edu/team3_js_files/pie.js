@@ -5,9 +5,6 @@ $(function(){
   .await(handleData);
 
   function handleData(error, data){
-
-    console.log(data);
-
     var width = 960,
       height = 500;
 

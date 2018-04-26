@@ -20,7 +20,6 @@ $(function(){
     // Create data
         function randomData(elasticData) {
             var data = []
-              // random = d3.randomNormal();
 
             for (i = 0; i < elasticData.length; i++) {
                 data.push({

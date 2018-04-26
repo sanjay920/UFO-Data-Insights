@@ -117,13 +117,6 @@ var svg = d3.select("body").append("svg")
               return(states[i][1]);
           }
       }
-  } else if (to == 'name'){
-      input = input.toUpperCase();
-      for(i = 0; i < states.length; i++){
-          if(states[i][1] == input){
-              return(states[i][0]);
-          }
-      }
   }
 }
 
@@ -134,16 +127,6 @@ var svg = d3.select("body").append("svg")
     d['abbr'] = state_abbr
     return d.abbr; }));
   y.domain([0, d3.max(stateCount, function(d) { return d.doc_count; })]);
-
-
-
-
-
-
-//
-// d3.tsv("data.tsv", type, function(error, data) {
-//   x.domain(data.map(function(d) { return d.letter; }));
-//   y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
 
   svg.append("g")
       .attr("class", "x axis")
@@ -177,7 +160,4 @@ function type(d) {
   d.doc_count = +d.doc_count;
   return d;
 }
-
-
-
 })

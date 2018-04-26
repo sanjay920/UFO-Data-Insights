@@ -71,7 +71,6 @@
     <div class="container" style="margin-bottom: 2%">
     <ul class="nav nav-tabs" id="tabs" style="margin-top:7%">
         <li><a data-toggle="tab" href="#map" data-toggle="tab">Map Vizualizations</a></li>
-        <li><a data-toggle="tab" href="#similarity" data-toggle="tab">Similarity</a></li>
         <li><a data-toggle="tab" href="#stats" data-toggle="tab">Stats</a></li>
         <li><a data-toggle="tab" href="#scatter" data-toggle="tab">Scatter</a></li>
         <li><a data-toggle="tab" href="#pie" data-toggle="tab">Pie Chart</a></li>
@@ -79,6 +78,7 @@
         <li><a data-toggle="tab" href="#donut" data-toggle="tab">Donut Chart</a></li>
         <li><a data-toggle="tab" href="#zoom" data-toggle="tab">Zoomable Map</a></li>
         <li><a data-toggle="tab" href="#bubblechart" data-toggle="tab">Bubble Chart</a></li>
+        <li><a data-toggle="tab" href="#indentedtree" data-toggle="tab">Indented Tree</a></li>
 
     </ul>
     </div>
@@ -93,14 +93,10 @@
                 <option value="uk">UK Map</option>
               </select>
             </p>
-            <iframe src="maps.html" class="nob" width="960" height="1160"></iframe>
+            <!-- <iframe src="maps.html" class="nob" width="960" height="1160"></iframe> -->
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane" id="similarity">
-          <div class="container">
-            <p>Similarity</p>
-          </div>
-        </div>
+
         <div role="tabpanel" class="tab-pane fade" id="stats">
           <div class="container">
             <p>Stats</p>
@@ -146,6 +142,13 @@
           <div class="container">
             <p>Bubble Chart</p>
             <iframe src="bubble_chart.html" width="960" height="960"></iframe>
+          </div>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="indentedtree">
+          <div class="container">
+            <p>Indented Tree</p>
+            <iframe src="indent.html" width="960" height="960"></iframe>
           </div>
         </div>
     </div>
