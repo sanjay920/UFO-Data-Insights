@@ -73,9 +73,9 @@ $(function(){
       {
         name: "central-click",
         options: {
-          text: "(See more detail)",
+          text: "(Click on Me!!)",
           style: {
-            "font-size": "12px",
+            "font-size": "18px",
             "font-style": "italic",
             "font-family": "Source Sans Pro, sans-serif",
             "text-anchor": "middle",
@@ -83,7 +83,7 @@ $(function(){
           },
           attr: {dy: "65px"},
           centralClick: function() {
-            alert("Here is more details!!");
+            // alert("Here is more details!!");
           }
         }
       },
