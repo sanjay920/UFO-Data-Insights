@@ -233,8 +233,6 @@ $(function(){
 
         this.create = function(dataset) {
             var $charts = $('#donut-charts');
-            // chart_m = $charts.innerWidth() / dataset.length / 2 * 0.14;
-            // chart_r = $charts.innerWidth() / dataset.length / 2 * 0.85;
             chart_m = 22.4;
             chart_r = 136;
             charts.append('svg')
@@ -272,8 +270,7 @@ $(function(){
     function genData(ufoData) {
         var type = ['UFO'];
         var unit = ['C'];
-        // var cat = ['Google Drive', 'Dropbox', 'iCloud', 'OneDrive', 'Box'];
-
+        
         var dataset = new Array();
 
         for (var i = 0; i < type.length; i++) {

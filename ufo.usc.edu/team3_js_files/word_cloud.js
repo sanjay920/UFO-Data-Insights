@@ -7,17 +7,12 @@ function handleData(error, data){
 
 
     var color = d3.scale.category20();
-
-    console.log(data)
-
-
     d3.layout.cloud().size([1000, 500])
             .words(data)
             .rotate(0)
             .fontSize(function(d) { return d.count; })
             .on("end", draw)
             .start();
-
     function draw(words) {
         d3.select("body").append("svg")
                 .attr("width", 1160)

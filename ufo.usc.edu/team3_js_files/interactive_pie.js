@@ -4,8 +4,6 @@ $(function(){
 	.await(handleData);
 
 	function handleData(error, data){
-		console.log("Interactive pie")
-		 console.log(data);
 
 		var margin = {top: 100,right: 200,bottom: 100,left: 100 },
 	      		 width = 800,
@@ -14,7 +12,6 @@ $(function(){
 	             var donutWidth = 75; 
 	             var color = d3.scaleOrdinal(d3.schemeCategory20);
 	             var count = 0;
-	            // var svg = d3.select("div#donuts").append("svg")
 	             var svg = d3.select("body").append("svg")
 	                         .attr('width', width)
 	                         .attr('height', height)
@@ -26,7 +23,6 @@ $(function(){
 				  var arc = d3.arc()
 				              .innerRadius(0)
 				              .outerRadius(200);
-				     //        var arc = d3.svg.arc().outerRadius(r);
 				  var arcOver = d3.arc()
 				             	  .innerRadius(0)
 				                .outerRadius(250 + 10);

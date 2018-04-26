@@ -40,7 +40,6 @@ $(function(){
    _.forEach(aggregations, function(value, key){
      var classData = aggregations[key]["buckets"];
      _.forEach(classData, function(val){
-       // console.log(val["key"]);
        if(val["key"] in aggMap){
          aggMap[val["key"]] += val["doc_count"];
        }else{
@@ -48,15 +47,10 @@ $(function(){
        }
      })
    });
-
-   // console.log(aggMap);
    itemArr = []
    _.forEach(aggMap, function(val, key){
      itemArr.push({"text": key, "count": val});
-     // count++;
-     // if(count === 10){
-     //   break;
-     // }
+     
    });
 
    console.log(itemArr);
@@ -143,12 +137,11 @@ $(function(){
           ]
         }
       }]
-    })//bubble chart
-  })//then
-})//jquery
+    });
+  });
+});
 
 //Cental Click
-
 d3.svg.BubbleChart.define("central-click", function (options) {
   var self = this;
 
