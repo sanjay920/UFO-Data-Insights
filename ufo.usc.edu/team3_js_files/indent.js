@@ -30,8 +30,12 @@ $(function(){
       var obj = {}
       var ufoCount = "UFO Count : "+val['doc_count'];
       var population = val.pop.value;
+      console.log(population)
+      var pop = "Population : "+ parseFloat(population)
+      console.log(pop)
+      console.log(ufoCount)
       obj["name"] = val["key"]
-      obj["children"] = [{"name": ufoCount, "size": parseFloat(population)}]
+      obj["children"] = [{"name": ufoCount, "size": parseFloat(population)}, {"name": pop, "size": parseFloat(population)}]
       arr.push(obj);
     })
 
@@ -41,7 +45,7 @@ $(function(){
 
     var margin = {top: 30, right: 20, bottom: 30, left: 20},
     width = 960,
-    barHeight = 20,
+    barHeight = 30,
     barWidth = (width - margin.left - margin.right) * 0.8;
 
     var i = 0,
@@ -175,7 +179,7 @@ function click(d) {
 }
 
 function color(d) {
-  return d._children ? "#3182bd" : d.children ? "#c6dbef" : "#fd8d3c";
+  return d._children ? "#4B088A" : d.children ? "#bd8cea" : "#01DF01";
 }
 
   })
