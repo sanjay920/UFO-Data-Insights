@@ -50,12 +50,9 @@ $(function(){
    itemArr = []
    _.forEach(aggMap, function(val, key){
      itemArr.push({"text": key, "count": val});
-     
+
    });
 
-   console.log(itemArr);
-
-   // itemArr = [{"text": "Roundword", "count":115},{"text":"stoplight", "count":49}]
 
    var bubbleChart = new d3.svg.BubbleChart({
     supportResponsive: true,
