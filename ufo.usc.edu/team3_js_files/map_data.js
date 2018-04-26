@@ -3,7 +3,7 @@ var client = new $.es.Client({
 });
 
 
-function loadUKMap(){
+function loadUKMap(ufoCoords){
   var width = 960,
     height = 1160;
 
@@ -22,7 +22,16 @@ function loadUKMap(){
       .attr("width", width)
       .attr("height", height);
 
-  d3.json("uk.json", function(error, uk) {
+    queue()
+    .defer(d3.csv, '../data_files/UK_sports_coords.csv')
+    .defer(d3.json, '../data_files/uk.json')
+    .defer(d3.csv,'../data_files/uk_airport_dataset.csv')
+    .await(makeMyUKMap);
+
+  function makeMyUKMap(error,sports,uk,airports) {
+
+  
+
     var subunits = topojson.object(uk, uk.objects.subunits)
 
     svg.selectAll(".subunit")
@@ -48,7 +57,91 @@ function loadUKMap(){
         .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
         .attr("dy", ".35em")
         .text(function(d) { return d.properties.name; });
-  });
+
+
+         svg.selectAll("circle")
+          .data(sports)
+          .enter()
+          .append("circle")
+          .attr("class","sports")
+          .attr("cx", function(d) {
+              return projection([parseFloat(d.lon), parseFloat(d.lat)])[0];
+          })
+          .attr("cy", function(d) {
+              return projection([parseFloat(d.lon), parseFloat(d.lat)])[1];
+          })
+          .attr("r", function(d) {
+              return 8;
+//                return Math.sqrt(d.population) / 150;
+          })
+          .style("fill", function(d) {
+
+            return "green";
+
+          })
+          .style("opacity", 0.0)
+
+ 
+          svg.selectAll("circle")
+            .data(airports)
+            .enter()
+            .append("circle")
+            .attr("class", "airports")
+            .attr("cx", function(d) {
+              proj = projection([parseFloat(d.longitude_deg), parseFloat(d.latitude_deg)]);
+              if (proj == null)
+                  return
+              return proj[0];
+            })
+            .attr("cy", function(d) {
+              proj = projection([parseFloat(d.longitude_deg), parseFloat(d.latitude_deg)]);
+              if (proj == null)
+                  return
+              return proj[1];
+            })
+            .attr("r", function(d) {
+              if (d.type === "small_airport")
+                  return 0.7
+              else if (d.type === "medium_airport")
+                  return 1.7
+              else
+                  return 5.0
+
+            })
+            .style("fill", "rgb(30,9,207)")
+            .style("opacity", 0.0);
+
+             d3.selectAll(".ufoFilter").on("change", update_uk);
+         
+          function update_uk(){
+            var choices = [];
+            d3.selectAll(".ufoFilter").each(function(d){
+              cb = d3.select(this);
+              if(cb.property("checked")){
+                choices.push(cb.property("value"));
+              }
+            });
+
+            if(_.contains(choices, "metro")){
+              svg.selectAll("circle.sports")
+              .style("opacity", 0.5)
+            }else{
+              console.log("Inside else");
+              svg.selectAll("circle.sports")
+              .style("opacity", 0.0)
+            }
+
+
+            if(_.contains(choices, "airport")){
+              svg.selectAll("circle.airports")
+              .style("opacity", 0.7)
+            }else{
+              svg.selectAll("circle.airports")
+              .style("opacity", 0.0)
+            }
+          }
+
+  }
 
   client.search({
     body: {
@@ -358,8 +451,7 @@ $(function(){
       }, handleData)
     }else{
       console.log('all done');
-      loadMetroOverlap(ufoCoords);
-      // loadUKMap();
+     
       var selectOpt = window.parent.$("#countries")
       selectOpt.on('change', function(e){
         // Get the current selection and display the appropriate map
@@ -367,11 +459,11 @@ $(function(){
         switch (selection) {
           case 'us':
             d3.select("#mapArea").selectAll("svg").remove();
-            loadUSMap(ufoCoords);
+             loadMetroOverlap(ufoCoords);
             break;
           case 'uk':
             d3.select("#mapArea").selectAll("svg").remove();
-            loadUKMap();
+            loadUKMap(ufoCoords);
             break;
           default:
 
