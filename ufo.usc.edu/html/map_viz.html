@@ -87,23 +87,32 @@
     <div id="secondary-header"> </div>
     <div class="container" style="margin-bottom: 2%">
     <ul class="nav nav-tabs" id="tabs" style="margin-top:7%">
-        <li><a data-toggle="tab" href="#map" data-toggle="tab">Map Vizualizations</a></li>
-        <li><a data-toggle="tab" href="#stats" data-toggle="tab">Stats</a></li>
-        <li><a data-toggle="tab" href="#scatter" data-toggle="tab">Scatter</a></li>
-        <li><a data-toggle="tab" href="#pie" data-toggle="tab">Pie Chart</a></li>
-        <li><a data-toggle="tab" href="#wordcloud" data-toggle="tab">Word Cloud</a></li>
-        <li><a data-toggle="tab" href="#donut" data-toggle="tab">Donut Chart</a></li>
-        <li><a data-toggle="tab" href="#zoom" data-toggle="tab">Zoomable Map</a></li>
-        <li><a data-toggle="tab" href="#bubblechart" data-toggle="tab">Bubble Chart</a></li>
-        <li><a data-toggle="tab" href="#indentedtree" data-toggle="tab">Indented Tree</a></li>
-        <li><a data-toggle="tab" href="#relation" data-toggle="tab">Relation Graph</a></li>
-        <li><a data-toggle="tab" href="#dendogram" data-toggle="tab">Dendogram</a></li>
 
-
+      <li><a data-toggle="tab" href="#relation" data-toggle="tab">Relation Graph</a></li>
+      <li><a data-toggle="tab" href="#map" data-toggle="tab">Map Vizualizations</a></li>
+      <li><a data-toggle="tab" href="#stats" data-toggle="tab">Stats</a></li>
+      <li><a data-toggle="tab" href="#indentedtree" data-toggle="tab">Indented Tree</a></li>
+      <li><a data-toggle="tab" href="#scatter" data-toggle="tab">Scatter</a></li>
+      <li><a data-toggle="tab" href="#donut" data-toggle="tab">Donut Chart</a></li>
+      <li><a data-toggle="tab" href="#pie" data-toggle="tab">Pie Chart</a></li>
+      <li><a data-toggle="tab" href="#bubblechart" data-toggle="tab">Bubble Chart</a></li>
+      <li><a data-toggle="tab" href="#dendogram" data-toggle="tab">Dendogram</a></li>
+      <li><a data-toggle="tab" href="#wordcloud" data-toggle="tab">Word Cloud</a></li>
+      <li><a data-toggle="tab" href="#zoom" data-toggle="tab">Zoomable Map</a></li>
     </ul>
     </div>
 
     <div class="tab-content">
+
+        <div role="tabpanel" class="tab-pane fade" id="relation">
+            <div class="container">
+              <h3>Relationship Graph</h3>
+                <p> This is a collapsable visualization showing poplulation as well as UFO sightings per state.
+                </p>
+              <iframe src="relation.html" width="960" height="960"></iframe>
+            </div>
+        </div>
+
 
         <div role="tabpanel" class="tab-pane fade in active" id="map">
           <div id="mapContainer" class="container">
@@ -118,6 +127,7 @@
           </div>
         </div>
 
+
         <div role="tabpanel" class="tab-pane fade" id="stats">
           <div class="container">
             <h3>Bar Chart</h3>
@@ -125,6 +135,17 @@
             <iframe src="statistics.html" width="960" height="960"></iframe>
           </div>
         </div>
+
+
+        <div role="tabpanel" class="tab-pane fade" id="indentedtree">
+          <div class="container">
+            <h3>Indented Tree</h3>
+            <p> This is a collapsable visualization showing poplulation as well as UFO sightings per state.
+            </p>
+            <iframe src="indent.html" width="960" height="960"></iframe>
+          </div>
+        </div>
+
 
         <div role="tabpanel" class="tab-pane fade" id="scatter">
           <div class="container">
@@ -136,24 +157,6 @@
           </div>
         </div>
 
-        <div role="tabpanel" class="tab-pane fade" id="pie">
-          <div class="container">
-            <h3>Pie Chart</h3>
-            <p> This pie chart shows the distribution of UFO sightings day-wise.
-            <br>There is almost uniform distribution over the days, but <b>Saturday</b>has the most UFO sightings.
-            </p>
-            <iframe src="piechart.html" width="960" height="960"></iframe>
-          </div>
-        </div>
-
-        <div role="tabpanel" class="tab-pane fade" id="wordcloud">
-          <div class="container">
-            <h3>Word Cloud</h3>
-            <p> This is a word cloud of the most frequently used words in description of UFO sightings in UK
-            </p>
-            <iframe src="word_cloud.html" width="960" height="960"></iframe>
-          </div>
-        </div>
 
         <div role="tabpanel" class="tab-pane fade" id="donut">
           <div class="container">
@@ -166,12 +169,16 @@
         </div>
 
 
-        <div role="tabpanel" class="tab-pane fade" id="zoom">
+        <div role="tabpanel" class="tab-pane fade" id="pie">
           <div class="container">
-            <p>Zoomable Map</p>
-            <iframe src="zoom.html" width="960" height="960"></iframe>
+            <h3>Pie Chart</h3>
+            <p> This pie chart shows the distribution of UFO sightings day-wise.
+            <br>There is almost uniform distribution over the days, but <b>Saturday</b> has the most UFO sightings.
+            </p>
+            <iframe src="piechart.html" width="960" height="960"></iframe>
           </div>
         </div>
+
 
         <div role="tabpanel" class="tab-pane fade" id="bubblechart">
           <div class="container">
@@ -183,33 +190,34 @@
           </div>
         </div>
 
-        <div role="tabpanel" class="tab-pane fade" id="indentedtree">
+
+        <div role="tabpanel" class="tab-pane fade" id="dendogram">
+              <div class="container">
+                <h3>Dendogram</h3>
+                <p> This is a collapsable visualization showing poplulation as well as UFO sightings per state.
+                </p>
+                <iframe src="dendogram.html" width="960" height="960"></iframe>
+              </div>
+            </div>
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane fade" id="wordcloud">
           <div class="container">
-            <h3>Indented Tree</h3>
-            <p> This is a collapsable visualization showing poplulation as well as UFO sightings per state.
+            <h3>Word Cloud</h3>
+            <p> This is a word cloud of the most frequently used words in description of UFO sightings in UK
             </p>
-            <iframe src="indent.html" width="960" height="960"></iframe>
+            <iframe src="word_cloud.html" width="960" height="960"></iframe>
           </div>
         </div>
 
-    <div role="tabpanel" class="tab-pane fade" id="relation">
-          <div class="container">
-            <h3>Relationship Graph</h3>
-            <p> This is a collapsable visualization showing poplulation as well as UFO sightings per state.
-            </p>
-            <iframe src="relation.html" width="960" height="960"></iframe>
-          </div>
-        </div>
 
-    <div role="tabpanel" class="tab-pane fade" id="dendogram">
+        <div role="tabpanel" class="tab-pane fade" id="zoom">
           <div class="container">
-            <h3>Dendogram</h3>
-            <p> This is a collapsable visualization showing poplulation as well as UFO sightings per state.
-            </p>
-            <iframe src="dendogram.html" width="960" height="960"></iframe>
+            <p>Zoomable Map</p>
+            <iframe src="zoom.html" width="960" height="960"></iframe>
           </div>
         </div>
-    </div>
 
 </body>
 

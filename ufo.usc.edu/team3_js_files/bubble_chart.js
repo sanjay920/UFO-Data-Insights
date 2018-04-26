@@ -9,24 +9,6 @@ $(function(){
         "Class_1_Count":{
           "terms": {"field": "Class_1.keyword"}
         }
-        // "Class_2_Count":{
-        //   "terms": {"field": "Class_2.keyword"}
-        // }
-        // "Class_3_Count":{
-        //   "terms": {"field": "Class_3.keyword"}
-        // },
-        // "Class_4_Count":{
-        //   "terms": {"field": "Class_4.keyword"}
-        // },
-        // "Class_5_Count":{
-        //   "terms": {"field": "Class_5.keyword"}
-        // },
-        // "Class_6_Count":{
-        //   "terms": {"field": "Class_6.keyword"}
-        // },
-        // "Class_7_Count":{
-        //   "terms": {"field": "Class_7.keyword"}
-        // }
       }
     }
   })
