@@ -18,7 +18,7 @@ $(function(){
 
    var margin = {top: 40, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 900 - margin.top - margin.bottom;
 
 var formatPercent = d3.format(" ");
 
@@ -131,7 +131,15 @@ var svg = d3.select("body").append("svg")
   svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
+      .call(xAxis)
+      .append("text")
+        .attr("y", 9)
+        .attr("transform",  "translate(" + 500+","+ 10 + ")")
+        .attr("dy", "1em")
+        .style("text-anchor", "end")
+        .style("font-weight","bold")
+        .text("------------------------- STATES OF USA ----------------------------------------->");
+
 
   svg.append("g")
       .attr("class", "y axis")
@@ -141,6 +149,7 @@ var svg = d3.select("body").append("svg")
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
+      .style("font-weight","bold")
       .text("Number of UFO Sightings");
 
   svg.selectAll(".bar")

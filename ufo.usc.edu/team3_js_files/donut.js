@@ -30,10 +30,12 @@ $(function(){
         var createLegend = function(catNames) {
             var legends = charts.select('.legend')
                             .selectAll('g')
-                                .data(catNames)
+                            .data(catNames)
                             .enter().append('g')
-                                .attr('transform', function(d, i) {
-                                    return 'translate(' + (i * 80 + 5) + ', 10)';
+                            .attr('transform', function(d, i) {
+                                    // return 'translate(' + (i * 80 + 5) + ', 10)';
+                                    return "translate(70," + (10 + i * 20) + ")";
+
                                     // return 'translate(' + 10 + ', 10)';
                                 });
 
@@ -46,7 +48,7 @@ $(function(){
 
             legends.append('text')
                 .attr('dx', '1em')
-                .attr('dy', '1em')
+                .attr('dy', '0.35em')
                 .text(function(d) {
                     return d;
                 });
@@ -58,7 +60,7 @@ $(function(){
                 'mouseover': function(d, i) {
                     d3.select(this)
                         .transition()
-                        .attr("r", chart_r * 0.65);
+                        .attr("r", chart_r * 2);
                 },
 
                 'mouseout': function(d, i) {
@@ -66,7 +68,7 @@ $(function(){
                         .transition()
                         .duration(500)
                         .ease('bounce')
-                        .attr("r", chart_r * 0.6);
+                        .attr("r", chart_r * 2);
                 },
 
                 'click': function(d, i) {
@@ -235,22 +237,23 @@ $(function(){
             var $charts = $('#donut-charts');
             chart_m = 22.4;
             chart_r = 136;
-            charts.append('svg')
-                .attr('class', 'legend')
-                .attr('width', '100%')
-                .attr('height', 50)
-                .attr('transform', 'translate(10, 10)');
-
             var donut = charts.selectAll('.donut')
                             .data(dataset)
                         .enter().append('svg:svg')
-                            .attr('width', (chart_r + chart_m) * 2)
-                            .attr('height', (chart_r + chart_m) * 2)
+                            .attr('width', (chart_r + chart_m) * 4)
+                            .attr('height', (chart_r + chart_m) * 4)
                         .append('svg:g')
                             .attr('class', function(d, i) {
                                 return 'donut type' + i;
                             })
-                            .attr('transform', 'translate(' + (chart_r+chart_m) + ',' + (chart_r+chart_m) + ')');
+                            .attr('transform', 'translate(' + (100+chart_r+chart_m) + ',' + (100+chart_r+chart_m) + ')');
+
+                            charts.append('svg')
+                                .attr('class', 'legend')
+                                .attr('width', "100%")
+                                // .attr('margin-top',"-100%")
+                                .attr('height', 250)
+                                .attr('transform', 'translate(10, 10)');
 
             createLegend(getCatNames(dataset));
             createCenter();
@@ -270,7 +273,7 @@ $(function(){
     function genData(ufoData) {
         var type = ['UFO'];
         var unit = ['C'];
-        
+
         var dataset = new Array();
 
         for (var i = 0; i < type.length; i++) {

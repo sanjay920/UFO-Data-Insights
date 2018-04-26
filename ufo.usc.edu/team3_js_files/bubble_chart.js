@@ -9,24 +9,6 @@ $(function(){
         "Class_1_Count":{
           "terms": {"field": "Class_1.keyword"}
         }
-        // "Class_2_Count":{
-        //   "terms": {"field": "Class_2.keyword"}
-        // }
-        // "Class_3_Count":{
-        //   "terms": {"field": "Class_3.keyword"}
-        // },
-        // "Class_4_Count":{
-        //   "terms": {"field": "Class_4.keyword"}
-        // },
-        // "Class_5_Count":{
-        //   "terms": {"field": "Class_5.keyword"}
-        // },
-        // "Class_6_Count":{
-        //   "terms": {"field": "Class_6.keyword"}
-        // },
-        // "Class_7_Count":{
-        //   "terms": {"field": "Class_7.keyword"}
-        // }
       }
     }
   })
@@ -73,9 +55,9 @@ $(function(){
       {
         name: "central-click",
         options: {
-          text: "(See more detail)",
+          text: "(Click on Me!!)",
           style: {
-            "font-size": "12px",
+            "font-size": "18px",
             "font-style": "italic",
             "font-family": "Source Sans Pro, sans-serif",
             "text-anchor": "middle",
@@ -83,7 +65,7 @@ $(function(){
           },
           attr: {dy: "65px"},
           centralClick: function() {
-            alert("Here is more details!!");
+            // alert("Here is more details!!");
           }
         }
       },

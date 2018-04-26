@@ -9,7 +9,7 @@ var color = d3.scaleOrdinal(d3.schemeCategory20);
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
     .force("charge", d3.forceManyBody())
-    .force("center", d3.forceCenter(width / 2, height / 2));
+    .force("center", d3.forceCenter(width/3, height/3.5));
 
 d3.json("../data_files/relation.json", function(error, graph) {
   if (error) throw error;
@@ -20,14 +20,14 @@ d3.json("../data_files/relation.json", function(error, graph) {
     .data(graph.links)
     .enter().append("line")
       .attr("stroke-width", function(d) { return Math.sqrt(d.value); })
-      .attr("stroke-length", function(d) { return Math.sqrt(25); });
+      .attr("stroke-length", function(d) { return d.value; });
 
   var node = svg.append("g")
       .attr("class", "nodes")
     .selectAll("g")
     .data(graph.nodes)
     .enter().append("g")
-    
+
   var circles = node.append("circle")
       .attr("r", 8)
       .attr("fill", function(d) { return color(d.group); })
@@ -37,7 +37,7 @@ d3.json("../data_files/relation.json", function(error, graph) {
           .on("end", dragended));
 
 
-    
+
     node.append("text")
       .text(function(d) {
         if(d.id!="closest_LARGE_airport_distance" && d.id!="closest_MEDIUM_airport_distance" && d.id!="closest_SMALL_airport_distance" && d.id!="closest_metro_distance" && d.id!="closest_metro_pop" && d.id!="closest_metro_m4"&&d.id!="closest_metro_m6" && d.id!="population"&&d.id!="meteor_sighting"&&d.id!="NER"&&d.id!="Description"&&d.id!="Classes"&&d.id!="Captions"){
@@ -47,8 +47,8 @@ d3.json("../data_files/relation.json", function(error, graph) {
       .attr('x', 8)
       .attr('y', 8);
 
-  
-  
+
+
 
   node.append("title")
       .text(function(d) { return d.id; });
@@ -90,5 +90,3 @@ function dragended(d) {
   d.fx = null;
   d.fy = null;
 }
-
-
