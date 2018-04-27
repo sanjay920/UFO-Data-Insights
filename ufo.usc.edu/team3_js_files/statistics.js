@@ -1,20 +1,14 @@
-var client = new $.es.Client({
- hosts: 'localhost:9200'
-});
-
 $(function(){
 
- client.search({
-   "body":{
-     "aggs":{
-       "types_count":{
-         "terms": {"field": "state.keyword", "size":53}
-       }
-     }
-   }
- })
- .then(function(body){
-   var stateCount = body.aggregations.types_count.buckets;
+
+queue()
+.defer(d3.json, '../data_files/statistics.json')
+.await(handleData)
+
+ function handleData(error, stateCount){
+   // var stateCount = body.aggregations.types_count.buckets;
+
+
 
    var margin = {top: 40, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
@@ -163,7 +157,7 @@ var svg = d3.select("body").append("svg")
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide)
 
-});
+};
 
 function type(d) {
   d.doc_count = +d.doc_count;
