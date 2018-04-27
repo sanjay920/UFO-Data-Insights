@@ -1,43 +1,10 @@
-var client = new $.es.Client({
-  hosts: 'localhost:9200'
-});
-
-// Referred from : https://bl.ocks.org/mbostock/1093025
-
 $(function(){
 
-  client.search({
-    "body":{
-      "aggs":{
-        "by_state": {
-          "terms": {"field": "state.keyword", "size":53},
-          "aggs":{
-            "pop":{
-              "max":{
-                  "field": "population"
-              }
-            }
-          }
-        }
-      }
-    }
-  }).then(function(body){
-    var aggregations = body.aggregations.by_state.buckets;
-    var arr = [];
-    var finalObj = {"name": "UFO Count by Population"}
-    _.forEach(aggregations, function(val){
-      var obj = {}
-      var ufoCount = "UFO Count : "+val['doc_count'];
-      var population = val.pop.value;
-      var pop = "Population : "+ parseFloat(population)
-      obj["name"] = val["key"]
-      obj["children"] = [{"name": ufoCount, "size": parseFloat(population)}, {"name": pop, "size": parseFloat(population)}]
-      arr.push(obj);
-    })
+    queue()
+.defer(d3.json, '../data_files/ufo_pop_and_sightings.json')
+.await(handleData)
 
-    finalObj["children"] = arr;
-
-    console.log("Flare obj ", JSON.stringify(finalObj));
+ function handleData(error, finalObj){
 
     var margin = {top: 30, right: 20, bottom: 30, left: 20},
     width = 960,
@@ -178,6 +145,6 @@ function color(d) {
   return d._children ? "#4B088A" : d.children ? "#bd8cea" : "#01DF01";
 }
 
-  })
+  }
 
-})
+});
