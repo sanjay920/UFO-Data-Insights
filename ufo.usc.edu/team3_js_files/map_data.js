@@ -21,6 +21,9 @@ function loadUKMap(ufoCoords){
   var svg = d3.select("#mapArea").append("svg")
       .attr("width", width)
       .attr("height", height);
+ 
+  d3.selectAll("#list1").style("visibility", "hidden");
+  d3.selectAll("#list2").style("visibility", "hidden");
 
     queue()
     .defer(d3.csv, '../data_files/UK_sports_coords.csv')
@@ -32,7 +35,6 @@ function loadUKMap(ufoCoords){
   function makeMyUKMap(error,sports,uk,airports,ukufo) {
 
   
-
     var subunits = topojson.object(uk, uk.objects.subunits)
 
     svg.selectAll(".subunit")
@@ -59,7 +61,27 @@ function loadUKMap(ufoCoords){
         .attr("dy", ".35em")
         .text(function(d) { return d.properties.name; });
 
-
+       svg.selectAll("rect")
+            .data(ukufo)
+            .enter()
+            .append("rect")
+             .attr("x", function(d) {
+                proj = projection([parseFloat(d.lon), parseFloat(d.lat)]);
+                if (proj == null)
+                    return
+                return proj[0];
+            })
+            .attr("y", function(d) {
+                proj = projection([parseFloat(d.lon), parseFloat(d.lat)]);
+                if (proj == null)
+                    return
+                return proj[1];
+            })
+            //.attr("r", function(d) {return 2;})
+            .attr("width","4px")
+            .attr("height", "4px")
+            .style("fill", "red")
+            .style("opacity", 1);
 
 
          svg.selectAll("circle")
@@ -114,6 +136,9 @@ function loadUKMap(ufoCoords){
             .style("fill", "rgb(30,9,207)")
             .style("opacity", 0.0);
 
+            d3.selectAll("#list1").style("visibility", "hidden");
+            d3.selectAll("#list2").style("visibility", "visible");
+
              d3.selectAll(".ufoFilter").on("change", update_uk);
          
           function update_uk(){
@@ -124,6 +149,7 @@ function loadUKMap(ufoCoords){
                 choices.push(cb.property("value"));
               }
             });
+
 
             if(_.contains(choices, "metro")){
               svg.selectAll("circle.sports")
@@ -165,13 +191,7 @@ function loadUKMap(ufoCoords){
   //     ufo_coords.push([resultObj['lon'], resultObj['lat']]);
   //   });
 
-    svg.selectAll(".cities")
-        .data(ufo_coords).enter()
-        .append("circle")
-        .attr("cx", function(d){ return projection(d)[0]; })
-        .attr("cy", function(d){ return projection(d)[1]; })
-        .attr("r", "3px")
-        .attr('class', 'cities')
+ 
 
 
  // })
@@ -179,7 +199,7 @@ function loadUKMap(ufoCoords){
 }
 
 
-function loadMetroOverlap(){
+function loadUSMap(){
   //Width and height of map
   var width = 960;
   var height = 500;
@@ -196,6 +216,9 @@ function loadMetroOverlap(){
  var svg = d3.select('#mapArea').append('svg')
      .attr('width', width)
      .attr('height', height);
+
+  d3.selectAll("#list1").style("visibility", "hidden");
+  d3.selectAll("#list2").style("visibility", "hidden");
 
    queue()
    	.defer(d3.csv, '../data_files/sports_franchises.csv')
@@ -362,6 +385,9 @@ function loadMetroOverlap(){
             .style("fill", "rgb(102,255,102)")
             .style("opacity", 1);
 
+            d3.selectAll("#list2").style("visibility", "hidden");
+            d3.selectAll("#list1").style("visibility", "visible");
+
           //TODO: Really long function, need to make it more generic
           // Handling checkbox values
           d3.selectAll(".ufoFilter").on("change", update);
@@ -466,7 +492,8 @@ $(function(){
   //     }, handleData)
   //   }else{
 
-      loadMetroOverlap();
+      loadUSMap();
+      //loadUKMap();
       console.log('all done');
      
       var selectOpt = window.parent.$("#countries")
@@ -476,11 +503,11 @@ $(function(){
         switch (selection) {
           case 'us':
             d3.select("#mapArea").selectAll("svg").remove();
-             loadMetroOverlap();
+            loadUSMap();
             break;
           case 'uk':
             d3.select("#mapArea").selectAll("svg").remove();
-           // loadUKMap(ufoCoords);
+            loadUKMap();
             break;
           default:
 
