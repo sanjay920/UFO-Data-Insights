@@ -51,8 +51,6 @@ $(function(){
     var root = stratify(arrayObj);
     tree(root);
 
-    console.log("Root data is ", root);
-
 // Draw every datum a line connecting to its parent.
     var link = g.selectAll(".link")
             .data(root.descendants().slice(1))
