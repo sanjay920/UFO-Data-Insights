@@ -1,22 +1,12 @@
-var client = new $.es.Client({
- hosts: 'localhost:9200'
-});
 
 $(function(){
-  client.search({
-    "body":{
-      "aggs":{
-        "Class_1_Count":{
-          "terms": {"field": "Class_1.keyword"}
-        }
-      }
-    }
-  })
- .then(function(body){
+  queue()
+  .defer(d3.json, '../data_files/bubble_chart.json')
+  .await(handleData)
 
-   var aggregations = body.aggregations;
+   function handleData(error, aggregations){
 
-   console.log(JSON.stringify(aggregations))
+   // var aggregations = body.aggregations;
 
    aggMap = {}
    count = 0;
@@ -119,7 +109,7 @@ $(function(){
         }
       }]
     });
-  });
+  }
 });
 
 //Cental Click
