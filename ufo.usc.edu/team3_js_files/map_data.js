@@ -1,6 +1,6 @@
-var client = new $.es.Client({
-  hosts: 'localhost:9200'
-});
+// var client = new $.es.Client({
+//   hosts: 'localhost:9200'
+// });
 
 
 function loadUKMap(ufoCoords){
@@ -176,7 +176,7 @@ function loadUKMap(ufoCoords){
 }
 
 
-function loadMetroOverlap(ufoCoords){
+function loadMetroOverlap(){
   //Width and height of map
   var width = 960;
   var height = 500;
@@ -200,9 +200,10 @@ function loadMetroOverlap(ufoCoords){
     .defer(d3.json, '../data_files/us-states.json')
     .defer(d3.csv, '../data_files/meteorite-landings.csv')
     .defer(d3.csv, '../data_files/airports.csv')
+    .defer(d3.csv, '../data_files/US_ufo_coords1.csv')
    	.await(makeMyMap);
 
-    function makeMyMap(error, sports, stateDensities, states, metorites, airports){
+    function makeMyMap(error, sports, stateDensities, states, metorites, airports,usufo){
       for (var j = 0; j < states.features.length; j++)  {
         states.features[j].properties.population = 0.0;
         states.features[j].properties.density_rank = -1.0
@@ -337,15 +338,27 @@ function loadMetroOverlap(ufoCoords){
 
 
 
-          svg.selectAll("circle")
-            .data(ufoCoords)
+          svg.selectAll("rect")
+            .data(usufo)
             .enter()
-            .append("circle")
-            .attr("cx", function(d){if(projection(d))return projection(d)[0];})
-            .attr("cy", function(d){if(projection(d))return projection(d)[1];})
-            .attr("r", function(d) {return 2;})
+            .append("rect")
+             .attr("x", function(d) {
+                proj = projection([parseFloat(d.geocoded_longitude), parseFloat(d.geocoded_latitude)]);
+                if (proj == null)
+                    return
+                return proj[0];
+            })
+            .attr("y", function(d) {
+                proj = projection([parseFloat(d.geocoded_longitude), parseFloat(d.geocoded_latitude)]);
+                if (proj == null)
+                    return
+                return proj[1];
+            })
+            //.attr("r", function(d) {return 2;})
+            .attr("width","3px")
+            .attr("height", "3px")
             .style("fill", "rgb(102,255,102)")
-            .style("opacity", .5);
+            .style("opacity", 1);
 
           //TODO: Really long function, need to make it more generic
           // Handling checkbox values
@@ -427,29 +440,31 @@ function loadMetroOverlap(ufoCoords){
 $(function(){
 
   // lets get the ufo coordinates before we visualize the map
-  var ufoCoords = []
-  client.search({
-    scroll: '10s',
-    body: {
-      query:{
-        "exists" : { "field" : "geocoded_longitude" }
-      },
-      _source: ['geocoded_longitude', 'geocoded_latitude'],
-      size: 9000
-    }
-  },function handleData(err, body){
-    var hits = body.hits.hits
-    _.forEach(hits, function(val){
-      var resultObj = val['_source']
-      ufoCoords.push([resultObj['geocoded_longitude'], resultObj['geocoded_latitude']]);
-    });
+  // var ufoCoords = []
+  // client.search({
+  //   scroll: '10s',
+  //   body: {
+  //     query:{
+  //       "exists" : { "field" : "geocoded_longitude" }
+  //     },
+  //     _source: ['geocoded_longitude', 'geocoded_latitude'],
+  //     size: 9000
+  //   }
+  // },function handleData(err, body){
+  //   var hits = body.hits.hits
+  //   _.forEach(hits, function(val){
+  //     var resultObj = val['_source']
+  //     ufoCoords.push([resultObj['geocoded_longitude'], resultObj['geocoded_latitude']]);
+  //   });
 
-    if(body.hits.total !== ufoCoords.length){
-      client.scroll({
-        scrollId: body._scroll_id,
-        scroll: '10s'
-      }, handleData)
-    }else{
+  //   if(body.hits.total !== ufoCoords.length){
+  //     client.scroll({
+  //       scrollId: body._scroll_id,
+  //       scroll: '10s'
+  //     }, handleData)
+  //   }else{
+
+      loadMetroOverlap();
       console.log('all done');
      
       var selectOpt = window.parent.$("#countries")
@@ -459,18 +474,18 @@ $(function(){
         switch (selection) {
           case 'us':
             d3.select("#mapArea").selectAll("svg").remove();
-             loadMetroOverlap(ufoCoords);
+             loadMetroOverlap();
             break;
           case 'uk':
             d3.select("#mapArea").selectAll("svg").remove();
-            loadUKMap(ufoCoords);
+           // loadUKMap(ufoCoords);
             break;
           default:
 
         }//switch
     })//onchange
 
-  }//else
-})//callback handleData
+  //}//else
+//})//callback handleData
 
 })
