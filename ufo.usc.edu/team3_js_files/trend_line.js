@@ -3,14 +3,14 @@ var width = 800;
 var margin = {top: 20, right:20, bottom: 50, left: 20};
 
 // formatters for axis and labels
-var currencyFormat = d3.format("$0.2f");
-var decimalFormat = d3.format("0.2f");
+var date_format = d3.format(" ");
+var count_format = d3.format(" ");
 
 var svg = d3.select("body")
   .append("svg")
-  .attr("width", width + margin.left + margin.right)
+  .attr("width", 900)
   .attr("height", height + margin.top + margin.bottom)
-  .attr("transform", "translate(" + (margin.left+60) + "," + (margin.top-550) + ")");
+  .attr("transform", "translate(" + (20) + "," + (margin.top-550) + ")");
 
 svg.append("g")
   .attr("class", "y axis");
@@ -47,10 +47,11 @@ d3.csv("../data_files/ufo_years.csv", function(data) {
   svg.append("path")
     .datum(data)
     .attr("class","line")
-    .attr("d", line);
+    .attr("d", line)
+    .attr("transform","translate(60,0)");
 
   svg.select(".x.axis")
-    .attr("transform", "translate(0," + (height) + ")")
+    .attr("transform", "translate(60," + (height) + ")")
     .call(xAxis.tickValues(xLabels.filter(function(d, i) {
       if (i % 12 == 0)
         return d;
@@ -62,8 +63,8 @@ d3.csv("../data_files/ufo_years.csv", function(data) {
     });
 
   svg.select(".y.axis")
-    .attr("transform", "translate(" + (margin.left) + ",0)")
-    .call(yAxis.tickFormat(currencyFormat));
+    .attr("transform", "translate(" + 80 + ",0)")
+    .call(yAxis.tickFormat(date_format));
 
   // chart title
   svg.append("text")
@@ -81,17 +82,16 @@ d3.csv("../data_files/ufo_years.csv", function(data) {
     .style("font-size","15px")
     .attr("class", "text-label")
     .attr("text-anchor", "middle")
-    .text("<-----------------Years----------------->");
+    .text("Years ----------------->");
+
 
     // y axis label
     svg.append("text")
-      // .attr("transform","translate(" +200+ "," + 50 + ")")
-      .attr("transform","rotate(-90)")
-
+      .attr('transform', 'translate(30,140)rotate(-90)')
       .style("font-size","15px")
       .attr("class", "text-label")
       .attr("text-anchor", "middle")
-      .text("<-----------------Number of UFO Sightings----------------->");
+      .text("Number of UFO Sightings------------->");
 
   // get the x and y values for least squares
   var xSeries = d3.range(1, xLabels.length + 1);
@@ -109,15 +109,15 @@ d3.csv("../data_files/ufo_years.csv", function(data) {
   var trendline = svg.selectAll(".trendline")
     .data(trendData);
 
-  trendline.enter()
-    .append("line")
-    .attr("class", "trendline")
-    .attr("x1", function(d) { return xScale(d[0]); })
-    .attr("y1", function(d) { return yScale(d[1]); })
-    .attr("x2", function(d) { return xScale(d[2]); })
-    .attr("y2", function(d) { return yScale(d[3]); })
-    .attr("stroke", "red")
-    .attr("stroke-width", 3);
+  // trendline.enter()
+  //   .append("line")
+  //   .attr("class", "trendline")
+  //   .attr("x1", function(d) { return xScale(d[0]); })
+  //   .attr("y1", function(d) { return yScale(d[1]); })
+  //   .attr("x2", function(d) { return xScale(d[2]); })
+  //   .attr("y2", function(d) { return yScale(d[3]); })
+  //   .attr("stroke", "red")
+  //   .attr("stroke-width", 3);
 
 });
 
