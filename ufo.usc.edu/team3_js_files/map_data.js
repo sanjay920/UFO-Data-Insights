@@ -26,9 +26,10 @@ function loadUKMap(ufoCoords){
     .defer(d3.csv, '../data_files/UK_sports_coords.csv')
     .defer(d3.json, '../data_files/uk.json')
     .defer(d3.csv,'../data_files/uk_airport_dataset.csv')
+    .defer(d3.csv, '../data_files/UK_ufo_coords.csv')
     .await(makeMyUKMap);
 
-  function makeMyUKMap(error,sports,uk,airports) {
+  function makeMyUKMap(error,sports,uk,airports,ukufo) {
 
   
 
@@ -57,6 +58,8 @@ function loadUKMap(ufoCoords){
         .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
         .attr("dy", ".35em")
         .text(function(d) { return d.properties.name; });
+
+
 
 
          svg.selectAll("circle")
@@ -143,24 +146,24 @@ function loadUKMap(ufoCoords){
 
   }
 
-  client.search({
-    body: {
-      query:{
-        "exists" : { "field" : "lat" }
-      },
-      _source: ['lon', 'lat'],
-      size: 4000
-    }
-  }).then(function(body){
-    var hits = body.hits.hits;
-    console.log(hits);
-    ufo_coords = [];
+  // client.search({
+  //   body: {
+  //     query:{
+  //       "exists" : { "field" : "lat" }
+  //     },
+  //     _source: ['lon', 'lat'],
+  //     size: 4000
+  //   }
+  // }).then(function(body){
+  //   var hits = body.hits.hits;
+  //   console.log(hits);
+  //   ufo_coords = [];
 
-    _.forEach(hits, function(val){
-      console.log();
-      var resultObj = val['_source']
-      ufo_coords.push([resultObj['lon'], resultObj['lat']]);
-    });
+  //   _.forEach(hits, function(val){
+  //     console.log();
+  //     var resultObj = val['_source']
+  //     ufo_coords.push([resultObj['lon'], resultObj['lat']]);
+  //   });
 
     svg.selectAll(".cities")
         .data(ufo_coords).enter()
@@ -171,7 +174,7 @@ function loadUKMap(ufoCoords){
         .attr('class', 'cities')
 
 
-  })
+ // })
 
 }
 
@@ -200,7 +203,7 @@ function loadMetroOverlap(){
     .defer(d3.json, '../data_files/us-states.json')
     .defer(d3.csv, '../data_files/meteorite-landings.csv')
     .defer(d3.csv, '../data_files/airports.csv')
-    .defer(d3.csv, '../data_files/US_ufo_coords1.csv')
+    .defer(d3.csv, '../data_files/US_ufo_coords.csv')
    	.await(makeMyMap);
 
     function makeMyMap(error, sports, stateDensities, states, metorites, airports,usufo){
@@ -233,7 +236,6 @@ function loadMetroOverlap(){
           }
         }
       }
-
 
 
       svg.selectAll("path")
