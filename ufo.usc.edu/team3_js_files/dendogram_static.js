@@ -1,24 +1,12 @@
-var client = new $.es.Client({
-  hosts: 'localhost:9200'
-});
+
 
 $(function(){
 
-  client.search({
-    "body":{
-      "aggs":{
-        "by_state":{
-          "terms": {"field": "state.keyword", "size":10},
-          "aggs":{
-            "shapes_count":{
-              "terms": {"field": "shape.keyword", "size":3}
-            }
-          }
-        }
-      }
-    }
-  }).then(function(body){
-    var aggregations = body.aggregations.by_state.buckets;
+  queue()
+  .defer(d3.json, '../data_files/dendogram_data.json')
+  .await(handleData)
+
+  function handleData(error, arrayObj){
 
     function getRandomColor() {
       var letters = '0123456789ABCDEF';
@@ -29,20 +17,6 @@ $(function(){
       return color;
     }
 
-    arrayObj = []
-    var countryName = "UFO-USA";
-    arrayObj.push({"id": "UFO-USA", "value": 0, "color": ""});
-    _.forEach(aggregations, function(value){
-      var stateName = countryName+"."+value.key;
-      var shapeEntry = value.shapes_count.buckets;
-      arrayObj.push({"id": stateName, "value": 0, "color": ""});
-      _.forEach(shapeEntry, function(shp){
-        var arrId = stateName+"."+shp.key;
-        var shpCount = shp.doc_count;
-        arrayObj.push({"id": arrId, "value": shpCount, "color":getRandomColor()});
-      })
-    })
-    
     var svg = d3.select("svg"),
             width = +svg.attr("width"),
             height = +svg.attr("height"),
@@ -208,6 +182,6 @@ $(function(){
             leafG.select("rect")
                     .attr("stroke-width","0");
         }
-  })
+   }
 
 })
