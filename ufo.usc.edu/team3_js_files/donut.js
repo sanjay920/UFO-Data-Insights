@@ -33,10 +33,7 @@ $(function(){
                             .data(catNames)
                             .enter().append('g')
                             .attr('transform', function(d, i) {
-                                    // return 'translate(' + (i * 80 + 5) + ', 10)';
                                     return "translate(70," + (10 + i * 20) + ")";
-
-                                    // return 'translate(' + 10 + ', 10)';
                                 });
 
             legends.append('circle')
@@ -60,7 +57,7 @@ $(function(){
                 'mouseover': function(d, i) {
                     d3.select(this)
                         .transition()
-                        .attr("r", chart_r * 2);
+                        .attr("r", chart_r * 0.65);
                 },
 
                 'mouseout': function(d, i) {
@@ -68,7 +65,7 @@ $(function(){
                         .transition()
                         .duration(500)
                         .ease('bounce')
-                        .attr("r", chart_r * 2);
+                        .attr("r", chart_r * 0.65);
                 },
 
                 'click': function(d, i) {
@@ -246,14 +243,13 @@ $(function(){
                             .attr('class', function(d, i) {
                                 return 'donut type' + i;
                             })
-                            .attr('transform', 'translate(' + (100+chart_r+chart_m) + ',' + (100+chart_r+chart_m) + ')');
+                            .attr('transform', 'translate(' + (100+chart_r+chart_m) + ',' + (60+chart_r+chart_m) + ')');
 
                             charts.append('svg')
                                 .attr('class', 'legend')
-                                .attr('width', "100%")
-                                // .attr('margin-top',"-100%")
+                                .attr('width', "30%")
                                 .attr('height', 250)
-                                .attr('transform', 'translate(10, 10)');
+                                .attr('transform', 'translate(0, -280)');
 
             createLegend(getCatNames(dataset));
             createCenter();
