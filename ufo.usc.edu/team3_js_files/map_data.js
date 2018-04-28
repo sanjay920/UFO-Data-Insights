@@ -380,8 +380,8 @@ function loadUSMap(){
                 return proj[1];
             })
             //.attr("r", function(d) {return 2;})
-            .attr("width","3px")
-            .attr("height", "3px")
+            .attr("width","2px")
+            .attr("height", "2px")
             .style("fill", "rgb(102,255,102)")
             .style("opacity", 1);
 
