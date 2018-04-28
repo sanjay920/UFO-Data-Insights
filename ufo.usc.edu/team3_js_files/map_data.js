@@ -229,7 +229,7 @@ function loadUSMap(){
     .defer(d3.csv, '../data_files/US_ufo_coords.csv')
    	.await(makeMyMap);
 
-    function makeMyMap(error, sports, stateDensities, states, metorites, airports,usufo){
+    function makeMyMap(error, sports, stateDensities, states, meteorites, airports,usufo){
       for (var j = 0; j < states.features.length; j++)  {
         states.features[j].properties.population = 0.0;
         states.features[j].properties.density_rank = -1.0
@@ -337,12 +337,12 @@ function loadUSMap(){
             .style("fill", "rgb(30,9,207)")
             .style("opacity", 0.0)
 
-            // NOTE : PLotting metorite data here
+            // NOTE : PLotting meteorite data here
             svg.selectAll("circle")
-            .data(metorites)
+            .data(meteorites)
             .enter()
             .append("circle")
-            .attr("class", "metorites")
+            .attr("class", "meteorites")
             .attr("cx", function(d) {
                 proj = projection([parseFloat(d.reclong), parseFloat(d.reclat)]);
                 if (proj == null)
@@ -452,11 +452,11 @@ function loadUSMap(){
               .style("opacity", 0.0)
             }
 
-            if(_.contains(choices, "metorite")){
-              svg.selectAll("circle.metorites")
+            if(_.contains(choices, "meteorite")){
+              svg.selectAll("circle.meteorites")
               .style("opacity", 0.8)
             }else{
-              svg.selectAll("circle.metorites")
+              svg.selectAll("circle.meteorites")
               .style("opacity", 0.0)
             }
 
