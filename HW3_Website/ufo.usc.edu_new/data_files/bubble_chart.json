@@ -1,0 +1,14 @@
+{"Class_1_Count":
+  {"doc_count_error_upper_bound":17,"sum_other_doc_count":982,"buckets":
+    [{"key":"nematode","doc_count":115},
+      {"key":"spotlight","doc_count":85},
+      {"key":"parachute","doc_count":59},
+      {"key":"wing","doc_count":58},
+      {"key":"geyser","doc_count":52},
+      {"key":"traffic light","doc_count":49},
+      {"key":"volcano","doc_count":46},
+      {"key":"lakeside","doc_count":40},
+      {"key":"fountain","doc_count":36},
+      {"key":"bubble","doc_count":35}]
+    }
+}
