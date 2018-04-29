@@ -156,17 +156,16 @@ function loadUKMap(ufoCoords){
             d3.selectAll("#usa_checkbox").style("visibility", "hidden");
             d3.selectAll("#uk_checkbox").style("visibility", "visible");
 
-             d3.selectAll(".ufoFilter").on("change", update_uk);
+             d3.selectAll(".ufoFilterUK").on("change", update_uk);
 
           function update_uk(){
             var choices = [];
-            d3.selectAll(".ufoFilter").each(function(d){
+            d3.selectAll(".ufoFilterUK").each(function(d){
               cb = d3.select(this);
               if(cb.property("checked")){
                 choices.push(cb.property("value"));
               }
             });
-
 
             if(_.contains(choices, "metro")){
               svg.selectAll("circle.sports")
