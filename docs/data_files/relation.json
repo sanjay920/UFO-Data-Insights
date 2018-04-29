@@ -1,0 +1,56 @@
+{
+    "nodes": [
+        { "id": "UFO", "group": 1 },
+        { "id": "US", "group": 2 },
+        { "id": "UK", "group": 2 },
+        { "id": "Meteor", "group": 3 },
+        { "id": "Airport", "group": 3 },
+        { "id": "Population", "group": 3 },
+        { "id": "Metro", "group": 3 },
+        { "id": "closest_LARGE_airport_distance", "group": 4 },
+        { "id": "closest_MEDIUM_airport_distance", "group": 4 },
+        { "id": "closest_SMALL_airport_distance", "group": 4 },
+        { "id": "closest_metro_distance", "group": 5 },
+        { "id": "closest_metro_pop", "group": 5 },
+        { "id": "closest_metro_m4", "group": 5 },
+        { "id": "closest_metro_m6", "group": 5 },
+        { "id": "population", "group": 6 },
+        { "id": "meteor_sighting", "group": 7 },
+        { "id": "NER", "group": 8 },
+        { "id": "Description", "group": 8 },
+        { "id": "UFO-Stalker", "group": 2 },
+        { "id": "Captions", "group": 9 },
+        { "id": "Classes", "group": 9 }
+
+
+    ],
+
+    "links": [
+        { "source": "UFO", "target": "US", "value": 1 },
+        { "source": "UFO", "target": "UK", "value": 1 },
+        { "source": "US", "target": "Meteor", "value": 2 },
+        { "source": "US", "target": "Airport", "value": 2 },
+        { "source": "US", "target": "Population", "value": 2 },
+        { "source": "US", "target": "Metro", "value": 2 },
+        { "source": "Meteor", "target": "meteor_sighting", "value": 5 },
+        { "source": "Airport", "target": "closest_LARGE_airport_distance", "value": 4 },
+        { "source": "Airport", "target": "closest_MEDIUM_airport_distance", "value": 4 },
+        { "source": "Airport", "target": "closest_SMALL_airport_distance", "value": 4 },
+        { "source": "Metro", "target": "closest_metro_distance", "value": 10 },
+        { "source": "Metro", "target": "closest_metro_pop", "value": 10 },
+        { "source": "Metro", "target": "closest_metro_m4", "value": 10 },
+        { "source": "Metro", "target": "closest_metro_m6", "value": 10 },
+        { "source": "Population", "target": "population", "value": 8 },
+        { "source": "UK", "target": "NER", "value": 7 },
+        { "source": "UK", "target":  "Description", "value": 7 },
+        { "source": "UFO", "target": "UFO-Stalker", "value": 1 },
+        { "source": "UFO-Stalker", "target": "Captions", "value": 9 },
+        { "source": "UFO-Stalker", "target": "Classes", "value": 9 }       
+
+    ]
+}
+
+
+
+
+

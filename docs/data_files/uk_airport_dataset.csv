@@ -1,0 +1,883 @@
+,id,ident,type,name,latitude_deg,longitude_deg,elevation_ft,continent,iso_country,iso_region,municipality,scheduled_service,gps_code,iata_code,local_code,home_link,wikipedia_link,keywords
+10308,307979,ABE,closed,RAF Calveley,53.113333,-2.603889,,EU,GB,GB-ENG,Cheshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Calveley,
+10309,302247,ABL,closed,RNAS/RAF Calshot,50.8199131549,-1.30677223206,,EU,GB,GB-ENG,Hampshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Calshot,
+10315,300604,ADJ,closed,RAF Castletown,58.584719888100004,-3.3481693267800003,,EU,GB,GB-SCT,Caithness,no,,,,,http://en.wikipedia.org/wiki/RAF_Castletown,
+11994,306974,BE-0005,closed,RAF Castle Camps,52.051389,0.37861100000000003,420.0,EU,GB,GB-ENG,Cambridgeshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Castle_Camps,
+12237,302248,bl,closed,RNAS Pembroke/RNAS Milton/RAF Carew Cheriton,51.690117088,-4.812355041499999,,,GB,GB-ENG,Pembrokeshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Carew_Cheriton,
+13645,314749,Cark,small_airport,Cark airfield,54.163753,-2.9622990000000002,20.0,EU,GB,GB-ENG,Cark,no,,,,,https://en.wikipedia.org/wiki/Cark,Cark
+18194,307538,EG03,small_airport,Badminton Airfield,51.5484166846,-2.30318069458,495.0,EU,GB,GB-ENG,Badminton,no,EG03,,,,,
+18195,307747,EG19,small_airport,Fadmoor Airfield,54.308086314899995,-0.983104705811,,EU,GB,GB-ENG,Kirbymoorside,no,EG19,,,,,
+18196,35133,EG32,small_airport,[Duplicate] Langar Airfield,52.890659,-0.901694,109.0,EU,GB,GB-ENG,Langar,no,,,EG32,,,
+18197,35134,EG34,small_airport,Ledbury Airport,52.0019,-2.47416,250.0,EU,GB,GB-ENG,Ledbury,no,,,,,,
+18198,308207,EG3L,small_airport,Milfield Glider Field,55.591636,-2.087231,,EU,GB,GB-ENG,,yes,EGEX,,,,,
+18199,28473,EG64,small_airport,Rufforth West,53.94829,-1.185575,65.0,EU,GB,GB-ENG,York (Rufforth),no,EGYJ,,,,http://en.wikipedia.org/wiki/RAF_Rufforth,"UK11, RAF Rufforth"
+18200,3074,EG73,closed,RNAS Fearn Air Base,57.757999,-3.943,25.0,EU,GB,GB-SCT,Fearn,no,,,,,https://en.wikipedia.org/wiki/RNAS_Fearn_(HMS_Owl),RNAS Fearn
+18201,3075,EG74,small_airport,Bruntingthorpe Airport,52.492971999999995,-1.12509,467.0,EU,GB,GB-ENG,Bruntingthorpe,no,,,,http://www.bruntingthorpe.com/,http://en.wikipedia.org/wiki/Bruntingthorpe_Aerodrome,RAF Bruntingthorpe
+18202,2385,EGAA,large_airport,Belfast International Airport,54.6575012207,-6.21582984924,268.0,EU,GB,GB-NIR,Belfast,yes,EGAA,BFS,,http://www.belfastairport.com/,http://en.wikipedia.org/wiki/Belfast_International_Airport,"Aldergrove, RAF Aldergrove"
+18203,2386,EGAB,medium_airport,St Angelo Airport,54.39889907836914,-7.651669979095459,155.0,EU,GB,GB-NIR,Enniskillen,no,EGAB,ENK,,,http://en.wikipedia.org/wiki/Enniskillen/St_Angelo_Airport,
+18204,2387,EGAC,large_airport,George Best Belfast City Airport,54.61809921264648,-5.872499942779541,15.0,EU,GB,GB-NIR,Belfast,yes,EGAC,BHD,,http://www.belfastcityairport.com/,http://en.wikipedia.org/wiki/George_Best_Belfast_City_Airport,
+18205,29105,EGAD,small_airport,Newtownards Airport,54.5811004639,-5.691939830780001,9.0,EU,GB,GB-NIR,Newtownards,no,EGAD,,,,,
+18206,2388,EGAE,medium_airport,City of Derry Airport,55.04280090332031,-7.161109924316406,22.0,EU,GB,GB-NIR,Derry,yes,EGAE,LDY,,http://www.cityofderryairport.com/,http://en.wikipedia.org/wiki/City_of_Derry_Airport,Londonderry Eglinton Airport
+18208,29106,EGAL,closed,Langford Lodge Air Base,54.62310028,-6.30000019,,EU,GB,GB-NIR,Belfast,no,EGAL,,,,http://en.wikipedia.org/wiki/RAF_Langford_Lodge,"RAF Langford Lodge, Martin-Baker"
+18211,2389,EGBB,large_airport,Birmingham International Airport,52.4538993835,-1.7480299472799998,327.0,EU,GB,GB-ENG,Birmingham,yes,EGBB,BHX,,http://www.bhx.co.uk/,http://en.wikipedia.org/wiki/Birmingham_International_Airport_(United_Kingdom),
+18212,29107,EGBC,heliport,Cheltenham Racecourse Heliport,51.925626,-2.054351,213.0,EU,GB,GB-ENG,Cheltenham,no,EGBC,,,,http://en.wikipedia.org/wiki/Cheltenham_Racecourse_Heliport,
+18213,29108,EGBD,small_airport,Derby Airfield,52.8596992493,-1.61749994755,175.0,EU,GB,GB-ENG,Derby,no,EGBD,,,http://www.derbyaeroclub.com/,http://en.wikipedia.org/wiki/Derby_Airfield,
+18214,2390,EGBE,medium_airport,Coventry Airport,52.3697013855,-1.47971999645,267.0,EU,GB,GB-ENG,Coventry,no,EGBE,CVT,,http://www.coventryairport.co.uk/,http://en.wikipedia.org/wiki/Coventry_Airport,RAF Baginton
+18215,307357,EGBF,small_airport,Bedford Aerodrome,52.2325,-0.44555559999999994,270.0,EU,GB,GB-ENG,Bedford,no,EGBF,,,http://www.bedfordaerodrome.com/,https://en.wikipedia.org/wiki/Bedford_Aerodrome,"RAE Bedford,EGVW"
+18216,2391,EGBG,small_airport,Leicester Airport,52.6077995300293,-1.0319399833679201,469.0,EU,GB,GB-ENG,Leicester,no,EGBG,,,,http://en.wikipedia.org/wiki/Leicester_Airport,
+18217,2392,EGBJ,medium_airport,Gloucestershire Airport,51.89419937133789,-2.1672201156616206,101.0,EU,GB,GB-ENG,Staverton,no,EGBJ,GLO,,,http://en.wikipedia.org/wiki/Gloucestershire_Airport,
+18218,29109,EGBK,small_airport,Sywell Aerodrome,52.305301666300004,-0.7930560112,429.0,EU,GB,GB-ENG,Northampton,no,EGBK,ORM,,http://www.sywellaerodrome.co.uk/,http://en.wikipedia.org/wiki/Sywell_Aerodrome,
+18219,29110,EGBL,small_airport,Long Marston Airfield,52.14030075,-1.75361001,154.0,EU,GB,GB-ENG,Long Marston,no,EGBL,,,,http://en.wikipedia.org/wiki/Long_Marston_Airfield,RAF Long Marston
+18220,29111,EGBM,small_airport,Tatenhill Airfield,52.8147010803,-1.7611099481599999,439.0,EU,GB,GB-ENG,Burton upon Trent,no,EGBM,,,http://www.tatenhill.com/,http://en.wikipedia.org/wiki/Tatenhill_Airfield,RAF Tatenhill
+18221,2393,EGBN,medium_airport,Nottingham Airport,52.91999816894531,-1.079169988632202,138.0,EU,GB,GB-ENG,Nottingham,yes,EGBN,NQT,,http://www.nottinghamairport.co.uk/,http://en.wikipedia.org/wiki/Nottingham_Airport,
+18222,2394,EGBO,small_airport,Wolverhampton Halfpenny Green Airport,52.51750183105469,-2.2594399452209477,283.0,EU,GB,GB-ENG,Wolverhampton,no,EGBO,,,,http://en.wikipedia.org/wiki/Wolverhampton_Airport,"Wolverhampton Business Airport, Bobbington Airport"
+18223,2395,EGBP,small_airport,Cotswold Airport,51.668095,-2.05694,433.0,EU,GB,GB-ENG,Kemble,no,EGBP,GBA,,http://www.cotswoldairport.com/,https://en.wikipedia.org/wiki/Cotswold_Airport,"RAF Kemble, Kemble Airfield, Kemble Airport, Cotswold Airport"
+18224,307540,EGBR,small_airport,Breighton Airfield,53.8024,-0.9159639999999999,163.0,EU,GB,GB-ENG,Breighton,no,EGBR,,,,http://en.wikipedia.org/wiki/RAF_Breighton,
+18225,29112,EGBS,small_airport,Shobdon Aerodrome,52.2416992188,-2.88110995293,318.0,EU,GB,GB-ENG,Shobdon,no,EGBS,,,http://www.aeroclub.co.uk/,http://en.wikipedia.org/wiki/Shobdon_Aerodrome,Herefordshire Aero Club
+18226,2396,EGBT,small_airport,Turweston Airport,52.0407981873,-1.09555995464,448.0,EU,GB,GB-ENG,Turweston,no,EGBT,,,http://www.turwestonflight.com/,http://en.wikipedia.org/wiki/Turweston_Aerodrome,RAF Turweston
+18227,29113,EGBV,heliport,Silverstone Heliport,52.0713996887207,-1.016669988632202,502.0,EU,GB,GB-ENG,Buckingham,no,EGBV,,,http://www.flysilverstone.co.uk//,http://en.wikipedia.org/wiki/Silverstone_Heliport,"RAF Silverstone, British Grand Prix"
+18228,2397,EGBW,small_airport,Wellesbourne Mountford Airport,52.19219970703125,-1.6144399642944336,159.0,EU,GB,GB-ENG,Stratford-on-Avon,no,EGBW,,,http://www.wellesbourneairfield.com/,http://en.wikipedia.org/wiki/Wellesbourne_Mountford_Airfield,
+18229,314577,EGCA,small_airport,Coal Aston Airfield,53.304722,-1.430556,750.0,EU,GB,GB-ENG,,no,EGCA,,,,http://en.wikipedia.org/wiki/Coal_Aston_Airfield,
+18230,29114,EGCB,small_airport,City Airport Manchester,53.471698761000006,-2.38971996307,73.0,EU,GB,GB-ENG,Manchester / Salford,no,EGCB,,,http://www.cityairportmanchester.com/,http://en.wikipedia.org/wiki/City_Airport_Manchester,Barton Aerodrome
+18231,2398,EGCC,large_airport,Manchester Airport,53.35369873046875,-2.2749500274658203,257.0,EU,GB,GB-ENG,Manchester,yes,EGCC,MAN,,http://www.manchesterairport.co.uk/,http://en.wikipedia.org/wiki/Manchester_Airport,"Ringway Airport, RAF Ringway"
+18232,2399,EGCD,closed,Manchester Woodford Airport,53.3381,-2.14889,295.0,EU,GB,GB-ENG,Manchester,no,EGCD,,XXB,,http://en.wikipedia.org/wiki/Woodford_Aerodrome,
+18233,307763,EGCE,closed,RAF Wrexham,53.0666666667,-2.95027777778,250.0,EU,GB,GB-WLS,Wrexham,no,EGCE,,,,http://en.wikipedia.org/wiki/RAF_Wrexham,Borras Airfield
+18234,29115,EGCF,small_airport,Sandtoft Airfield,53.559700012200004,-0.8583329916,11.0,EU,GB,GB-ENG,Belton,no,EGCF,,,http://www.newsandtoftaviation.co.uk/,http://en.wikipedia.org/wiki/Sandtoft_Airfield,
+18235,307765,EGCG,small_airport,Strubby Airfield,53.310826,0.172269,45.0,EU,GB,GB-ENG,Strubby,no,EGCG,,,http://www.strubbyairfield.co.uk/,,
+18236,314580,EGCH,heliport,Holyhead Heliport,53.298848,-4.616862,39.0,EU,GB,GB-WLS,,no,EGCH,,EGCH,,,
+18237,29116,EGCJ,small_airport,Sherburn-In-Elmet Airfield,53.788458,-1.216877,26.0,EU,GB,GB-ENG,Selby,no,EGCJ,,,http://www.sherburn-aero-club.org.uk/,http://en.wikipedia.org/wiki/Sherburn-in-Elmet_Airfield,
+18238,2400,EGCK,small_airport,Caernarfon Airport,53.10181899999999,-4.337614,1.0,EU,GB,GB-WLS,Caernarfon,no,EGCK,,,http://www.caernarfonairport.com,http://en.wikipedia.org/wiki/Caernarfon_Airport,
+18239,29117,EGCL,small_airport,Fenland Airfield,52.739200591999996,-0.0297219995409,8.0,EU,GB,GB-ENG,Spalding,no,EGCL,,,,http://en.wikipedia.org/wiki/Fenland_Airfield,
+18240,2401,EGCN,large_airport,Robin Hood Doncaster Sheffield Airport,53.4805378105,-1.01065635681,55.0,EU,GB,GB-ENG,Doncaster,yes,EGCN,DSA,,http://www.robinhoodairport.com/,http://en.wikipedia.org/wiki/Robin_Hood_Airport_Doncaster_Sheffield,RAF Finningley
+18241,29118,EGCO,closed,Birkdale Sands Beach Runway,53.645302,-3.02861,3.0,EU,GB,GB-ENG,Southport,no,EGCO,,,,,
+18242,29119,EGCP,closed,RAF Thorne,53.6222,-0.928056,16.0,EU,GB,GB-ENG,Thorne,no,EGCP,,,,,
+18243,29120,EGCS,small_airport,Sturgate Airfield,53.38109970092773,-0.6852779984474182,58.0,EU,GB,GB-ENG,Lincoln,no,EGCS,,,http://www.lincolnaeroclub.co.uk/airfield.html,http://en.wikipedia.org/wiki/Sturgate_Airfield,RAF Sturgate
+18244,29121,EGCT,small_airport,Tilstock Airfield,52.93080139160156,-2.646389961242676,301.0,EU,GB,GB-ENG,Whitchurch,no,EGCT,,,,http://en.wikipedia.org/wiki/Tilstock_Airfield,"RAF Whitchurch Heath, RAF Tilstock"
+18245,29122,EGCV,small_airport,Sleap Airport,52.8339004517,-2.77167010307,275.0,EU,GB,GB-ENG,Shrewsbury,no,EGCV,,,http://www.shropshireaeroclub.com/,http://en.wikipedia.org/wiki/Sleap_Airfield,RAF Sleap
+18246,2402,EGCW,small_airport,Welshpool Airport,52.62860107421875,-3.153330087661743,233.0,EU,GB,GB-WLS,Welshpool,no,EGCW,,,http://www.welshpoolairport.co.uk/,http://en.wikipedia.org/wiki/Welshpool_Airport,Mid-Wales
+18247,299895,EGDA,closed,RAF Brawdy,51.88375,-5.119972,,EU,GB,GB-WLS,,no,EGDA,,,,http://en.wikipedia.org/wiki/RAF_Brawdy,
+18248,2403,EGDC,medium_airport,Royal Marines Base Chivenor Airport,51.08720016479492,-4.150340080261231,27.0,EU,GB,GB-ENG,Chivenor,no,EGDC,,,,http://en.wikipedia.org/wiki/Royal_Marines_Base_Chivenor,
+18249,29701,EGDD,small_airport,Bicester Airfield,51.91669845581055,-1.1319400072097778,266.0,EU,GB,GB-ENG,Bicester,no,EGDD,,,,http://en.wikipedia.org/wiki/Bicester_Airfield,RAF Bicester
+18250,29123,EGDJ,small_airport,Upavon Aerodrome,51.2862014771,-1.7820199728,574.0,EU,GB,GB-ENG,Upavon,no,EGDJ,UPV,,,http://en.wikipedia.org/wiki/RAF_Upavon,"RAF Upavon, Trenchard Lines, Salisbury Plain"
+18251,2405,EGDL,closed,RAF Lyneham,51.5051,-1.99343,513.0,EU,GB,GB-ENG,Lyneham,no,EGDL,LYE,,http://www.raf.mod.uk/raflyneham/,http://en.wikipedia.org/wiki/RAF_Lyneham,
+18252,2406,EGDM,medium_airport,MoD Boscombe Down Airport,51.152198791503906,-1.7474100589752195,407.0,EU,GB,GB-ENG,Amesbury,no,EGDM,,,,http://en.wikipedia.org/wiki/MoD_Boscombe_Down,RAF Boscombe Down
+18253,29124,EGDN,small_airport,Netheravon Airfield,51.247200012200004,-1.7542500495900002,456.0,EU,GB,GB-ENG,Netheravon,no,EGDN,,,,,
+18254,2407,EGDO,small_airport,Predannack Airport,50.00120162963867,-5.230830192565918,295.0,EU,GB,GB-ENG,Predannack Wollas,no,EGDO,,,,http://en.wikipedia.org/wiki/Predannack_Airfield,
+18255,29125,EGDP,heliport,RNAS Portland Heliport,50.56809997558594,-2.4497199058532715,,EU,GB,GB-ENG,Portland,no,EGDP,,,,,
+18256,2408,EGDR,medium_airport,RNAS Culdrose,50.08610153198242,-5.2557101249694815,267.0,EU,GB,GB-ENG,Helston,no,EGDR,,,,http://en.wikipedia.org/wiki/RNAS_Culdrose_(HMS_Seahawk),
+18257,30571,EGDT,small_airport,Wroughton Airfield,51.50609970092773,-1.8019399642944336,656.0,EU,GB,GB-ENG,Wroughton,no,EGDT,,,,http://en.wikipedia.org/wiki/RAF_Wroughton,RAF Wroughton
+18258,307906,EGDV,small_airport,Hullavington Airfield,51.526732,-2.141555,327.0,EU,GB,GB-ENG,Hullavington,no,EGDV,,,,http://en.wikipedia.org/wiki/RAF_Hullavington,RAF Hullavington
+18259,30133,EGDW,small_airport,Merryfield RNAS Air Base,50.962502,-2.9355599999999997,151.0,EU,GB,GB-ENG,Ilminster,no,EGDW,,,,https://en.wikipedia.org/wiki/RNAS_Merryfield,"RAF Merryfield, RAF Isle Abbots, HMS Heron"
+18260,2409,EGDX,medium_airport,MoD St. Athan,51.4048,-3.43575,163.0,EU,GB,GB-WLS,St. Athan,no,EGDX,,,,http://en.wikipedia.org/wiki/MOD_St_Athan,
+18261,2410,EGDY,medium_airport,RNAS Yeovilton,51.0093994140625,-2.638819932937622,75.0,EU,GB,GB-ENG,Yeovil,no,EGDY,YEO,,,http://en.wikipedia.org/wiki/RNAS_Yeovilton_(HMS_Heron),
+18262,44410,EGEA,heliport,Culter Heliport,57.1198600605,-2.32116490602,300.0,EU,GB,GB-SCT,,no,EGEA,,,http://www.hjshelicopters.co.uk/Culter%20Helipad.html,,
+18263,2411,EGEC,medium_airport,Campbeltown Airport,55.43719863891602,-5.686389923095702,42.0,EU,GB,GB-SCT,Campbeltown,yes,EGEC,CAL,,http://www.hial.co.uk/campbeltown-airport.html,http://en.wikipedia.org/wiki/Campbeltown_Airport,"Kintyre, RAF Machrihanish, Kinlochkilkerran"
+18264,29126,EGED,medium_airport,Eday Airport,59.19060134887695,-2.7722198963165283,10.0,EU,GB,GB-SCT,Eday,yes,EGED,EOI,,,http://en.wikipedia.org/wiki/Eday_Airport,London Airport
+18265,29127,EGEF,medium_airport,Fair Isle Airport,59.53580093383789,-1.628059983253479,223.0,EU,GB,GB-SCT,Fair Isle,yes,EGEF,FIE,,http://www.fairisle.org.uk/egef/index.htm,http://en.wikipedia.org/wiki/Fair_Isle_Airport,
+18266,43213,EGEG,heliport,Glasgow City Heliport,55.86138916015625,-4.29694414138794,,EU,GB,GB-SCT,Glasgow,no,EGEG,,,http://www.bondairservices.com/,http://en.wikipedia.org/wiki/Glasgow_City_Heliport,
+18267,29128,EGEH,small_airport,Whalsay Airport,60.37749862670898,-0.9255560040473938,100.0,EU,GB,GB-SCT,Whalsay,no,EGEH,WHS,,,,
+18268,44408,EGEL,small_airport,Coll Airport,56.601898193400004,-6.617780208589999,21.0,EU,GB,GB-SCT,Coll Island,no,EGEL,COL,,,,
+18269,29129,EGEN,small_airport,North Ronaldsay Airport,59.367500305200004,-2.43443989754,40.0,EU,GB,GB-SCT,North Ronaldsay,yes,EGEN,NRL,,,http://en.wikipedia.org/wiki/North_Ronaldsay_Airport,
+18270,2412,EGEO,small_airport,Oban Airport,56.4635009765625,-5.399670124053955,20.0,EU,GB,GB-SCT,North Connel,no,EGEO,OBN,,,http://en.wikipedia.org/wiki/Oban_Airport,
+18271,29130,EGEP,small_airport,Papa Westray Airport,59.351699829100006,-2.9002799987800003,91.0,EU,GB,GB-SCT,Papa Westray,yes,EGEP,PPW,,,http://en.wikipedia.org/wiki/Papa_Westray_Airport,Papay
+18272,29131,EGER,small_airport,Stronsay Airport,59.1553001404,-2.6413900852200003,39.0,EU,GB,GB-SCT,Stronsay,yes,EGER,SOY,,,,
+18273,29132,EGES,small_airport,Sanday Airport,59.25030136108398,-2.576669931411743,68.0,EU,GB,GB-SCT,Sanday,yes,EGES,NDY,,,,
+18274,29133,EGET,small_airport,Lerwick / Tingwall Airport,60.192199707,-1.24361002445,43.0,EU,GB,GB-SCT,Lerwick,yes,EGET,LWK,,,http://en.wikipedia.org/wiki/Tingwall_Airport,
+18275,29134,EGEW,small_airport,Westray Airport,59.350299835200005,-2.95000004768,29.0,EU,GB,GB-SCT,Westray,yes,EGEW,WRY,,,http://en.wikipedia.org/wiki/Westray_Airport,
+18276,44409,EGEY,small_airport,Colonsay Airstrip,56.05749893189999,-6.243060112,44.0,EU,GB,GB-SCT,Colonsay,no,EGEY,CSA,,,,Machrins
+18277,314581,EGEZ,heliport,Nesscliffe Camp Helipad,52.757778,-2.9275,200.0,EU,GB,GB-ENG,Nesscliffe,no,EGEZ,,EGEZ,,,
+18278,2413,EGFA,small_airport,Aberporth Airport,52.1152992249,-4.5569400787399985,428.0,EU,GB,GB-WLS,Aberporth,no,EGFA,,,http://www.wwaa.co.uk/,http://en.wikipedia.org/wiki/Aberporth_Airport,RAF Blaenanerch
+18279,29135,EGFC,heliport,Cardiff Heliport,51.4674987793,-3.13750004768,,EU,GB,GB-WLS,Cardiff,no,EGFC,,,http://www.veritair.com/,http://en.wikipedia.org/wiki/Cardiff_Heliport,Tremorfa Foreshore Heliport
+18280,2414,EGFE,medium_airport,Haverfordwest Airport,51.83309936523438,-4.9611101150512695,159.0,EU,GB,GB-WLS,Haverfordwest,no,EGFE,HAW,,,http://en.wikipedia.org/wiki/Haverfordwest_Aerodrome,
+18281,2415,EGFF,large_airport,Cardiff International Airport,51.39670181274414,-3.343329906463623,220.0,EU,GB,GB-WLS,Cardiff,yes,EGFF,CWL,,http://www.cwlfly.com/,http://en.wikipedia.org/wiki/Cardiff_International_Airport,Rhoose
+18282,2416,EGFH,medium_airport,Swansea Airport,51.60530090332031,-4.0678300857543945,299.0,EU,GB,GB-WLS,Swansea,no,EGFH,SWS,,,http://en.wikipedia.org/wiki/Swansea_Airport,
+18283,29136,EGFP,small_airport,Pembrey Airport,51.71390151977539,-4.312220096588135,15.0,EU,GB,GB-WLS,Pembrey,no,EGFP,,,,http://en.wikipedia.org/wiki/Pembrey_Airport,RAF Pembrey
+18284,2417,EGGD,large_airport,Bristol Airport,51.382702,-2.71909,622.0,EU,GB,GB-ENG,Bristol,yes,EGGD,BRS,,http://www.bristolairport.co.uk/,http://en.wikipedia.org/wiki/Bristol_International_Airport,Lulsgate Bottom
+18285,307912,EGGH,closed,Heston Aerodrome,51.491815,-0.393909,105.0,EU,GB,GB-ENG,London,no,EGGH,,,,http://en.wikipedia.org/wiki/Heston_Aerodrome,"RAF Heston, Heston Air Park, Heston Airport"
+18286,2418,EGGP,large_airport,Liverpool John Lennon Airport,53.33359909057617,-2.849720001220703,80.0,EU,GB,GB-ENG,Liverpool,yes,EGGP,LPL,,http://www.liverpoolairport.com/,http://en.wikipedia.org/wiki/Liverpool_John_Lennon_Airport,
+18287,2419,EGGW,large_airport,London Luton Airport,51.87469863891602,-0.36833301186561584,526.0,EU,GB,GB-ENG,London,yes,EGGW,LTN,,http://www.london-luton.co.uk/en/,http://en.wikipedia.org/wiki/London_Luton_Airport,LON
+18288,29137,EGHA,small_airport,Compton Abbas Aerodrome,50.967201232910156,-2.1536099910736084,811.0,EU,GB,GB-ENG,Shaftesbury,no,EGHA,,,http://www.abbasair.co.uk/,http://en.wikipedia.org/wiki/Compton_Abbas_Airfield,
+18289,29138,EGHB,small_airport,Maypole Airfield,51.337508,1.155292,100.0,EU,GB,GB-ENG,Maypole,no,EGHB,,,http://www.maypoleairfield.com,https://en.wikipedia.org/wiki/Maypole_Airfield,
+18290,29139,EGHC,medium_airport,Land's End Airport,50.102798,-5.67056,398.0,EU,GB,GB-ENG,Land's End,yes,EGHC,LEQ,,http://www.landsendairport.co.uk/,http://en.wikipedia.org/wiki/Land%27s_End_Airport,St. Just Airport
+18291,2420,EGHD,closed,Plymouth City Airport,50.422798,-4.10583,476.0,EU,GB,GB-ENG,Plymouth,yes,EGHD,PLH,,http://www.plymouthairport.com/,http://en.wikipedia.org/wiki/Plymouth_City_Airport,
+18292,29140,EGHE,medium_airport,St. Mary's Airport,49.91329956054688,-6.291669845581055,116.0,EU,GB,GB-ENG,St. Mary's,yes,EGHE,ISC,,http://www.scilly.gov.uk/transport/airandsea/airport/,http://en.wikipedia.org/wiki/St._Mary%27s_Airport_%28Isles_of_Scilly%29,
+18293,29141,EGHF,small_airport,RNAS Lee-On-Solent,50.81420135498047,-1.2033300399780271,32.0,EU,GB,GB-ENG,Lee-on-Solent,no,EGHF,,,,http://en.wikipedia.org/wiki/RNAS_Lee-on-Solent_%28HMS_Daedalus%29,"HMS Daedalus, HMS Ariel, EGUS"
+18294,29142,EGHG,small_airport,Yeovil/Westland Aerodrome,50.93999862670898,-2.6586101055145264,202.0,EU,GB,GB-ENG,Yeovil,no,EGHG,,,,http://en.wikipedia.org/wiki/Yeovil/Westland_Airport,
+18295,2421,EGHH,large_airport,Bournemouth Airport,50.77999877929688,-1.8424999713897705,38.0,EU,GB,GB-ENG,Bournemouth,yes,EGHH,BOH,,http://www.bournemouthairport.com/,http://en.wikipedia.org/wiki/Bournemouth_Airport,RAF Hurn
+18296,2422,EGHI,large_airport,Southampton Airport,50.95029830932617,-1.3567999601364136,44.0,EU,GB,GB-ENG,Southampton,yes,EGHI,SOU,,http://www.southamptonairport.com/,http://en.wikipedia.org/wiki/Southampton_Airport,"RAF Eastleigh, RAF Southampton"
+18297,29143,EGHJ,small_airport,Bembridge Airport,50.678100585900005,-1.10943996906,53.0,EU,GB,GB-ENG,Bembridge,no,EGHJ,BBP,,http://www.eghj.com/,http://en.wikipedia.org/wiki/Bembridge_Airport,Britten Norman
+18298,29144,EGHK,closed,Penzance Heliport,50.128101,-5.51845,14.0,EU,GB,GB-ENG,Penzance,yes,EGHK,PZE,,http://www.brit-int.co.uk/Penzanceheliport.html,http://en.wikipedia.org/wiki/Penzance_Heliport,
+18299,2423,EGHL,medium_airport,Lasham Airport,51.18719863891602,-1.0334999561309814,618.0,EU,GB,GB-ENG,Lasham,no,EGHL,QLA,,http://www.lasham.org.uk/,http://en.wikipedia.org/wiki/Lasham_Airfield,"Basingstoke, RAF Lasham"
+18300,29145,EGHN,small_airport,Isle of Wight / Sandown Airport,50.653099,-1.18221998,55.0,EU,GB,GB-ENG,Sandown,no,EGHN,,,http://www.eghn.org.uk,http://en.wikipedia.org/wiki/Isle_of_Wight/Sandown_Airport,
+18301,29146,EGHO,small_airport,Thruxton Aerodrome,51.21060180664063,-1.6000000238418581,319.0,EU,GB,GB-ENG,Andover,no,EGHO,,,http://www.westernairthruxton.co.uk/,http://en.wikipedia.org/wiki/Thruxton_Aerodrome,
+18302,29147,EGHP,small_airport,Popham Airport,51.19390106201172,-1.23471999168396,550.0,EU,GB,GB-ENG,Basingstoke,no,EGHP,,,http://www.popham-airfield.co.uk/,http://en.wikipedia.org/wiki/Popham_Airfield,
+18303,2404,EGHQ,medium_airport,Newquay Cornwall Airport,50.44060134887695,-4.995409965515137,390.0,EU,GB,GB-ENG,Newquay,yes,EGHQ,NQY,,http://www.newquaycornwallairport.com/,http://en.wikipedia.org/wiki/Newquay_Cornwall_Airport,"St Mawgan, EGDG"
+18304,29148,EGHR,small_airport,Chichester/Goodwood Airport,50.85940170288086,-0.7591670155525208,98.0,EU,GB,GB-ENG,Chichester,no,EGHR,QUG,,http://www.goodwood.co.uk/aviation/,http://en.wikipedia.org/wiki/Chichester/Goodwood_Airport,RAF Westhampnett
+18305,29149,EGHS,small_airport,Henstridge Airfield,50.98500061035156,-2.357219934463501,184.0,EU,GB,GB-ENG,Henstridge,no,EGHS,,,http://www.henstridgeairfield.com/,,"Lower Marsh, HMS Dipper"
+18306,35157,EGHT,heliport,Tresco Heliport,49.94559860229492,-6.331389904022218,20.0,EU,GB,GB-ENG,Tresco,no,EGHT,,,,http://en.wikipedia.org/wiki/Tresco_Heliport,
+18307,29150,EGHU,small_airport,Eaglescott Airfield,50.9286003112793,-3.9894399642944336,655.0,EU,GB,GB-ENG,Burrington,no,EGHU,,,,http://en.wikipedia.org/wiki/Eaglescott_Airfield,
+18308,29151,EGHY,small_airport,Truro Airport,50.27840042114258,-5.142290115356445,127.0,EU,GB,GB-ENG,Truro,no,EGHY,,,,,
+18312,2427,EGKA,medium_airport,Shoreham Airport,50.835602,-0.297222,7.0,EU,GB,GB-ENG,Brighton,no,EGKA,ESH,,http://flybrighton.com,http://en.wikipedia.org/wiki/Shoreham_Airport,
+18313,2428,EGKB,medium_airport,London Biggin Hill Airport,51.330799102799986,0.032499998807900006,598.0,EU,GB,GB-ENG,London,no,EGKB,BQH,,http://www.bigginhillairport.com/,http://en.wikipedia.org/wiki/London_Biggin_Hill_Airport,"LON, RAF Biggin Hill"
+18314,321690,EGKC,small_airport,Bognor Regis,50.801667,-0.6588470000000001,1.0,EU,GB,GB-ENG,,no,EGKC,,,https://www.brgc.co.uk/location/,,
+18315,29152,EGKE,small_airport,Challock Airfield,51.20830154418945,0.8291670083999634,600.0,EU,GB,GB-ENG,Challock,no,EGKE,,,,,
+18316,29153,EGKG,heliport,Goodwood Racecourse Heliport,50.90060043334961,-0.7397220134735107,510.0,EU,GB,GB-ENG,Chichester,no,EGKG,,,,http://en.wikipedia.org/wiki/Goodwood_Racecourse_Heliport,
+18317,29154,EGKH,small_airport,Lashenden (Headcorn) Airfield,51.156898,0.641667,72.0,EU,GB,GB-ENG,Maidstone,no,EGKH,,,http://www.headcornaerodrome.co.uk,http://en.wikipedia.org/wiki/Lashenden_%28Headcorn%29_Airfield,RAF Lashenden
+18318,2429,EGKK,large_airport,London Gatwick Airport,51.14810180664063,-0.19027799367904666,202.0,EU,GB,GB-ENG,London,yes,EGKK,LGW,,http://www.gatwickairport.com/,http://en.wikipedia.org/wiki/London_Gatwick_Airport,"LON, Crawley, Charlwood"
+18319,29822,EGKL,small_airport,Deanland Lewes Airport,50.878898620600005,0.15638899803200002,69.0,EU,GB,GB-ENG,Lewes,no,EGKL,,,,,
+18320,316475,EGKM,closed,RAF West Malling,51.27,0.4,308.0,EU,GB,GB-ENG,West Malling,no,EGKM,WEM,,,https://en.wikipedia.org/wiki/RAF_West_Malling,"Maidstone Airport, Kingshill, Kings Hill"
+18321,29155,EGKR,small_airport,Redhill Aerodrome,51.2136001587,-0.138611003757,222.0,EU,GB,GB-ENG,Redhill,no,EGKR,KRH,,http://www.redhillaerodrome.com/,http://en.wikipedia.org/wiki/Redhill_Aerodrome,RAF Redhill
+18322,29156,EGLA,small_airport,Bodmin Airfield,50.49969863891602,-4.665830135345459,650.0,EU,GB,GB-ENG,Bodmin,no,EGLA,,,http://www.quantum-infotech.co.uk/cfc/CFC_Site_files/frame.htm,http://en.wikipedia.org/wiki/Bodmin_Airfield,
+18323,2430,EGLC,medium_airport,London City Airport,51.505299,0.055277999999999994,19.0,EU,GB,GB-ENG,London,yes,EGLC,LCY,,http://www.londoncityairport.com/,http://en.wikipedia.org/wiki/London_City_Airport,LON
+18324,29157,EGLD,small_airport,Denham Aerodrome,51.588298797600004,-0.513055980206,24.0,EU,GB,GB-ENG,Gerrards Cross,no,EGLD,,,http://www.egld.com/,http://en.wikipedia.org/wiki/Denham_Aerodrome,
+18325,2431,EGLF,medium_airport,Farnborough Airport,51.275798797600004,-0.776332974434,238.0,EU,GB,GB-ENG,Farnborough,no,EGLF,FAB,,http://www.tagaviation.com,http://en.wikipedia.org/wiki/Farnborough_Airfield,"TAG London Farnborough Airport, RAE Farnborough, EGUF"
+18326,29158,EGLG,closed,Panshanger Aerodrome,51.80250167849999,-0.158056005836,249.0,EU,GB,GB-ENG,Hertford,no,EGLG,,,http://www.northlondonflyingschool.com/Pansanger/Pansanger.htm,http://en.wikipedia.org/wiki/Panshanger_Airport,
+18327,2432,EGLJ,small_airport,Chalgrove Airport,51.67610168457031,-1.0808299779891968,240.0,EU,GB,GB-ENG,Chalgrove,no,EGLJ,,,,http://en.wikipedia.org/wiki/Chalgrove_Airfield,RAF Chalgrove
+18328,2433,EGLK,medium_airport,Blackbushe Airport,51.32389831542969,-0.8475000262260437,325.0,EU,GB,GB-ENG,Yateley,no,EGLK,BBS,,http://www.blackbusheairport.co.uk/,http://en.wikipedia.org/wiki/Blackbushe_Airport,RAF Hartford Bridge
+18329,2434,EGLL,large_airport,London Heathrow Airport,51.4706,-0.461941,83.0,EU,GB,GB-ENG,London,yes,EGLL,LHR,,http://www.heathrowairport.com/,http://en.wikipedia.org/wiki/London_Heathrow_Airport,"LON, Londres"
+18330,29159,EGLM,small_airport,White Waltham Airfield,51.5008010864,-0.774443984032,131.0,EU,GB,GB-ENG,Maidenhead,no,EGLM,,,http://www.wlac.co.uk/,http://en.wikipedia.org/wiki/White_Waltham_Airfield,West London Aero Club
+18331,302294,EGLP,small_airport,Brimpton Airfield,51.383889,-1.169167,210.0,EU,GB,GB-ENG,,no,EGLP,,,,http://en.wikipedia.org/wiki/Brimpton_Airfield,
+18332,29160,EGLS,small_airport,Old Sarum Airfield,51.0988998413,-1.7841700315500002,285.0,EU,GB,GB-ENG,Salisbury,no,EGLS,,,http://www.goflyuk.com/,http://en.wikipedia.org/wiki/Old_Sarum_Airfield,RAF Old Sarum
+18333,29161,EGLT,heliport,Ascot Racecourse Heliport,51.42639923095703,-0.6591669917106628,220.0,EU,GB,GB-ENG,Ascot Heath,no,EGLT,,,,http://en.wikipedia.org/wiki/Ascot_Racecourse_Heliport,
+18334,43211,EGLW,heliport,London Heliport,51.469722747799985,-0.179444000125,18.0,EU,GB,GB-ENG,London,no,EGLW,,,http://www.londonheliport.co.uk/,http://en.wikipedia.org/wiki/London_Heliport,
+18335,29162,EGMA,small_airport,Fowlmere Airfield,52.0774993896,0.06166699901219999,124.0,EU,GB,GB-ENG,Cambridge,no,EGMA,,,,http://en.wikipedia.org/wiki/RAF_Fowlmere,RAF Fowlmere
+18336,2435,EGMC,medium_airport,Southend Airport,51.5713996887207,0.6955559849739075,49.0,EU,GB,GB-ENG,Southend,yes,EGMC,SEN,,http://www.southendairport.com/,http://en.wikipedia.org/wiki/London_Southend_Airport,RAF Rochford
+18337,2436,EGMD,medium_airport,Lydd Airport,50.95610046386719,0.939167022705078,13.0,EU,GB,GB-ENG,"Lydd, Ashford",yes,EGMD,LYX,,http://www.lydd-airport.co.uk/,http://en.wikipedia.org/wiki/London_Ashford_Airport,London Ashford
+18338,29163,EGMF,small_airport,Farthing Corner/Stoneacre Farm Airport,51.33060073852539,0.6011109948158264,420.0,EU,GB,GB-ENG,Bredhurst,no,EGMF,,,,,
+18339,2437,EGMH,closed,Kent International Airport,51.342201,1.3461100000000001,178.0,EU,GB,GB-ENG,Manston,no,EGMH,MSE,,http://www.kentinternationalairport-manston.com/,http://en.wikipedia.org/wiki/Kent_International_Airport,"RAF Manston, Ramsgate, EGUM, Manston Airport"
+18340,29164,EGMJ,small_airport,Little Gransden Airfield,52.16669845581055,-0.153889000415802,250.0,EU,GB,GB-ENG,St. Neot's,no,EGMJ,,,http://www.skyline.flyer.co.uk/,http://en.wikipedia.org/wiki/Little_Gransden_Airfield,
+18341,313840,EGMK,closed,Lympne Airport,51.08,1.013,351.0,EU,GB,GB-ENG,Ashford,no,EGMK,LYM,,,http://en.wikipedia.org/wiki/Lympne_Airport,RAF Lympne
+18342,29815,EGML,small_airport,Damyns Hall Aerodrome,51.52859878540039,0.24555599689483645,59.0,EU,GB,GB-ENG,Upminster,no,EGML,,,,http://en.wikipedia.org/wiki/Damyns_Hall_Aerodrome,
+18343,314586,EGMT,small_airport,Thurrock Airfield,51.537504999999996,0.367634,20.0,EU,GB,GB-ENG,,yes,EGMT,,,http://www.aeroservices.co.uk/thurrock_airfield.html,,
+18344,29966,EGNA,closed,Hucknall Airfield,53.014400482178004,-1.2183300256729,279.0,EU,GB,GB-ENG,Nottingham,no,EGNA,,,,http://en.wikipedia.org/wiki/Hucknall_Airfield,
+18345,2438,EGNB,closed,Brough Airport,53.7197,-0.566333,12.0,EU,GB,GB-ENG,Brough,no,EGNB,,,,http://en.wikipedia.org/wiki/Brough_Aerodrome,
+18346,2439,EGNC,medium_airport,Carlisle Airport,54.9375,-2.8091700077056885,190.0,EU,GB,GB-ENG,Carlisle,no,EGNC,CAX,,,http://en.wikipedia.org/wiki/Carlisle_Airport,
+18347,46641,EGND,small_airport,Crosland Moor Airfield,53.621667,-1.8302779999999998,825.0,EU,GB,GB-ENG,Huddersfield,no,EGND,,,http://www.cmfc.me.uk/index.html,http://en.wikipedia.org/wiki/Crosland_Moor_Airfield,
+18348,2440,EGNE,small_airport,Retford Gamston Airport,53.28060150146485,-0.9513890147209167,91.0,EU,GB,GB-ENG,Gamston,no,EGNE,,,http://www.gamstonairport.co.uk/,http://en.wikipedia.org/wiki/Retford_Gamston_Airport,RAF Gamston
+18349,29165,EGNF,small_airport,Netherthorpe Airfield,53.3168983459,-1.1963900327700001,250.0,EU,GB,GB-ENG,Worksop,no,EGNF,,,http://www.sheffieldaeroclub.net/,http://en.wikipedia.org/wiki/Netherthorpe_Airfield,
+18350,29679,EGNG,small_airport,Bagby Thirsk Prv Airport,54.211101532,-1.2899999618499998,161.0,EU,GB,GB-ENG,Bagby,no,EGNG,,,,,
+18351,2441,EGNH,medium_airport,Blackpool International Airport,53.77170181274414,-3.0286099910736084,34.0,EU,GB,GB-ENG,Blackpool,yes,EGNH,BLK,,http://www.blackpoolinternational.com/,http://en.wikipedia.org/wiki/Blackpool_International_Airport,
+18352,28479,EGNI,small_airport,Skegness (Ingoldmells) Aerodrome,53.1716,0.3293749988,8.0,EU,GB,GB-ENG,Skegness,no,EGNI,,,http://www.skegnessairfield.co.uk/,http://en.wikipedia.org/wiki/Skegness#Airfield,
+18353,2442,EGNJ,medium_airport,Humberside Airport,53.57440185546875,-0.350832998752594,121.0,EU,GB,GB-ENG,Grimsby,yes,EGNJ,HUY,,http://www.humbersideairport.com/,http://en.wikipedia.org/wiki/Humberside_Airport,RAF Kirmington
+18354,2443,EGNL,medium_airport,Barrow Walney Island Airport,54.1286111,-3.2675,173.0,EU,GB,GB-ENG,Barrow-in-Furness,no,EGNL,BWF,,http://www.walneyairfield.multiservers.com/,http://en.wikipedia.org/wiki/Barrow/Walney_Island_Airfield,
+18355,2444,EGNM,large_airport,Leeds Bradford Airport,53.86589813232422,-1.6605700254440308,681.0,EU,GB,GB-ENG,Leeds,yes,EGNM,LBA,,http://www.lbia.co.uk/,http://en.wikipedia.org/wiki/Leeds_Bradford_International_Airport,
+18356,2445,EGNO,medium_airport,Warton Airport,53.74509811401367,-2.8830599784851074,55.0,EU,GB,GB-ENG,Warton,no,EGNO,,,,http://en.wikipedia.org/wiki/Warton_Aerodrome,
+18357,314587,EGNP,small_airport,Leeds Heliport,53.878175,-1.662477,670.0,EU,GB,GB-ENG,,no,EGNP,,,,,
+18358,2446,EGNR,medium_airport,Hawarden Airport,53.1781005859375,-2.977780103683472,45.0,EU,GB,GB-WLS,Hawarden,yes,EGNR,CEG,,,http://en.wikipedia.org/wiki/Hawarden_Airport,Chester
+18360,2448,EGNT,large_airport,Newcastle Airport,55.037498474121094,-1.6916699409484863,266.0,EU,GB,GB-ENG,Newcastle,yes,EGNT,NCL,,http://www.newcastleairport.com/,http://en.wikipedia.org/wiki/Newcastle_Airport,
+18361,29166,EGNU,small_airport,Full Sutton Airfield,53.980598,-0.8647219999999999,86.0,EU,GB,GB-ENG,Full Sutton,no,EGNU,,,http://www.fullsuttonairfield.co.uk/,https://en.wikipedia.org/wiki/Full_Sutton_Airfield,
+18362,2449,EGNV,medium_airport,Durham Tees Valley Airport,54.50920104980469,-1.4294099807739258,120.0,EU,GB,GB-ENG,Durham,yes,EGNV,MME,,http://www.durhamteesvalleyairport.com/,http://en.wikipedia.org/wiki/Durham_Tees_Valley_Airport,Teesside
+18363,29167,EGNW,small_airport,Wickenby Aerodrome,53.3166999817,-0.349721997976,63.0,EU,GB,GB-ENG,Lincoln,no,EGNW,,,,http://en.wikipedia.org/wiki/Wickenby_Aerodrome,RAF Wickenby
+18364,2450,EGNX,large_airport,East Midlands Airport,52.8311004639,-1.32806003094,306.0,EU,GB,GB-ENG,Nottingham,yes,EGNX,EMA,,http://www.eastmidlandsairport.com/,http://en.wikipedia.org/wiki/East_Midlands_Airport,RAF Castle Donington
+18365,29168,EGNY,small_airport,Beverley/Linley Hill Airport,53.8983001709,-0.361389011145,3.0,EU,GB,GB-ENG,Beverley,no,EGNY,,,,,
+18366,2451,EGOD,small_airport,Llanbedr Airport,52.811698913574,-4.1235799789428995,30.0,EU,GB,GB-WLS,Llanbedr,no,EGFD,,,,http://en.wikipedia.org/wiki/Llanbedr_Airport,
+18367,2452,EGOE,small_airport,RAF Ternhill,52.87120056152344,-2.533560037612915,272.0,EU,GB,GB-ENG,Ternhill,no,EGOE,,,,http://en.wikipedia.org/wiki/RAF_Ternhill,
+18368,30991,EGOM,medium_airport,RAF Spadeadam,55.0499992371,-2.54999995232,1066.0,EU,GB,GB-ENG,Spadeadam,no,EGOM,,,http://www.raf.mod.uk/rafspadeadam/,http://en.wikipedia.org/wiki/RAF_Spadeadam,
+18369,3073,EGOQ,small_airport,RAF Mona,53.258598,-4.37355,202.0,EU,GB,GB-WLS,Holyhead Island,no,EGOQ,,,,http://en.wikipedia.org/wiki/RAF_Mona,
+18370,2453,EGOS,medium_airport,RAF Shawbury,52.79819869995117,-2.668040037155152,249.0,EU,GB,GB-ENG,Shawbury,no,EGOS,,,http://www.raf.mod.uk/rafshawbury/,http://en.wikipedia.org/wiki/RAF_Shawbury,Shrewsbury
+18371,2454,EGOV,medium_airport,Anglesey Airport,53.248100280799996,-4.53533983231,37.0,EU,GB,GB-WLS,Angelsey,yes,EGOV,VLY,,http://www.angleseyairport.com/,http://en.wikipedia.org/wiki/Anglesey_Airport,"Maes Awyr Môn, RAF Valley"
+18372,2455,EGOW,small_airport,RAF Woodvale,53.5816001892,-3.05552005768,37.0,EU,GB,GB-ENG,Southport,no,EGOW,,,,http://en.wikipedia.org/wiki/RAF_Woodvale,
+18373,29170,EGOY,closed,RAF West Freugh,54.8511,-4.947780000000001,55.0,EU,GB,GB-SCT,Wigtownshire,no,EGOY,,,,http://en.wikipedia.org/wiki/RAF_West_Freugh,
+18374,2456,EGPA,medium_airport,Kirkwall Airport,58.957801818847656,-2.9049999713897705,50.0,EU,GB,GB-SCT,Orkney Islands,yes,EGPA,KOI,,,http://en.wikipedia.org/wiki/Kirkwall_Airport,
+18375,2457,EGPB,medium_airport,Sumburgh Airport,59.87889862060547,-1.295560002326965,20.0,EU,GB,GB-SCT,Lerwick,yes,EGPB,LSI,,http://www.hial.co.uk/sumburgh-airport.html,http://en.wikipedia.org/wiki/Sumburgh_Airport,Shetlands
+18376,2458,EGPC,medium_airport,Wick Airport,58.458900451660156,-3.09306001663208,126.0,EU,GB,GB-SCT,Wick,yes,EGPC,WIC,,http://www.hial.co.uk/wick-airport.html,http://en.wikipedia.org/wiki/Wick_Airport,
+18377,2459,EGPD,large_airport,Aberdeen Dyce Airport,57.20190048217773,-2.1977798938751216,215.0,EU,GB,GB-SCT,Aberdeen,yes,EGPD,ABZ,,http://www.aberdeenairport.com/,http://en.wikipedia.org/wiki/Aberdeen_Airport,
+18378,2460,EGPE,medium_airport,Inverness Airport,57.54249954223633,-4.047500133514403,31.0,EU,GB,GB-SCT,Inverness,yes,EGPE,INV,,http://www.hial.co.uk/inverness-airport.html,http://en.wikipedia.org/wiki/Inverness_Airport,
+18379,2461,EGPF,large_airport,Glasgow International Airport,55.8718986511,-4.43306016922,26.0,EU,GB,GB-SCT,Glasgow,yes,EGPF,GLA,,http://www.glasgowairport.com/,http://en.wikipedia.org/wiki/Glasgow_International_Airport,"Port-adhair Eadar-nàiseanta Ghlaschu, RAF Abbotsinch, RAF Ayr"
+18380,29171,EGPG,small_airport,Cumbernauld Airport,55.974700927700006,-3.97555994987,350.0,EU,GB,GB-SCT,Cumbernauld,no,EGPG,,,,,
+18381,2462,EGPH,large_airport,Edinburgh Airport,55.95000076293945,-3.372499942779541,135.0,EU,GB,GB-SCT,Edinburgh,yes,EGPH,EDI,,http://www.edinburghairport.com/,http://en.wikipedia.org/wiki/Edinburgh_Airport,
+18382,2463,EGPI,medium_airport,Islay Airport,55.68190002441406,-6.256669998168945,56.0,EU,GB,GB-SCT,Port Ellen,yes,EGPI,ILY,,,http://en.wikipedia.org/wiki/Islay_Airport,Glenegedale
+18383,29172,EGPJ,small_airport,Fife Airport,56.18330001831055,-3.2202799320220947,339.0,EU,GB,GB-SCT,,no,EGPJ,,,,,
+18384,2464,EGPK,medium_airport,Glasgow Prestwick Airport,55.5093994140625,-4.586669921875,65.0,EU,GB,GB-SCT,Glasgow,yes,EGPK,PIK,,http://www.glasgowprestwick.com/,http://en.wikipedia.org/wiki/Glasgow_Prestwick_International_Airport,
+18385,2465,EGPL,medium_airport,Benbecula Airport,57.48109817504883,-7.362780094146728,19.0,EU,GB,GB-SCT,Balivanich,yes,EGPL,BEB,,http://www.hial.co.uk/benbecula-airport.html,http://en.wikipedia.org/wiki/Benbecula_Airport,
+18386,2466,EGPM,medium_airport,Scatsta Airport,60.43280029296875,-1.2961100339889526,81.0,EU,GB,GB-SCT,Shetland Islands,no,EGPM,SCS,,,http://en.wikipedia.org/wiki/Scatsta_Airport,
+18387,2467,EGPN,medium_airport,Dundee Airport,56.45249938964844,-3.0258300304412837,17.0,EU,GB,GB-SCT,Dundee,yes,EGPN,DND,,http://www.hial.co.uk/dundee-airport.html,http://en.wikipedia.org/wiki/Dundee_Airport,
+18388,2468,EGPO,medium_airport,Stornoway Airport,58.215599060058594,-6.3311100006103525,26.0,EU,GB,GB-SCT,Stornoway,yes,EGPO,SYY,,http://www.hial.co.uk/stornoway-airport.html,http://en.wikipedia.org/wiki/Stornoway_Airport,Lewis
+18389,29173,EGPR,medium_airport,Barra Airport,57.0228,-7.443060000000001,5.0,EU,GB,GB-SCT,Eoligarry,yes,EGPR,BRR,,http://www.hial.co.uk/barra-airport.html,http://en.wikipedia.org/wiki/Barra_Airport_(Scotland),"Barra Eoligarry Airport, Barra Island"
+18390,29174,EGPS,heliport,Peterhead Heliport,57.517799377441406,-1.8613899946212769,150.0,EU,GB,GB-SCT,Peterhead,no,EGPS,,,,,
+18391,29175,EGPT,small_airport,Perth/Scone Airport,56.43920135498047,-3.3722200393676762,397.0,EU,GB,GB-SCT,Perth,no,EGPT,PSL,,,,
+18392,2469,EGPU,medium_airport,Tiree Airport,56.49919891357422,-6.869170188903809,38.0,EU,GB,GB-SCT,Balemartine,yes,EGPU,TRE,,http://www.hial.co.uk/tiree-airport.html,http://en.wikipedia.org/wiki/Tiree_Airport,Inner Hebrides
+18393,29176,EGPW,small_airport,Unst Airport,60.74720001220703,-0.8538500070571899,,EU,GB,GB-SCT,Shetland Islands,no,EGPW,UNT,,,,
+18394,29177,EGPY,closed,Dounreay/Thurso Airport,58.5839,-3.7269400000000004,22.0,EU,GB,GB-SCT,Thurso,no,EGPY,,,,,HMS Tern
+18395,29178,EGQB,small_airport,Ballykelly Airport,55.0602989197,-7.020279884339999,85.0,EU,GB,GB-NIR,Ballykelly,no,EGQB,BOL,,,http://en.wikipedia.org/wiki/RAF_Ballykelly,RAF Ballykelly
+18396,2470,EGQK,medium_airport,RAF Kinloss,57.6493988037,-3.5606400966600003,22.0,EU,GB,GB-SCT,Kinloss,no,EGQK,FSS,,,http://en.wikipedia.org/wiki/RAF_Kinloss,
+18397,2471,EGQL,medium_airport,RAF Leuchars,56.37289810180664,-2.8684399127960205,38.0,EU,GB,GB-SCT,St. Andrews,no,EGQL,ADX,,,http://en.wikipedia.org/wiki/RAF_Leuchars,
+18398,2472,EGQS,medium_airport,RAF Lossiemouth,57.7052001953125,-3.339169979095459,42.0,EU,GB,GB-SCT,Lossiemouth,no,EGQS,LMO,,http://www.raf.mod.uk/raflossiemouth/,http://en.wikipedia.org/wiki/RAF_Lossiemouth,
+18399,29179,EGSA,small_airport,Shipdham Airfield,52.6293983459,0.928056001663,210.0,EU,GB,GB-ENG,East Dereham,no,EGSA,,,http://www.shipdhamaeroclub.co.uk/,http://en.wikipedia.org/wiki/RAF_Shipdham,RAF Shipdham
+18400,29180,EGSB,closed,Castle Mill Airfield,52.143299102799986,-0.406111001968,154.0,EU,GB,GB-ENG,Bedford,no,EGSB,,,,,
+18401,2473,EGSC,medium_airport,Cambridge Airport,52.205002,0.175,47.0,EU,GB,GB-ENG,Cambridge,no,EGSC,CBG,,http://www.cambridgeairport.com/,http://en.wikipedia.org/wiki/Cambridge_Airport,"Cambridge City,Cambridge"
+18402,29181,EGSD,heliport,Great Yarmouth - North Denes Heliport,52.634399414099995,1.7227799892400002,6.0,EU,GB,GB-ENG,Great Yarmouth,no,EGSD,,,,http://en.wikipedia.org/wiki/Great_Yarmouth_-_North_Denes_Airport,
+18403,2474,EGSF,small_airport,Peterborough Business Airport,52.46810150146485,-0.2511110007762909,26.0,EU,GB,GB-ENG,Conington,no,EGSF,,,http://www.aerolease.co.uk/,http://en.wikipedia.org/wiki/Peterborough_Business_Airport,"Conington Airport, RAF Glatton"
+18404,29182,EGSG,small_airport,Stapleford Aerodrome,51.65250015260001,0.15583300590500002,183.0,EU,GB,GB-ENG,Stapleford Tawney,no,EGSG,,,http://www.flysfc.com/,http://en.wikipedia.org/wiki/Stapleford_Aerodrome,"Epping Forest, RAF Stapleford Tawney"
+18405,2475,EGSH,large_airport,Norwich International Airport,52.675800323500006,1.28278005123,117.0,EU,GB,GB-ENG,Norwich,yes,EGSH,NWI,,http://www.norwichairport.co.uk/,http://en.wikipedia.org/wiki/Norwich_International_Airport,RAF Horsham St Faith
+18406,307882,EGSI,small_airport,Marshland Airfield,52.643611,0.295,-6.0,EU,GB,GB-ENG,Wisbech,no,EGSI,,,,,
+18407,29183,EGSJ,small_airport,Seething Airfield,52.511100768999995,1.41721999645,130.0,EU,GB,GB-ENG,Seething,no,EGSJ,,,http://www.seething-airfield.com/,http://en.wikipedia.org/wiki/Seething_Airfield,RAF Seething
+18408,29184,EGSK,closed,RAF Hethel,52.56280136108398,1.1733299493789673,,EU,GB,GB-ENG,Hethel,no,EGSK,,,,http://en.wikipedia.org/wiki/RAF_Hethel,
+18409,29185,EGSL,small_airport,Andrewsfield Airport,51.895000457799995,0.449167013168,286.0,EU,GB,GB-ENG,Braintree,no,EGSL,,,,http://en.wikipedia.org/wiki/Andrewsfield_Airport,RAF Andrews Field
+18410,29186,EGSM,small_airport,Beccles Airport,52.4352989197,1.6183300018300002,80.0,EU,GB,GB-ENG,Beccles,no,EGSM,,,http://www.rainair.co.uk/,http://en.wikipedia.org/wiki/Beccles_Airport,RAF Beccles
+18411,29187,EGSN,small_airport,Bourn Airport,52.210601806599996,-0.042500000447,226.0,EU,GB,GB-ENG,Cambridge,no,EGSN,,,http://www.rfcbourn.flyer.co.uk/,http://en.wikipedia.org/wiki/Bourn_Airport,RAF Bourn
+18412,29188,EGSO,small_airport,Crowfield Airfield,52.1711006165,1.111109972,201.0,EU,GB,GB-ENG,Stowmarket,no,EGSO,,,http://www.crowfieldairfield.co.uk/,http://en.wikipedia.org/wiki/Crowfield_Airfield,
+18413,29189,EGSP,small_airport,Peterborough/Sibson Airport,52.5558013916,-0.38638898730300003,130.0,EU,GB,GB-ENG,Peterborough,no,EGSP,,,http://www.nsof.co.uk/,http://en.wikipedia.org/wiki/Peterborough/Sibson_Airport,
+18414,29190,EGSQ,small_airport,Clacton Airport,51.784999847399995,1.12999999523,37.0,EU,GB,GB-ENG,Clacton-on-Sea,no,EGSQ,,,http://www.clacton-aero-club.uk.com/,http://en.wikipedia.org/wiki/Clacton_Airport,
+18415,29191,EGSR,small_airport,Earls Colne Airfield,51.914398193400004,0.682500004768,226.0,EU,GB,GB-ENG,Earles Colne,no,EGSR,,,,http://en.wikipedia.org/wiki/Earls_Colne_Airfield,RAF Earls Colne
+18416,2476,EGSS,large_airport,London Stansted Airport,51.8849983215,0.23499999940400002,348.0,EU,GB,GB-ENG,London,yes,EGSS,STN,,http://www.stanstedairport.com/,http://en.wikipedia.org/wiki/London_Stansted_Airport,LON
+18417,29192,EGST,small_airport,Elmsett Airport,52.077201843299996,0.977500021458,246.0,EU,GB,GB-ENG,Hadleigh,no,EGST,,,,,
+18418,2477,EGSU,small_airport,Duxford Aerodrome,52.090801,0.131944,125.0,EU,GB,GB-ENG,Duxford,no,EGSU,QFO,,http://www.iwm.org.uk/pilots,http://en.wikipedia.org/wiki/Duxford_Aerodrome,"RAF Duxford,Duxford,IWM Duxford"
+18419,29193,EGSV,small_airport,Old Buckenham Airport,52.497501,1.0519399999999999,194.0,EU,GB,GB-ENG,Old Buckenham,no,EGSV,,,http://www.oldbuck.com/en/home/,http://en.wikipedia.org/wiki/Old_Buckenham_Airport,RAF Old Buckenham
+18420,29194,EGSW,small_airport,Newmarket Heath Airfield,52.235147,0.350643,100.0,EU,GB,GB-ENG,Newmarket,no,EGSW,,,,http://en.wikipedia.org/wiki/RAF_Newmarket,RAF Newmarket
+18421,2478,EGSX,small_airport,North Weald Airport,51.721698761000006,0.154166996479,321.0,EU,GB,GB-ENG,North Weald Bassett,no,EGSX,,,http://www.northwealdairfield.org/,http://en.wikipedia.org/wiki/North_Weald_Airfield,"RAF North Weald, Epping Forest"
+18422,2479,EGSY,heliport,Sheffield City Heliport,53.394299,-1.38849,231.0,EU,GB,GB-ENG,Sheffield,no,EGSY,,,,http://en.wikipedia.org/wiki/Sheffield_City_Airport_%26amp%3B_Heliport,
+18423,29195,EGTA,small_airport,Aylesbury/Thame Airport,51.77579879760742,-0.9402779936790466,289.0,EU,GB,GB-ENG,Aylesbury,no,EGTA,,,,,
+18424,29196,EGTB,small_airport,Wycombe Air Park,51.611698150600006,-0.8083329796790001,515.0,EU,GB,GB-ENG,High Wycombe,no,EGTB,HYC,,,http://en.wikipedia.org/wiki/Wycombe_Air_Park,RAF Booker
+18425,2480,EGTC,medium_airport,Cranfield Airport,52.0722007751,-0.616666972637,358.0,EU,GB,GB-ENG,Cranfield,no,EGTC,,,http://www.cranfieldairport.co.uk/,http://en.wikipedia.org/wiki/Cranfield_Airport,
+18426,29197,EGTD,small_airport,Dunsfold Aerodrome,51.1171989441,-0.535833001137,172.0,EU,GB,GB-ENG,Dunsfold,no,EGTD,,,http://www.dunsfoldpark.com,http://en.wikipedia.org/wiki/Dunsfold_Aerodrome,
+18427,2481,EGTE,large_airport,Exeter International Airport,50.73440170288086,-3.4138898849487305,102.0,EU,GB,GB-ENG,Exeter,yes,EGTE,EXT,,http://www.exeter-airport.co.uk/,http://en.wikipedia.org/wiki/Exeter_International_Airport,
+18428,29198,EGTF,small_airport,Fairoaks Airport,51.3480987549,-0.5588889718060001,80.0,EU,GB,GB-ENG,Woking,no,EGTF,,,http://www.alanmann.co.uk/default.asp,http://en.wikipedia.org/wiki/Fairoaks_Airport,
+18429,2482,EGTG,closed,Bristol Filton Airport,51.519401550299996,-2.5908300876599997,226.0,EU,GB,GB-ENG,Bristol,no,EGTG,FZO,,http://www.bristolfilton.co.uk/,http://en.wikipedia.org/wiki/Bristol_Filton_Airport,RAF Filton
+18430,29199,EGTH,small_airport,Old Warden Airfield,52.087883000000005,-0.318727,110.0,EU,GB,GB-ENG,Old Warden,no,EGTH,,,,,Shuttleworth
+18431,30064,EGTI,closed,Leavesden Aerodrome,51.68920135498047,-0.4205560088157654,335.0,EU,GB,GB-ENG,Watford,no,EGTI,,,,,
+18432,2483,EGTK,medium_airport,Oxford (Kidlington) Airport,51.8368988037,-1.32000005245,270.0,EU,GB,GB-ENG,Kidlington,no,EGTK,OXF,,http://www.oxfordairport.co.uk/,http://en.wikipedia.org/wiki/Oxford_Airport,RAF Kidlington
+18433,29200,EGTO,small_airport,Rochester Airport,51.35189819335938,0.5033329725265503,436.0,EU,GB,GB-ENG,Rochester,no,EGTO,RCS,,http://www.rochesterairport.co.uk/,http://en.wikipedia.org/wiki/Rochester_Airport_%28England%29,
+18434,2484,EGTP,small_airport,Perranporth Airfield,50.33169937133789,-5.177499771118164,330.0,EU,GB,GB-ENG,Perranporth,no,EGTP,,,,http://en.wikipedia.org/wiki/Perranporth_Airfield,RAF Perranporth
+18435,29201,EGTR,small_airport,Elstree Airfield,51.6557998657,-0.325832992792,332.0,EU,GB,GB-ENG,Watford,no,EGTR,,,,,
+18436,2485,EGTU,small_airport,Dunkeswell Airport,50.86,-3.2347222,839.0,EU,GB,GB-ENG,Dunkeswell,no,EGTU,,,,http://en.wikipedia.org/wiki/Dunkeswell_Aerodrome,
+18437,29202,EGTW,small_airport,Oaksey Park Airport,51.632198333699996,-2.01471996307,250.0,EU,GB,GB-ENG,Malmesbury,no,EGTW,,,,,
+18438,30508,EGUA,closed,RAF Upper Heyford,51.9375,-1.2488900423,436.0,EU,GB,GB-ENG,Upper Heyford,no,EGUA,UHF,,,http://en.wikipedia.org/wiki/RAF_Upper_Heyford,
+18439,2486,EGUB,medium_airport,RAF Benson,51.616401672399995,-1.09582996368,226.0,EU,GB,GB-ENG,Benson,no,EGUB,BEX,,,http://en.wikipedia.org/wiki/RAF_Benson,
+18440,29642,EGUD,small_airport,RAF Abingdon,51.690299987799996,-1.3166699409500002,259.0,EU,GB,GB-ENG,Abingdon,no,EGUD,,,,http://en.wikipedia.org/wiki/RAF_Abingdon,ABB
+18441,307983,EGUK,closed,Waterbeach Airfield,52.281742,0.184532,19.0,EU,GB,GB-ENG,Waterbeach,no,,,,,http://en.wikipedia.org/wiki/RAF_Waterbeach,RAF Waterbeach
+18442,2487,EGUL,large_airport,RAF Lakenheath,52.409301757799994,0.5609999895100001,32.0,EU,GB,GB-ENG,Lakenheath,no,EGUL,LKZ,,http://www.lakenheath.af.mil/,http://en.wikipedia.org/wiki/RAF_Lakenheath,
+18443,2488,EGUN,large_airport,RAF Mildenhall,52.361900329589844,0.4864059984683991,33.0,EU,GB,GB-ENG,Mildenhall,no,EGUN,MHZ,,http://www.mildenhall.af.mil/,http://en.wikipedia.org/wiki/RAF_Mildenhall,
+18444,2489,EGUO,small_airport,Colerne Airport,51.4390983582,-2.28639006615,593.0,EU,GB,GB-ENG,Colerne,no,EGUO,,,,http://en.wikipedia.org/wiki/Colerne_Airfield,RAF Colerne
+18445,30401,EGUP,small_airport,RAF Sculthorpe,52.84669876098633,0.766389012336731,213.0,EU,GB,GB-ENG,Fakeham,no,EGUP,,,,http://en.wikipedia.org/wiki/RAF_Sculthorpe,
+18446,307985,EGUT,closed,RAF Tangmere,50.845833,-0.706389,41.0,EU,GB,GB-ENG,Tangmere,no,EGUT,,,,http://en.wikipedia.org/wiki/RAF_Tangmere,
+18447,307989,EGUV,closed,RAF Thorney Island,50.816047999999995,-0.9200335999999999,12.0,EU,GB,GB-ENG,West Thorney,no,EGUV,,,,http://en.wikipedia.org/wiki/RAF_Thorney_Island,
+18448,2490,EGUW,medium_airport,RAF Wattisham,52.1273002625,0.956264019012,284.0,EU,GB,GB-ENG,Stowmarket,no,EGUW,,,,http://en.wikipedia.org/wiki/RAF_Wattisham,
+18449,2491,EGUY,medium_airport,RAF Wyton,52.357200622600004,-0.107832998037,135.0,EU,GB,GB-ENG,St. Ives,no,EGUY,QUY,,,http://en.wikipedia.org/wiki/RAF_Wyton,
+18450,2492,EGVA,large_airport,RAF Fairford,51.6822013855,-1.7900300025900002,286.0,EU,GB,GB-ENG,Fairford,no,EGVA,FFD,,,http://en.wikipedia.org/wiki/RAF_Fairford,
+18451,29204,EGVF,heliport,Fleetlands Heliport,50.835300445600005,-1.16917002201,3.0,EU,GB,GB-ENG,Gosport,no,EGVF,PME,,,,
+18452,30567,EGVG,closed,RAF Woodbridge,52.09000015258789,1.4058300256729126,95.0,EU,GB,GB-ENG,Woodbridge,no,EGVG,,,,http://en.wikipedia.org/wiki/RAF_Woodbridge,
+18453,29697,EGVJ,closed,RAF Bentwaters,52.1274986267,1.4347200393700001,85.0,EU,GB,GB-ENG,Woodbridge,no,EGVJ,BWY,,,http://en.wikipedia.org/wiki/RAF_Bentwaters,
+18454,314589,EGVL,closed,Little Rissington Airfield,51.8675,-1.6953330000000002,730.0,EU,GB,GB-ENG,,no,EGVL,,EGVL,,https://en.wikipedia.org/wiki/RAF_Little_Rissington,
+18455,2493,EGVN,large_airport,RAF Brize Norton,51.75,-1.58362,288.0,EU,GB,GB-ENG,Brize Norton,yes,EGVN,BZZ,,http://www.raf.mod.uk/rafbrizenorton/passengers/,http://en.wikipedia.org/wiki/RAF_Brize_Norton,Royal Air Force
+18456,2494,EGVO,medium_airport,RAF Odiham,51.2341003418,-0.9428250193600001,405.0,EU,GB,GB-ENG,Odiham,no,EGVO,ODH,,,http://en.wikipedia.org/wiki/RAF_Odiham,
+18457,29205,EGVP,small_airport,Middle Wallop Airfield,51.1394004822,-1.5686099529299997,297.0,EU,GB,GB-ENG,Middle Wallop,no,EGVP,,,,,
+18458,32687,EGVT,small_airport,Wethersfield Airport,51.971901,0.509444,322.0,EU,GB,GB-ENG,Wethersfield,no,EGVT,,,,http://en.wikipedia.org/wiki/RAF_Wethersfield,RAF Wethersfield
+18459,30618,EGWA,heliport,Andover Airfield,51.2079048157,-1.5282368659999999,249.0,EU,GB,GB-ENG,Andover,no,EGWA,,,,http://en.wikipedia.org/wiki/RAF_Andover,"RAF Andover, ADV"
+18460,2495,EGWC,medium_airport,DCAE Cosford Air Base,52.639998999999996,-2.30558,272.0,EU,GB,GB-ENG,Cosford,no,EGWC,,,http://www.raf.mod.uk/dcaecosford/,http://en.wikipedia.org/wiki/DCAE_Cosford,RAF Cosford
+18461,29206,EGWE,small_airport,RAF Henlow,52.0181999207,-0.303849995136,206.0,EU,GB,GB-ENG,Henlow,no,EGWE,,,,http://en.wikipedia.org/wiki/RAF_Henlow,
+18462,29207,EGWN,small_airport,RAF Halton,51.7906990051,-0.7379720211030001,370.0,EU,GB,GB-ENG,Halton,no,EGWN,,,http://www.raf.mod.uk/rafhalton/,http://en.wikipedia.org/wiki/RAF_Halton,
+18463,2496,EGWU,medium_airport,RAF Northolt,51.5530014038,-0.418166995049,124.0,EU,GB,GB-ENG,London,no,EGWU,NHT,,http://www.raf.mod.uk/rafnortholt/,http://en.wikipedia.org/wiki/RAF_Northolt,
+18464,29652,EGWZ,closed,RAF Alconbury,52.3744010925,-0.219722002745,157.0,EU,GB,GB-ENG,Huntingdon,no,EGWZ,AYH,,,http://en.wikipedia.org/wiki/RAF_Alconbury,
+18465,307364,EGXA,closed,RAF Manby,53.361111111099994,0.0861111111111,50.0,EU,GB,GB-ENG,Manby,no,EGXA,,,http://www.pastscape.org.uk/hob.aspx?a=0&hob_id=1402569,,Manby Airfield
+18466,30597,EGXB,closed,Binbrook Airfield,53.4467010498,-0.20999999344300002,,EU,GB,GB-ENG,Grimsby,no,EGXB,GSY,,,http://en.wikipedia.org/wiki/RAF_Binbrook,"Waltham, RAF Binbrook"
+18467,2497,EGXC,medium_airport,RAF Coningsby,53.0929985046,-0.166014000773,25.0,EU,GB,GB-ENG,Coningsby,no,EGXC,QCY,,http://www.raf.mod.uk/rafconingsby,http://en.wikipedia.org/wiki/RAF_Coningsby,
+18468,2498,EGXD,medium_airport,RAF Dishforth,54.1371994019,-1.42025005817,117.0,EU,GB,GB-ENG,Dishforth,no,EGXD,,,,http://en.wikipedia.org/wiki/RAF_Dishforth,Royal Air Force
+18469,2499,EGXE,medium_airport,Leeming Airport,54.2924,-1.5354,132.0,EU,GB,GB-ENG,Leeming,no,EGXE,,,,https://en.wikipedia.org/wiki/RAF_Leeming,
+18470,2500,EGXG,medium_airport,Leeds East Airport,53.834301,-1.1955,29.0,EU,GB,GB-ENG,Church Fenton,no,EGXG,,,http://www.leedseastairport.co.uk,https://en.wikipedia.org/wiki/Leeds_East_Airport,RAF Church Fenton
+18471,2501,EGXH,medium_airport,RAF Honington,52.34260177612305,0.7729390263557434,174.0,EU,GB,GB-ENG,Thetford,no,EGXH,BEQ,,,http://en.wikipedia.org/wiki/RAF_Honington,
+18472,2502,EGXJ,closed,RAF Cottesmore,52.735699,-0.6487689999999999,461.0,EU,GB,GB-ENG,Cottesmore,no,EGXJ,OKH,,http://www.raf.mod.uk/rafcottesmore/,http://en.wikipedia.org/wiki/RAF_Cottesmore,
+18473,29208,EGXN,closed,RAF Newton,52.96640014648438,-0.9894440174102784,180.0,EU,GB,GB-ENG,,no,EGXN,,,,http://en.wikipedia.org/wiki/RAF_Newton,
+18474,2503,EGXP,medium_airport,RAF Scampton,53.307800293,-0.550832986832,202.0,EU,GB,GB-ENG,Scampton,no,EGXP,SQZ,,,http://en.wikipedia.org/wiki/RAF_Scampton,
+18475,30594,EGXQ,closed,RAF Lindholme Airport,53.54999923706055,-0.9670000076293944,20.0,EU,GB,GB-ENG,Doncaster,no,EGXQ,,,http://www.wartimememories.co.uk/airfields/lindholme.html,http://en.wikipedia.org/wiki/RAF_Lindholme,RAF Hatfield Woodhouse
+18476,30452,EGXS,closed,RAF Swinderby,53.14970016479492,-0.6822220087051392,69.0,EU,GB,GB-ENG,Swinderby,no,EGXS,,,http://www.raf.mod.uk/bombercommand/s80.html,http://en.wikipedia.org/wiki/RAF_Swinderby,
+18477,2504,EGXT,medium_airport,RAF Wittering,52.612598,-0.47645299999999996,273.0,EU,GB,GB-ENG,Wittering,no,EGXT,,,http://www.raf.mod.uk/rafwittering/,http://en.wikipedia.org/wiki/RAF_Wittering,
+18478,2505,EGXU,medium_airport,RAF Linton-On-Ouse,54.0489006042,-1.2527500391,53.0,EU,GB,GB-ENG,Linton-On-Ouse,no,EGXU,HRT,,,http://en.wikipedia.org/wiki/RAF_Linton-on-Ouse,
+18479,29209,EGXV,closed,RAF Leconfield,53.875801,-0.435,36.0,EU,GB,GB-ENG,Leconfield,no,EGXV,,,,https://en.wikipedia.org/wiki/RAF_Leconfield,
+18480,2506,EGXW,medium_airport,RAF Waddington,53.1661987305,-0.5238109827040001,231.0,EU,GB,GB-ENG,Waddington,no,EGXW,WTN,,http://www.raf.mod.uk/rafwaddington,http://en.wikipedia.org/wiki/RAF_Waddington,
+18481,2507,EGXY,small_airport,RAF Syerston,53.02280044555664,-0.9111109972000122,228.0,EU,GB,GB-ENG,Newark,no,EGXY,,,,http://en.wikipedia.org/wiki/RAF_Syerston,
+18482,2508,EGXZ,medium_airport,RAF Topcliffe,54.2055015564,-1.3820899725,92.0,EU,GB,GB-ENG,Topcliffe,no,EGXZ,,,,http://en.wikipedia.org/wiki/RAF_Topcliffe,
+18483,29210,EGYC,closed,RAF Coltishall,52.754699707,1.35722005367,66.0,EU,GB,GB-ENG,Norwich,no,EGYC,,CLF,,http://en.wikipedia.org/wiki/RAF_Coltishall,
+18484,2509,EGYD,medium_airport,RAF Cranwell,53.0303001404,-0.4832420051100001,218.0,EU,GB,GB-ENG,Cranwell,no,EGYD,,,http://www.raf.mod.uk/rafcranwell/,http://en.wikipedia.org/wiki/RAF_Cranwell,
+18485,2510,EGYE,medium_airport,RAF Barkston Heath,52.962200164799995,-0.561625003815,367.0,EU,GB,GB-ENG,Grantham,no,EGYE,,,,http://en.wikipedia.org/wiki/RAF_Barkston_Heath,
+18486,30595,EGYI,small_airport,Strubby Glider Field,53.30775,0.16737,46.0,EU,GB,GB-ENG,Strubby,no,,,,http://www.lincsgliding.org.uk/,http://en.wikipedia.org/wiki/RAF_Strubby,"RAF Strubby, Lincolnshire Gliding Club"
+18487,2511,EGYM,medium_airport,RAF Marham,52.648394999999994,0.550692,75.0,EU,GB,GB-ENG,Marham,no,EGYM,KNF,,http://www.raf.mod.uk/rafmarham/,http://en.wikipedia.org/wiki/RAF_Marham,King's Lynn
+18488,317476,EGYO,small_airport,North Coates,53.498000000000005,0.0625,,EU,GB,GB-ENG,,no,EGYO,,,http://www.northcoatesflyingclub.co.uk/,,
+18490,314594,EGZJ,small_airport,[Duplicate] Dornoch Airfield,57.872167000000005,-4.026333,,EU,GB,GB-SCT,Dornoch Airfield,no,EGZJ,,,http://www.dornochairfield.com/,,Dornoch Airfield
+18491,314595,EGZL,small_airport,Feshiebridge Airfield,57.1036666667,-3.89166666667,,EU,GB,GB-SCT,,no,EGZL,,,http://www.gliding.org/,,
+18492,314596,EGZU,small_airport,[Duplicate] Glenforsa Airfield,56.517263,-5.913962000000001,15.0,EU,GB,GB-SCT,,no,EGZU,,,http://www.glenforsaairfield.com/,,
+18493,314597,EGZV,small_airport,Lundy Island Airfield,51.170505,-4.670758,455.0,EU,GB,GB-ENG,,no,EGZV,,,,,
+19435,312885,EWY,closed,RAF Greenham Common,51.379,-1.281,400.0,EU,GB,GB-ENG,Berkshire,no,EGVI,EWY,,,http://en.wikipedia.org/wiki/RAF_Greenham_Common,
+20138,300713,FEA,small_airport,Fetlar Airport,60.6033333333,-0.8727777777779999,263.0,EU,GB,GB-SCT,Fetlar Island,no,,FEA,,,,
+21645,32757,GB-0001,closed,RAF Barford St. John,52.004798889160156,-1.3575400114059448,,EU,GB,GB-ENG,,no,,,,,,
+21646,35132,GB-0002,small_airport,Fishburn Airfield,54.68679809570313,-1.4583100080490112,377.0,EU,GB,GB-ENG,Sedgefield,no,,,,http://www.erudite.co.uk/fishburn/,,
+21647,35149,GB-0003,closed,Alexandra Park Aerodrome,53.4364013671875,-2.2502000331878658,,EU,GB,GB-ENG,Manchester,no,,,,,,
+21648,39560,GB-0004,closed,RAF Molesworth,52.38381576538086,-0.4170500040054321,,EU,GB,GB-ENG,Molesworth,no,,,,,http://en.wikipedia.org/wiki/RAF_Molesworth,
+21649,42268,GB-0005,small_airport,Kirkbride Airfield,54.882,-3.2006,16.0,EU,GB,GB-ENG,Kirkbride,no,EGZF,,,http://kirkbrideairfield.weebly.com/,,RAF Kirkbride
+21650,44081,GB-0006,small_airport,Draycott Farm,51.4934005737,-1.7438199520099997,498.0,EU,GB,GB-ENG,Swindon,no,,,,,,
+21651,45167,GB-0007,small_airport,Enstone Aerodrome,51.9281666667,-1.4285,550.0,EU,GB,GB-ENG,Oxfordshire,no,EGTN,,,http://www.enstoneaerodrome.co.uk/,http://en.wikipedia.org/wiki/Enstone_Airfield,
+21652,46501,GB-0008,small_airport,Causeway Airfield,55.05811,-6.5834,33.0,EU,GB,GB-NIR,Coleraine,no,,,,,,
+21653,299582,GB-0009,small_airport,Aboyne Airfield,57.075556000000006,-2.839444,463.0,EU,GB,GB-SCT,Aboyne,no,EGZM,,,,,
+21654,298592,GB-0010,small_airport,Spanhoe,52.5582207203,-0.62019109726,,EU,GB,GB-ENG,,yes,,,,,,
+21655,299583,GB-0011,small_airport,Aston Down Airfield,51.708055555600005,-2.13055555556,598.0,EU,GB,GB-ENG,Minchinhampton,no,,,,,http://en.wikipedia.org/wiki/Aston_Down,RAF Aston Down
+21656,299584,GB-0012,small_airport,Benone Strand/Londerry Airfield,55.1666666667,-6.859166666669999,4.0,EU,GB,GB-NIR,Benone,no,,,,,,
+21657,299585,GB-0013,small_airport,Bidford Airfield,52.1377777778,-1.85027777778,131.0,EU,GB,GB-ENG,Bidford on Avon,no,,,,http://bidfordglidingflyingclub.intuitwebsites.com/index.html,,
+21658,299586,GB-0014,small_airport,Blease Hall,54.2936111111,-2.69361111111,315.0,EU,GB,GB-ENG,Old Hutton,no,,,,,,
+21659,299587,GB-0015,small_airport,Brent Tor Airfield,50.5925,-4.145278,851.0,EU,GB,GB-ENG,Tavistock,no,,,,,,
+21660,299588,GB-0016,small_airport,Bryngwyn Bach Airfield,53.27,-3.35611111111,650.0,EU,GB,GB-WLS,Rhuallt,no,,,,,,
+21661,299589,GB-0017,small_airport,Burn Airfield,53.745833333300006,-1.0844444444399999,25.0,EU,GB,GB-ENG,Selby,no,,,,,http://en.wikipedia.org/wiki/RAF_Burn,RAF Burn
+21662,299590,GB-0018,small_airport,Camphill Airfield,53.305,-1.7313888888900002,1300.0,EU,GB,GB-ENG,Great Hucklow,no,,,,http://www.dlgc.org.uk/,,
+21663,299591,GB-0019,small_airport,Carlton Moor Airfield,54.4111111111,-1.20055555556,1234.0,EU,GB,GB-ENG,Ashbourne,no,,,,http://www.caltonmoorflyers.co.uk/information.html,,
+21664,299896,GB-0020,closed,RAF St. David's,51.886134000000006,-5.216221,,EU,GB,GB-WLS,,no,,,,,,
+21665,299593,GB-0021,closed,RAF Catterick,54.3665084231,-1.6180801391600002,172.0,EU,GB,GB-ENG,Catterick,no,,,,,http://en.wikipedia.org/wiki/RAF_Catterick,
+21666,299897,GB-0022,small_airport,Bristol and Gloucestershire Gliding Club,51.713682,-2.283697,,EU,GB,GB-ENG,,no,,,,http://www.bggc.co.uk/,,Gliding
+21667,299900,GB-0023,small_airport,Shenstone Flying Strip,52.64005600000001,-1.8232259999999998,,EU,GB,GB-ENG,,no,,,,,,
+21668,307266,GB-0024,small_airport,Croft Farm Airfield,52.0856666667,-2.13572222222,66.0,EU,GB,GB-ENG,Defford,no,,,,http://www.defford-croftfarm.co.uk/airfield.htm,,
+21669,307268,GB-0025,small_airport,Dorset Gliding Club (Eyres Field),50.708933,-2.219496,100.0,EU,GB,GB-ENG,,no,,,,,,
+21670,307269,GB-0026,small_airport,Newton Peveril Airfield,50.7950039633,-2.09641456604,120.0,EU,GB,GB-ENG,,no,,,,,,
+21671,307341,GB-0027,small_airport,Stancombe Farm Airstrip (Private),50.7245301059,-2.63446569443,,EU,GB,GB-ENG,Litton Cheney,no,,,,,,
+21672,307342,GB-0028,heliport,Morn Farm Helipad (Private),50.625175157700006,-2.51304209232,,EU,GB,GB-ENG,Chickerell,no,,,,,,
+21673,316925,GB-0029,small_airport,Melbury Airstrip,50.8794545,-2.6180083,,EU,GB,GB-ENG,Melbury,no,,,,,,
+21674,316993,GB-0030,small_airport,Langar Airfield,52.89593000000001,-0.9010100000000001,121.0,EU,GB,GB-ENG,Langar,no,,,,,https://en.wikipedia.org/wiki/RAF_Langar,"Langar,RAF Langar"
+21675,307361,GB-0031,small_airport,Middle Pymore Farm Airstrip (Private),50.7512824893,-2.7595424652099996,,EU,GB,GB-ENG,Pymore Bridport,no,,,,,,
+21676,307362,GB-0032,small_airport,Bath Wilts & North Dorset Gliding Club,51.12889923349999,-2.24601745605,,EU,GB,GB-ENG,Kingston Deverill,no,,,,,,
+21677,307373,GB-0033,small_airport,Heywood Farm Airstrip,51.003871789499996,-3.2415676116900003,217.0,EU,GB,GB-ENG,Taunton,no,,,,,,
+21678,307375,GB-0034,small_airport,Measham Cottage Farm Airstrip,52.6698570107,-1.5206569433200001,,EU,GB,GB-ENG,,no,,,,,,
+21679,307377,GB-0035,small_airport,Old Park Farm Airstrip,51.5472691275,-3.71732711792,,EU,GB,GB-WLS,Port Talbot,no,,,,,,
+21680,322712,GB-0036,small_airport,Horse Leys Farm Airstrip,52.784969,-1.0966870000000002,,EU,GB,GB-ENG,Burton-on-the-Wolds,no,,,,,,
+21681,307379,GB-0037,small_airport,Whit Ox Mead Airstrip,51.319830898999996,-2.4008560180700003,,EU,GB,GB-ENG,Peasdown st John,no,,,,,,
+21682,307382,GB-0038,small_airport,Eshott Airfield,55.2804841148,-1.7148971557600001,197.0,EU,GB,GB-ENG,Eshott,no,,,,http://eshottairfield.co.uk/,https://en.wikipedia.org/wiki/Eshott_Airfield,
+21683,307387,GB-0039,closed,Brunton Airfield,55.5245496174,-1.67790412903,,EU,GB,GB-ENG,Brunton,no,,,,,,RAF Brunton
+21684,307623,GB-0040,closed,Northrepps International Airport,52.901658999999995,1.328642,165.0,EU,GB,GB-ENG,Cromer,no,,,,http://www.northreppsinternationalairport.co.uk/,,
+21685,307389,GB-0041,heliport,Boulmer Airfield,55.421025412,-1.60057067871,77.0,EU,GB,GB-ENG,Boulmer,no,EGQM,,,http://www.raf.mod.uk/rafboulmer/,http://en.wikipedia.org/wiki/RAF_Boulmer,RAF Boulmer
+21686,307392,GB-0042,small_airport,Lower Upham Airfield,50.9725081015,-1.24849319458,,EU,GB,GB-ENG,Bishops Waltham,no,,,,,,
+21687,307393,GB-0043,small_airport,[Duplicate] Lower Upham Airfield,50.972508000000005,-1.248493,,EU,GB,GB-ENG,,no,,,,,,
+21688,307395,GB-0044,small_airport,Lower Upham Farm Airfield,51.4966945187,-1.7127084732100002,450.0,EU,GB,GB-ENG,Malborough,no,,,,,,
+21689,307401,GB-0045,small_airport,Clench Common Airfield,51.38994074789999,-1.7335224151599997,623.0,EU,GB,GB-ENG,Malborough,no,,,,,,
+21690,307406,GB-0046,small_airport,Keyston Airfield,52.367424311,-0.47833442688,230.0,EU,GB,GB-ENG,Huntingdon,no,,,,,,
+21691,307624,GB-0047,small_airport,Cromer/Northrepps Aerodrome,52.893806999999995,1.3210600000000001,181.0,EU,GB,GB-ENG,Cromer,no,EG12,,,http://www.northreppsaerodrome.co.uk/,http://en.wikipedia.org/wiki/Northrepps_Aerodrome,
+21692,307412,GB-0048,small_airport,Easter Airfield,57.75419,-3.942289,22.0,EU,GB,GB-SCT,Fearn,no,,,,,,
+21693,307417,GB-0049,small_airport,Bowerswaine Farm Airfield,50.8898779146,-1.9843196868900002,135.0,EU,GB,GB-ENG,Wimbourne,no,,,,,,
+21694,307420,GB-0050,small_airport,Wing Farm Airfield,51.1634405793,-2.20859527588,435.0,EU,GB,GB-ENG,Longbridge Deveril,no,,,,,,
+21695,307423,GB-0051,small_airport,Colemore Farm Airfield,51.060925760299995,-1.0107421875,610.0,EU,GB,GB-ENG,Faringdon,no,,,,,,
+21696,307438,GB-0052,small_airport,Eggesford Airfield,50.866929123,-3.86366844177,576.0,EU,GB,GB-ENG,Chulmleigh,no,,,,,,
+21697,307441,GB-0053,small_airport,Lower Manor Farm Airstrip,50.6277138302,-2.51767158508,,EU,GB,GB-ENG,Chickerell,no,,,,,,
+21698,307464,GB-0054,small_airport,Yatesbury Airfield,51.4319391135,-1.9127368927000001,525.0,EU,GB,GB-ENG,Malborough,no,,,,,,
+21699,307468,GB-0055,small_airport,Milton Airfield,52.5840688827,-0.32735824585,150.0,EU,GB,GB-ENG,Peterborough,no,,,,,,
+21700,307469,GB-0056,small_airport,Roche Barton Farm Airstrip,50.422655553999995,-4.81600284576,470.0,EU,GB,GB-ENG,,no,,,,,,
+21701,307470,GB-0057,small_airport,Walton Wood Airfield,53.630796271899996,-1.26145362854,180.0,EU,GB,GB-ENG,Wrangbrook,no,,,,,,
+21702,307471,GB-0058,small_airport,Boston Aerodrome,52.9745654966,-0.0707674026489,10.0,EU,GB,GB-ENG,Boston,no,,,,http://www.bostonaeroclub.co.uk/,,
+21703,307473,GB-0059,small_airport,[Duplicate] Coal Ashton Airfield,53.304775,-1.429853,750.0,EU,GB,GB-ENG,Dronfield,no,,,,,,
+21704,307485,GB-0060,small_airport,Porthtowan Airfield,50.28421160830001,-5.2298784256,,EU,GB,GB-ENG,Porthtowan,no,,,,,,
+21705,307487,GB-0061,small_airport,Manstage Airfield,50.725969963199994,-4.11871433258,800.0,EU,GB,GB-ENG,Oakhampton,no,,,,,,
+21706,307508,GB-0062,small_airport,Branscombe Airfield,50.6979595159,-3.15502882004,500.0,EU,GB,GB-ENG,Branscombe,no,,,,http://www.branscombeairfield.co.uk/page2.htm,,
+21707,307511,GB-0063,small_airport,Fairway Common Airfield,50.7371069874,-3.17925453186,771.0,EU,GB,GB-ENG,,no,,,,,,
+21708,307528,GB-0064,small_airport,Ashcroft Airfield,53.1644238046,-2.57217407227,150.0,EU,GB,GB-ENG,Winsford,no,EGCR,,,,,
+21709,307536,GB-0065,small_airport,Audley End Airfield,52.009136535699994,0.224275588989,283.0,EU,GB,GB-ENG,Safron Waldon,no,EG02,,,,,
+21710,317040,GB-0066,small_airport,Eddsfield Airfield,54.111371,-0.46172640000000004,,EU,GB,GB-ENG,Eddsfield,no,,,,,,
+21711,307544,GB-0067,closed,Canterbury Airfield,51.291875,0.999584,300.0,EU,GB,GB-ENG,Canterbury,no,EG11,,,,,
+21712,307565,GB-0068,small_airport,Gigha Airfield,55.6551708463,-5.75503349304,35.0,EU,GB,GB-SCT,Gigha Island,no,EGEJ,,,,,
+21713,307568,GB-0069,small_airport,Egerton Airfield,51.19136704060001,0.6884908676150001,150.0,EU,GB,GB-ENG,Egerton,no,,,,,,
+21714,307572,GB-0070,closed,Hoy/Longhope Airfield,58.791779000000005,-3.2160759999999997,30.0,EU,GB,GB-SCT,Orkney Isle,no,,HOY,,,,
+21715,307573,GB-0071,small_airport,High Easter Airfield,51.8062266163,0.34083366394000003,,EU,GB,GB-ENG,High Easter,no,,,,,,
+21716,307575,GB-0072,small_airport,Hibaldstow Airfield,53.49560299229999,-0.517730712891,30.0,EU,GB,GB-ENG,Hibaldstow,no,,,,,,
+21717,307576,GB-0073,small_airport,Hinton-in-the-Hedges Airfield,52.028717,-1.207157,505.0,EU,GB,GB-ENG,Hinton-in-the-Hedges,no,,,,http://www.hintonairfield.co.uk/index.shtml,http://en.wikipedia.org/wiki/Hinton-in-the-Hedges_Airfield,
+21718,307635,GB-0074,closed,RAF Bottesford,52.96390400000001,-0.779926,104.0,EU,GB,GB-ENG,Normanton,no,,,,,http://en.wikipedia.org/wiki/RAF_Bottesford,
+21719,307740,GB-0075,small_airport,Elvington Airfield,53.9231444281,-0.991344451904,48.0,EU,GB,GB-ENG,York,no,EGYK,,,http://www.elvingtonairfield.co.uk/,http://en.wikipedia.org/wiki/RAF_Elvington,RAF Elvington
+21720,317041,GB-0076,small_airport,Lane Farm Airstrip,52.115334999999995,-3.197891,,EU,GB,GB-WLS,,no,,,,,,
+21721,307751,GB-0077,small_airport,Finmere Aerodrome,51.9849858608,-1.06515884399,,EU,GB,GB-ENG,Buckingham,no,,,,,,
+21722,307764,GB-0078,small_airport,Great Massingham Airfield,52.7817928573,0.679607391357,,EU,GB,GB-ENG,,no,,,,,,
+21723,317131,GB-0079,small_airport,Manor Farm Airstrip,51.307820899999996,-1.6735273999999998,,EU,GB,GB-ENG,,no,,,,,,Manor Farm
+21724,307890,GB-0080,closed,RNAS Arbroath / HMS Condor / RM Condor Air Base,56.581044999999996,-2.6156040000000003,161.0,EU,GB,GB-SCT,Arbroath,no,,,,,http://en.wikipedia.org/wiki/RM_Condor,
+21725,307892,GB-0081,closed,RAF Nutts Corner / Belfast-Nutts Corner Airport,54.6302822067,-6.1545753479,,EU,GB,GB-NIR,,no,,,,,http://en.wikipedia.org/wiki/RAF_Nutts_Corner,
+21726,307893,GB-0082,closed,RAF Methold,52.511937702299996,0.5488014221190001,,EU,GB,GB-ENG,,no,,,,,http://en.wikipedia.org/wiki/RAF_Methwold,
+21727,307895,GB-0083,closed,RNAS/RAF Donibristle / HMS Merlin,56.0341708219,-3.35366249084,,EU,GB,GB-SCT,,no,,,,,http://en.wikipedia.org/wiki/Donibristle,
+21728,307908,GB-0084,small_airport,Redlands airfield,51.560833333299996,-1.70444444444,320.0,EU,GB,GB-ENG,"Swindon, Wiltshire, UK",no,,,,http://redlandsairfield.co.uk/,http://en.wikipedia.org/wiki/Redlands_Airfield,
+21729,307916,GB-0085,closed,RAF Hixon,52.8374100309,-2.00852394104,,EU,GB,GB-ENG,Staffordshire,no,,,HX,http://www.hixonairfieldservices.co.uk/,,
+21730,307917,GB-0086,closed,RAF Abbots Bromley,52.8250683,-1.8915796000000002,,EU,GB,GB-ENG,Staffordshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Abbots_Bromley,
+21731,307918,GB-0087,closed,RAF Acaster Malbis,53.879806506,-1.11983299255,26.0,EU,GB,GB-ENG,North Yorkshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Acaster_Malbis,
+21732,307919,GB-0088,closed,RFCS Southfields / RAF Acklington,55.296110999999996,-1.634444,,EU,GB,GB-ENG,Northumberland,no,,,,,http://en.wikipedia.org/wiki/RAF_Acklington,
+21733,307920,GB-0089,closed,RAF Akeman Street,51.823889,-1.515556,,EU,GB,GB-ENG,Oxfordshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Akeman_Street,
+21734,307921,GB-0090,closed,RAF Aldermaston,51.370253290600004,-1.14137649536,,EU,GB,GB-ENG,Berkshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Aldermaston,
+21735,307922,GB-0091,closed,RFC All Hallows / RAF All Hallows,51.4657720416,0.6348466873169999,,EU,GB,GB-ENG,Kent,no,,,,,,
+21736,307923,GB-0092,closed,RAF Alness / RAF Invergordon,57.682019999999994,-4.2603089999999995,,EU,GB,GB-SCT,Ross and Cromarty,no,,,,,,
+21737,307924,GB-0093,closed,[Duplicate] RAF Alness / RAF Invergordon,57.682019999999994,-4.2603089999999995,,EU,GB,GB-SCT,Ross and Cromarty,no,,,,,,
+21738,307925,GB-0094,closed,RAF Andrews Field / RAF Great Saling,51.8975,0.46027799999999996,39.0,EU,GB,GB-ENG,Essex,no,,,,,http://en.wikipedia.org/wiki/RAF_Andrews_Field,
+21739,307926,GB-0095,closed,RAF Ansty,52.42916700000001,-1.408611,381.0,EU,GB,GB-ENG,Warwickshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Ansty,
+21740,307927,GB-0096,closed,HMS Goldcrest / RAF Angle / RNAS Angle,51.672954,-5.095575,,EU,GB,GB-WLS,Pembrokeshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Angle,
+21741,307928,GB-0097,closed,RFC Anwick / RAF Anwick,53.04774200000001,-0.34989699999999996,200.0,EU,GB,GB-ENG,Lincolnshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Anwick,
+21742,307929,GB-0098,closed,RAF Appledram,50.809189050600004,-0.8074951171879999,15.0,EU,GB,GB-ENG,West Sussex,no,,,,,http://en.wikipedia.org/wiki/RAF_Appledram,Apuldram
+21743,307930,GB-0099,closed,RAF Ashbourne,53.006944,-1.7069439999999998,,EU,GB,GB-ENG,Derbyshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Ashbourne,
+21744,307931,GB-0100,closed,RAF Ashford,51.125278,0.8161109999999999,,EU,GB,GB-ENG,Kent,no,,,,,http://en.wikipedia.org/wiki/RAF_Ashford,
+21745,307932,GB-0101,closed,RAF Atcham,52.690278,-2.6366669999999996,190.0,EU,GB,GB-ENG,Shropshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Atcham,
+21746,307933,GB-0102,closed,RAF Atherstone,52.161111,-1.686667,193.0,EU,GB,GB-ENG,Warwickshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Atherstone,
+21747,307934,GB-0103,closed,RAF Attlebridge,52.6924336379,1.1127948761,,EU,GB,GB-ENG,Norfolk,no,,,,,http://en.wikipedia.org/wiki/RAF_Attlebridge,
+21748,307935,GB-0104,closed,RAF Babdown Farm,51.6443087221,-2.22370147705,,EU,GB,GB-ENG,Gloucestershire,no,,,,,http://en.wikipedia.org/wiki/RAF_Babdown_Farm,
+21749,307936,GB-0105,closed,RAF Bacton,52.838,1.479,,EU,GB,GB-ENG,Norfolk,no,,,,,http://en.wikipedia.org/wiki/RAF_Bacton,
+21750,307937,GB-0106,closed,RAF Balado Bridge,56.211943999999995,-3.462222,424.0,EU,GB,GB-SCT,Tayside,no,,,,,http://en.wikipedia.org/wiki/RAF_Balado_Bridge,
+21751,307938,GB-0107,closed,RAF Balderton,53.036389,-0.785833,,EU,GB,GB-ENG,Nottinghamshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Balderton,
+21752,307939,GB-0108,closed,RAF Ballyhalbert,54.496,-5.47,,EU,GB,GB-NIR,County Down,no,,,,,http://en.wikipedia.org/wiki/RAF_Ballyhalbert,
+21753,307940,GB-0109,closed,RAF Banff,57.666903000000005,-2.64053,,EU,GB,GB-SCT,Aberdeenshire,no,,,,,,
+21754,307941,GB-0110,closed,RAF Bardney,53.225278,-0.291944,39.0,EU,GB,GB-ENG,Lincolnshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Bardney,
+21755,307942,GB-0111,closed,RAF Barton Bendish,52.61,0.54,,EU,GB,GB-ENG,Norfolk,no,,,,,http://en.wikipedia.org/wiki/RAF_Barton_Bendish,
+21756,307943,GB-0112,closed,RAF Bassingbourn,52.0964087747,-0.0534725189209,,EU,GB,GB-ENG,Hertfordshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Bassingbourn,
+21757,307944,GB-0113,closed,RAF Bircotes,53.433827301899996,-1.0375213623000001,108.0,EU,GB,GB-ENG,South Yorkshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Bircotes,RAF Bawtry
+21758,307945,GB-0114,closed,RAF Beaulieu,50.80615168869999,-1.5046119689900002,,EU,GB,GB-ENG,Hampshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Beaulieu,
+21759,307946,GB-0115,closed,RAF Bekesbourne,51.252396999999995,1.160015,,EU,GB,GB-ENG,Kent,no,,,,,,
+21760,307947,GB-0116,closed,RAF Bempton,54.1499,-0.1778,,EU,GB,GB-ENG,Yorkshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Bempton,RAF Flamborough Head
+21761,307948,GB-0117,closed,RAF Bibury,51.781389000000004,-1.836111,,EU,GB,GB-ENG,Gloucestershire,no,,,,,http://en.wikipedia.org/wiki/RAF_Bibury,
+21762,307949,GB-0118,closed,RAF Birch,51.8425,0.780556,,EU,GB,GB-ENG,Essex,no,,,,,http://en.wikipedia.org/wiki/RAF_Birch,
+21763,307950,GB-0119,closed,RAF Bircham Newton,52.875,0.657,,EU,GB,GB-ENG,Norfolk,no,,,,,http://en.wikipedia.org/wiki/RAF_Bircham_Newton,
+21764,307951,GB-0120,closed,RAF Bishopscourt,54.3074102846,-5.5754756927499995,,EU,GB,GB-NIR,County Down,no,,,,,http://en.wikipedia.org/wiki/RAF_Bishopscourt,
+21765,307952,GB-0121,closed,RAF Bisterne,50.818333,-1.780556,,EU,GB,GB-ENG,Hampshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Bisterne,
+21766,307953,GB-0122,closed,RAF Bitteswell,52.459444,-1.246111,,EU,GB,GB-ENG,Leicestershire,no,,,,,http://en.wikipedia.org/wiki/RAF_Bitteswell,
+21767,307954,GB-0123,closed,RAF Blakehill Farm,51.6222264521,-1.88921928406,,EU,GB,GB-ENG,Wiltshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Blakehill_Farm,
+21768,307955,GB-0124,closed,RAF Blyton,53.451111,-0.693611,79.0,EU,GB,GB-ENG,Lincolnshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Blyton,
+21769,307956,GB-0125,closed,RAF Bodney,52.561638455200004,0.7147121429440001,,EU,GB,GB-ENG,Norfolk,no,,,,,http://en.wikipedia.org/wiki/RAF_Bodney,
+21770,307957,GB-0126,closed,RAF Bognor,50.796205,-0.702928,,EU,GB,GB-ENG,West Sussex,no,,,,,,
+21771,307958,GB-0127,closed,RAF Bolt Head,50.2238448841,-3.8016128539999996,,EU,GB,GB-ENG,Devon,no,,,,,http://en.wikipedia.org/wiki/RAF_Bolt_Head,
+21772,307959,GB-0128,closed,RAF Bottisham,52.2138,0.2571,,EU,GB,GB-ENG,Cambridgeshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Bottisham,
+21773,307960,GB-0129,small_airport,RAF Boulmer,55.4083094055,-1.5972232818599998,50.0,EU,GB,GB-ENG,Northumberland,no,,,,http://www.raf.mod.uk/rafboulmer/,http://en.wikipedia.org/wiki/RAF_Boulmer,
+21774,307961,GB-0130,closed,RAF Bovingdon,51.726944,-0.543333,,EU,GB,GB-ENG,Hertfordshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Bovingdon,
+21775,307962,GB-0131,closed,RAF Boxted,51.937778,0.9319440000000001,,EU,GB,GB-ENG,Essex,no,,,,,http://en.wikipedia.org/wiki/RAF_Boxted,
+21776,307963,GB-0132,closed,RAF Bracebridge Heath,53.192440000000005,-0.523584,,EU,GB,GB-ENG,Lincolnshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Bracebridge_Heath,
+21777,307964,GB-0133,closed,RAF Bradwell Bay,51.735278,0.901667,,EU,GB,GB-ENG,Essex,no,,,,,http://en.wikipedia.org/wiki/RAF_Bradwell_Bay,
+21778,307965,GB-0134,closed,RAF Bramcote / HMS Gamecock,52.489722,-1.399167,354.0,EU,GB,GB-ENG,Warwickshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Bramcote,
+21779,307966,GB-0135,closed,RAF Bratton,52.73091899999999,-2.5408630000000003,,EU,GB,GB-ENG,Shropshire,no,,,,,,
+21780,307967,GB-0136,closed,RAF Talbenny,51.758239,-5.141378,,EU,GB,GB-WLS,Pembrokeshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Talbenny,
+21781,307968,GB-0137,closed,RAF Breighton,53.80642923679999,-0.907573699951,20.0,EU,GB,GB-ENG,Yorkshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Breighton,
+21782,307969,GB-0138,closed,RAF Brenzett,51.014444,0.879167,5.0,EU,GB,GB-ENG,Kent,no,,,,,http://en.wikipedia.org/wiki/RAF_Brenzett,
+21783,307970,GB-0139,closed,RAF Broadwell,51.7595529887,-1.64125442505,,EU,GB,GB-ENG,Oxfordshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Broadwell,
+21784,307971,GB-0140,closed,RAF Brooklands,51.348608,-0.470326,54.0,EU,GB,GB-ENG,Surrey,no,EGLB,,,,,
+21785,307972,GB-0141,closed,RAF Buckminster,52.801834,-0.67396,,EU,GB,GB-ENG,Lincolnshire,no,,,,,,
+21786,307973,GB-0142,closed,RAF North Witham,52.7936797412,-0.598154067993,,EU,GB,GB-ENG,Lincolnshire,no,,,,,http://en.wikipedia.org/wiki/RAF_North_Witham,
+21787,307974,GB-0143,closed,RAF Bungay / RAF Flixton,52.430059621800005,1.4183521270800001,,EU,GB,GB-ENG,Suffolk,no,,,,,http://en.wikipedia.org/wiki/RAF_Bungay,
+21788,307975,GB-0144,closed,RAF Burgh Castle,52.58480600000001,1.6687889999999999,,EU,GB,GB-ENG,Norfolk,no,,,,,,
+21789,307976,GB-0145,closed,RAF Burtonwood,53.410415,-2.654348,,EU,GB,GB-ENG,Warrington,no,,,,,http://en.wikipedia.org/wiki/RAF_Burtonwood,
+21790,307977,GB-0146,small_airport,Rougham Airfield / RAF Bury St Edmunds,52.245828,0.767756,207.0,EU,GB,GB-ENG,Suffolk,no,,,,,http://en.wikipedia.org/wiki/RAF_Bury_St_Edmunds,
+21791,307978,GB-0147,closed,RAF Caistor,53.502778,-0.36388899999999996,85.0,EU,GB,GB-ENG,Lincolnshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Caistor,
+21792,307990,GB-0148,closed,RAF Chilbolton,51.14495,-1.439,272.0,EU,GB,GB-ENG,,no,,,,,http://en.wikipedia.org/wiki/RAF_Chilbolton,
+21793,308015,GB-0149,closed,RAF Charmy Down,51.428380518999994,-2.3454093933099998,,EU,GB,GB-ENG,Somerset,no,,,,,http://en.wikipedia.org/wiki/RAF_Charmy_Down,
+21794,308246,GB-0150,small_airport,Knockrome Airstrip,55.872481881800006,-5.92163085938,,EU,GB,GB-SCT,,no,,,,,,Jura
+21795,310506,GB-0151,small_airport,Oxenhope Airfield,53.813770999999996,-1.933444,1080.0,EU,GB,GB-ENG,Oxenhope,no,,,,,,
+21796,314330,GB-0152,closed,RAF Mullaghmore,55.034,-6.5987,43.0,EU,GB,GB-SCT,Ballymoney,no,,,,,http://en.wikipedia.org/wiki/RAF_Mullaghmore,Aghadowey Aerodrome
+21797,314331,GB-0153,small_airport,Wigtown Airfield,54.8527,-4.442,26.0,EU,GB,GB-SCT,Machars,no,,,,http://www.secretscotland.org.uk/index.php/Secrets/RAFWigtown,,Baldoon Airfield
+21798,314332,GB-0154,closed,Silloth Airfiefd,54.8698,-3.366,23.0,EU,GB,GB-ENG,Silloth,no,,,,,http://en.wikipedia.org/wiki/RAF_Silloth,
+21799,314333,GB-0155,closed,RAF Maghaberry,54.5156,-6.1783,328.0,EU,GB,GB-NIR,Maghaberry,no,,,,,,
+21800,314355,GB-0156,closed,Cricklewood Aerodrome,51.565,-0.213,,EU,GB,GB-ENG,London,no,,,,,,
+21801,314367,GB-0157,small_airport,Chiltern Park Aerodrome,51.550391999999995,-1.101773,180.0,EU,GB,GB-ENG,,no,,,,http://www.chiltern.aero/,http://en.wikipedia.org/wiki/Chiltern_Park_Aerodrome,
+21802,314592,GB-0158,closed,RAF North Luffenham,52.632,-0.61,358.0,EU,GB,GB-ENG,North Luffenham,no,,,,,http://en.wikipedia.org/wiki/RAF_North_Luffenham,EGVL
+21803,314752,GB-0159,closed,RAF Millom,54.200349115282,-3.325037688082,,EU,GB,GB-ENG,,no,,,,,,
+21804,314753,GB-0160,closed,RAF Great Orton,54.874393495708,-3.0757531822382997,,EU,GB,GB-ENG,,no,,,,,,Wiggonby
+21805,314754,GB-0161,closed,Royal Naval Air Station Anthorn,54.911597931141,-3.2785354256794,,EU,GB,GB-ENG,,no,,,,,http://en.wikipedia.org/wiki/Anthorn_Radio_Station,"RAF Anthorn, HMS Nuthatch, Anthorn Radio Station,"
+21806,314755,GB-0162,closed,RAF Wath Head airfield,54.817778000000004,-3.111111,,EU,GB,GB-ENG,,no,,,,,,"RAF, No. 10 SLG"
+21807,314756,GB-0163,closed,RAF Hutton in the Forest,54.731524844591,-2.883455962074,,EU,GB,GB-ENG,,no,,,,,,"RAF,No. 8 SLG"
+21808,314757,GB-0164,closed,RAF Brayton Park,54.773889000000004,-3.301111,,EU,GB,GB-ENG,,no,,,,,,"RAF,No. 39 SLG"
+21809,314758,GB-0165,closed,RAF Hornby Hall,54.656696499999995,-2.6538934,,EU,GB,GB-ENG,,no,,,,,,"RAF,No. 9 SLG,Brougham"
+21810,314759,GB-0166,small_airport,Glassonby Airfield,54.73799399999999,-2.6518610000000002,,EU,GB,GB-ENG,,no,,,,http://www.therowleyestates.com/services/airfield/,,
+21811,314760,GB-0167,closed,Longtown airfield,55.005191,-2.920267,,EU,GB,GB-ENG,,no,,,,,https://en.wikipedia.org/wiki/RAF_Longtown,RAF Longtown
+21812,314761,GB-0168,small_airport,Berrier Airstrip,54.656504000000005,-2.93365,,EU,GB,GB-ENG,,no,,,,,,
+21813,314762,GB-0169,small_airport,Bedlands Gate airstrip,54.570822,-2.671125,,EU,GB,GB-ENG,,no,,,,,,
+21814,314763,GB-0170,closed,RAF Burnfoot,54.98709682742601,-2.9843628088202,,EU,GB,GB-ENG,,no,,,,,,
+21815,314764,GB-0171,small_airport,Plumpton airstrip,54.760443753357,-2.7933389672626,,EU,GB,GB-ENG,,no,,,,,,
+21816,314765,GB-0172,small_airport,Lingcroft Grass Airstrip,54.591769131557996,-3.4330296509456004,,EU,GB,GB-ENG,,no,,,,,,
+21817,315059,GB-0173,closed,Llandow,51.43523,-3.49816,,EU,GB,GB-WLS,,no,,,X7LD,,,
+21818,315384,GB-0174,heliport,Lorn and Islands District General Hospital Helipad,56.3995,-5.4746,59.0,EU,GB,GB-SCT,Oban,no,,,,,,
+21819,315465,GB-0175,small_airport,Channel gliding club,51.179254,1.280945,,EU,GB,GB-ENG,,no,,,,,,
+21820,315670,GB-0176,small_airport,Jackrells Farm,51.0323677,-0.3302872,,EU,GB,GB-ENG,horsham,no,,,,,,"horsham,sussex"
+21821,315672,GB-0177,small_airport,Great Oakley,51.912244,1.1820700000000002,,EU,GB,GB-ENG,,no,,,,,,
+21822,315685,GB-0178,closed,Sproston Green Airfield,53.1864591,-2.3822782000000005,,EU,GB,GB-ENG,,no,,,,,,
+21823,315686,GB-0179,small_airport,Wombleton,54.2369039,-0.97116,,EU,GB,GB-ENG,,no,,,,,,
+21824,315788,GB-0180,small_airport,Strathaven Airfield,55.680333,-4.115,847.0,EU,GB,GB-SCT,,no,,,,http://www.strathavenairfield.co.uk,,
+21825,315912,GB-0181,small_airport,East Fortune Airfield,56.0008488,-2.7353237,,EU,GB,GB-SCT,,no,,,,http://www.eosm.co.uk,,
+21826,315913,GB-0182,small_airport,East Kirkby,53.13822639999999,0.0025685,,EU,GB,GB-ENG,,no,,,,,,
+21827,315929,GB-0183,small_airport,Willow Farm Airstrip,53.4218606,-0.91015,,EU,GB,GB-ENG,,no,,,,,,
+21828,315930,GB-0184,small_airport,Weybourne Airstrip,52.9478238,1.1232003000000002,,EU,GB,GB-ENG,,no,,,,,,
+21829,315931,GB-0185,small_airport,Wadswick Farm Airstrip,51.410892100000005,-2.2200765,,EU,GB,GB-ENG,Wadswick,no,,,,http://www.wadswick.co.uk/PBCPPlayer.asp?ID=1252703,,
+21830,315998,GB-0186,small_airport,Bellarena,55.139714100000006,-6.9690032,,EU,GB,GB-NIR,,no,,,,,,
+21831,315999,GB-0187,small_airport,Boones Farm Airstrip,51.9119794,0.5896978,,EU,GB,GB-ENG,,no,,,,,,
+21832,316001,GB-0188,small_airport,Black Spring Farm Airstrip,52.78052099999999,-0.5279459,,EU,GB,GB-ENG,,no,,,,,,Castle Bytham
+21833,316002,GB-0189,small_airport,Caunton Airstrip,53.1198774,-0.8914806000000001,,EU,GB,GB-ENG,,no,,,,,,
+21834,316004,GB-0190,small_airport,Cuckoo Tye Farm Airstrip,52.0682234,0.7362014,,EU,GB,GB-ENG,,no,,,,,,
+21835,316006,GB-0191,small_airport,Cruglas Synod Inn Airstrip,52.1296089,-4.3664332,,EU,GB,GB-WLS,,no,,,,,,
+21836,316007,GB-0192,small_airport,Ditton Priors Airstrip,52.50358000000001,-2.562562,,EU,GB,GB-ENG,,no,,,,,,
+21837,316009,GB-0193,small_airport,Bourne Park Airfield,51.2643784,-1.4656348,,EU,GB,GB-ENG,,no,,,,,,Doles Wood
+21838,316013,GB-0194,small_airport,East Winch Airstrip,52.7237397,0.524189,,EU,GB,GB-ENG,,no,,,,,,
+21839,316015,GB-0195,small_airport,Easton Maudit Airstrip,52.21361629999999,-0.7014104,,EU,GB,GB-ENG,,no,,,,,,
+21840,316028,GB-0196,small_airport,Midland Glider Club,52.518230599999995,-2.8796001,,EU,GB,GB-ENG,,no,,,,,,Long Mynd
+21841,316030,GB-0197,small_airport,Park Farm Airstrip,51.8822801,-0.6071886,,EU,GB,GB-ENG,,no,,,,,,
+21842,316038,GB-0198,small_airport,Tibenham Priory Farm Airstrip,52.4492811,1.1298678999999998,,EU,GB,GB-ENG,,no,,,,,,
+21843,316039,GB-0199,small_airport,Sittles Farm Airstrip,52.7071274,-1.7500554,,EU,GB,GB-ENG,,no,,,,,,
+21844,316041,GB-0200,small_airport,Hanley Farm Airstrip,52.2990979,-2.4698229,645.0,EU,GB,GB-ENG,,no,,,,http://www.hwas.orangehome.co.uk/,,
+21845,316100,GB-0201,small_airport,Glenswinton Farm Airstrip,55.0475833333,-4.0317666667,520.0,EU,GB,GB-SCT,Castle Douglas,no,,,,http://www.glenswinton.co.uk/,,Glenswinton
+21846,316248,GB-0202,small_airport,Insch,57.3113333333,-2.6466666667,500.0,EU,GB,GB-SCT,Insch,no,,,,,,"Aberdeenshire, Aberdeen CTR"
+21847,316270,GB-0203,small_airport,Westonzoyland Microlight,51.1077398,-2.911336,30.0,EU,GB,GB-ENG,Bridgewater,no,,,,,,
+21848,316275,GB-0204,small_airport,Plaistows Airfield,51.7290068,-0.3801541,395.0,EU,GB,GB-ENG,,no,,,,,,
+21849,316328,GB-0205,small_airport,Nantclwyd Airstrip,53.0632694,-3.3232823,,EU,GB,GB-WLS,,no,,,,,,
+21850,316382,GB-0206,small_airport,Wingland Airfield,52.81380479999999,0.11489680000000001,,EU,GB,GB-ENG,,no,,,,,,
+21851,316387,GB-0207,small_airport,Wallis International,52.57901120000001,-0.11370439999999998,,EU,GB,GB-ENG,,no,,,,,,
+21852,316396,GB-0208,small_airport,Thornborough Grounds Airstrip,52.005743,-0.9356639999999999,270.0,EU,GB,GB-ENG,Bourton,no,,,,,,
+21853,316404,GB-0209,small_airport,Watchford Farm Airstrip,50.9023839,-3.0981345,,EU,GB,GB-ENG,,no,,,,,,
+21854,316405,GB-0210,small_airport,Twycross (Gopsall House) Airstrip,52.6431941,-1.4717717,,EU,GB,GB-ENG,Twycross,no,,,,,,Gopsall House
+21855,316428,GB-0211,small_airport,Stow Longa,52.31454,-0.3611127,,EU,GB,GB-ENG,Kimbolton,no,,,,,,
+21856,316431,GB-0212,small_airport,Whitehill Farm Airstrip,52.097053100000004,0.0164536,,EU,GB,GB-ENG,Meldreth,no,,,,,,
+21857,316433,GB-0213,small_airport,Pear Tree Farm Airstrip,51.9031372,-1.0760823999999998,,EU,GB,GB-ENG,,no,,,,,,
+21858,316434,GB-0214,small_airport,Jericho Farm Airstrip,53.0102971,-1.0570389999999998,,EU,GB,GB-ENG,,no,,,,,,
+21859,316435,GB-0215,small_airport,Jubilee Farm Airstrip,52.63080359999999,0.0643512,,EU,GB,GB-ENG,,no,,,,,,
+21860,316451,GB-0216,small_airport,Ashley's Field Airstrip,53.219069299999994,0.27052750000000003,,EU,GB,GB-ENG,,no,,,,,,
+21861,316452,GB-0217,small_airport,Clutton Hill Airstrip,51.341404299999994,-2.522437,,EU,GB,GB-ENG,,no,,,,,,
+21862,316453,GB-0218,small_airport,Battleflat Farm Airstrip,52.698442799999995,-1.3523717,,EU,GB,GB-ENG,,no,,,,,,
+21863,316468,GB-0219,small_airport,Rayne Hall Farm Airstrip,51.885975,0.5201017,,EU,GB,GB-ENG,,no,,,,,,
+21864,316469,GB-0220,small_airport,Spence Airfield,51.8386485,-2.5914762000000002,,EU,GB,GB-ENG,,no,,,,,,
+21865,316470,GB-0221,small_airport,Sandhill Farm Airstrip,51.6051516,-1.6747292,,EU,GB,GB-ENG,,no,,,,,,
+21866,316481,GB-0222,small_airport,Tower Farm Airstrip,52.259372799999994,-0.6556195,,EU,GB,GB-ENG,,no,,,,,,
+21867,316482,GB-0223,small_airport,Pent Farm Airstrip,51.1096929,1.0543112,,EU,GB,GB-ENG,,no,,,,https://tigerclub.co.uk,,Tiger Club
+21868,316484,GB-0224,small_airport,Holly Meadow Farm Airstrip,53.0049004,-1.6570161,,EU,GB,GB-ENG,,no,,,,,,
+21869,316490,GB-0225,small_airport,Stoodleigh Barton Private Airstrip,50.95727120000001,-3.5301848,,EU,GB,GB-ENG,,no,,,,,,
+21870,316491,GB-0226,small_airport,Talybont Airstrip,52.612410100000005,-4.0750378,,EU,GB,GB-WLS,,no,,,,,,
+21871,316492,GB-0227,small_airport,Talybont Airstrip,53.5341289,-0.6848004,,EU,GB,GB-ENG,,no,,,,,,Low Hill Farm
+21872,316493,GB-0228,small_airport,Redmoor Farm Airstrip,53.8404059,-0.9719151,,EU,GB,GB-ENG,,no,,,,,,
+21873,316494,GB-0229,small_airport,Kirkbymoorside,54.2510003,-0.9412738000000002,,EU,GB,GB-ENG,,no,,,,,,Slingsby
+21874,316497,GB-0230,small_airport,Oaklands Farm Airstrip,51.8471331,-1.4397248,,EU,GB,GB-ENG,,no,,,,,,
+21875,316516,GB-0231,small_airport,Berrow Airstrip,52.0009216,-2.3568692,,EU,GB,GB-ENG,,no,,,,,,
+21876,316517,GB-0232,small_airport,Stoney Lane Airstrip,52.332000799999996,-1.993326,,EU,GB,GB-ENG,,no,,,,,,
+21877,316529,GB-0233,small_airport,Old Hay Airfield,51.1787584,0.4256228,,EU,GB,GB-ENG,,no,,,,http://www.oldhayairfield.co.uk/,,
+21878,316530,GB-0234,small_airport,Laddingford Aerodrome,51.1908,0.4128,,EU,GB,GB-ENG,,no,,,,,,
+21879,316531,GB-0235,small_airport,High Cross Airstrip,51.8484111,-0.00746,,EU,GB,GB-ENG,,no,,,,,,
+21880,316541,GB-0236,small_airport,Kingsmuir Airfield,56.269155700000006,-2.7508106,387.0,EU,GB,GB-SCT,Kingsmuir,no,,,,,,
+21881,316542,GB-0237,small_airport,Little Chase Farm Airstrip,52.357319,-1.6209368,,EU,GB,GB-ENG,,no,,,,,,
+21882,316632,GB-0238,small_airport,Wild Geese Skydive Centre,54.98706120000001,-6.6437758,,EU,GB,GB-NIR,,no,,,,,,
+21883,316633,GB-0239,small_airport,Whiterashes Farm Airstrip,57.3191192,-2.2487645,,EU,GB,GB-SCT,,no,,,,,,
+21884,316634,GB-0240,small_airport,Grove Farm Airstrip,53.31404570000001,-0.8662693000000001,,EU,GB,GB-ENG,,no,,,,,,
+21885,316635,GB-0241,small_airport,Taw Mill Airstrip,50.77648129999999,-3.9040790999999997,,EU,GB,GB-ENG,,no,,,,,,
+21886,316636,GB-0242,small_airport,Nuthampstead,51.9952935,0.0701442,,EU,GB,GB-ENG,,no,,,,,,RAF Nuthampstead
+21887,316638,GB-0243,small_airport,Melrose Farm Airstrip,53.86843399999999,-0.8379453000000001,,EU,GB,GB-ENG,,no,,,,,,Melbourne
+21888,302271,GB-0244,closed,RAF Cammeringham / RAF Ingham,53.3408413998,-0.548758506775,200.0,EU,GB,GB-ENG,Lincolnshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Cammeringham,
+21889,316746,GB-0245,small_airport,Peterlee Airfield,54.766837800000005,-1.3843768,,EU,GB,GB-ENG,,no,,,,,,
+21890,316805,GB-0246,small_airport,Wharf Farm Airstrip,52.627313199999996,-1.4184066,,EU,GB,GB-ENG,,no,,,,,,
+21891,316806,GB-0247,small_airport,Low Farm Airstrip,52.672011100000006,1.5158978,,EU,GB,GB-ENG,,no,,,,,,
+21892,316818,GB-0248,small_airport,Rufforth East,53.95188,-1.17562,65.0,EU,GB,GB-ENG,,no,,,,http://www.yorkflyingclub.co.uk/,https://en.wikipedia.org/wiki/RAF_Rufforth,
+21893,317045,GB-0249,small_airport,Monewden Airstrip,52.168089,1.260251,,EU,GB,GB-ENG,Mowenden,no,,,,,,
+21894,317134,GB-0250,small_airport,Shacklewell Airstrip,52.652463600000004,-0.5709898,,EU,GB,GB-ENG,,no,,,,,,
+21895,317378,GB-0251,small_airport,Chirk,52.9474365,-3.0460472999999997,,EU,GB,GB-WLS,,no,,,,http://chirkairfield.wix.com/chirk-airfield#!,,
+21896,317379,GB-0252,small_airport,Crowland Glider Field,52.7095466,-0.1396686,,EU,GB,GB-ENG,Peterborough,no,,,,http://www.psgc.co.uk/,,
+21897,317443,GB-0253,small_airport,Manor Farm Airstrip,52.9126035,0.952548,,EU,GB,GB-ENG,Binham,no,,,,,,
+21898,317445,GB-0254,small_airport,Gutchpool Farm Airstrip,51.0572904,-2.2334968999999996,,EU,GB,GB-ENG,,no,,,,,,
+21899,317446,GB-0255,small_airport,Gorrel Farm Airstrip,50.9438009,-4.386336,,EU,GB,GB-ENG,,no,,,,,,
+21900,317450,GB-0256,small_airport,Swanton Morley Airstrip,52.7348042,0.9620110999999999,,EU,GB,GB-ENG,,no,,,,,,
+21901,317451,GB-0257,small_airport,Stones Farm Airstrip,51.9891623,0.65789,,EU,GB,GB-ENG,,no,,,,,,
+21902,317452,GB-0258,small_airport,Clipgate Farm Airstrip,51.1870367,1.153392,,EU,GB,GB-ENG,,no,,,,,,
+21903,317533,GB-0259,small_airport,Charlton Park Airstrip,51.5996654,-2.078113,,EU,GB,GB-ENG,Malmesbury Wiltshire,no,,,,http://charltonparkestate.com/airstrip.html,,
+21904,317536,GB-0260,small_airport,Felixkirk Airstrip,54.2518757,-1.2949511,,EU,GB,GB-ENG,Thirsk,no,,,,,,
+21905,317573,GB-0261,small_airport,Top Farm Airfield,52.1225417,-0.117631,,EU,GB,GB-ENG,,no,,,,,,
+21906,317574,GB-0262,small_airport,Griffin's Farm Airstrip,53.077296200000006,-0.5118520000000001,,EU,GB,GB-ENG,,no,,,,,,Temple Bruer
+21907,317576,GB-0263,small_airport,Peplow Airstrip,52.8028279,-2.5019638,,EU,GB,GB-ENG,Child's Ercall,no,,,,,,
+21908,317591,GB-0264,small_airport,Long Stratton Airstrip,52.4881514,1.2165196000000003,,EU,GB,GB-ENG,Long Stratton,no,,,,,,
+21909,317592,GB-0265,small_airport,Lower Withial Fram Airstrip,51.125317700000004,-2.5965937,,EU,GB,GB-ENG,,no,,,,,,
+21910,317631,GB-0266,small_airport,Upper Harford Airstrip,51.88887570000001,-1.8173158,,EU,GB,GB-ENG,Upper Harford,no,,,,,,
+21911,317632,GB-0267,small_airport,Rosemarket Airstrip,51.745259999999995,-4.9642344000000005,,EU,GB,GB-WLS,,no,,,,,,
+21912,317634,GB-0268,small_airport,Westover Farm Airstrip,50.8421544,-4.1670387,,EU,GB,GB-ENG,Sheepwash,no,,,,,,
+21913,317665,GB-0269,small_airport,Ince Blundell Microlight,53.535555599999995,-3.0297222,10.0,EU,GB,GB-ENG,,no,,,,http://www.wlms.co.uk,,West Lancashire Microlight School
+21914,317693,GB-0270,small_airport,Mitchell's Farm Airstrip,52.337385499999996,0.1828829,,EU,GB,GB-ENG,,no,,,,,,
+21915,317694,GB-0271,small_airport,Kingfisher's Bridge Airstrip,52.3305139,0.2681335,,EU,GB,GB-ENG,,no,,,,,,
+21916,317729,GB-0272,small_airport,Newnham Airstrip,52.019860200000004,-0.1677845,,EU,GB,GB-ENG,Newnham,no,,,,,,
+21917,317731,GB-0273,small_airport,Mount Airey Airstrip,53.772322200000005,-0.5759365,,EU,GB,GB-ENG,South Cave,no,,,,,,Mount Airey
+21918,317738,GB-0274,small_airport,Little Staughton Airfield,52.242757,-0.3633024,,EU,GB,GB-ENG,,no,,,,,,
+21919,317739,GB-0275,small_airport,Lydeway field,51.3309604,-1.9289392,,EU,GB,GB-ENG,,no,,,,,,
+21920,317740,GB-0276,small_airport,Sherlowe Airstrip,52.735708200000005,-2.6014437000000004,,EU,GB,GB-ENG,,no,,,,,,
+21921,317744,GB-0277,small_airport,Stow Airstrip,53.321569200000006,-0.6781381999999999,,EU,GB,GB-ENG,Stow,no,,,,,,
+21922,323657,GB-0278,small_airport,Niden Manor Farm Airstrip,52.125809600000004,-1.1700706,,EU,GB,GB-ENG,Moreton Pinkney,no,,,,,,
+21923,317885,GB-0279,small_airport,Stoke Golding Airfield,52.5800833,-1.4313333000000001,300.0,EU,GB,GB-ENG,Stoke Golding,no,,,,,,
+21924,317925,GB-0280,small_airport,Deenethorpe,52.50627049999999,-0.589011,,EU,GB,GB-ENG,,no,,,,,,
+21925,317926,GB-0281,small_airport,Lyveden Glider Field,52.4653179,-0.5748076999999999,,EU,GB,GB-ENG,Lyveden,no,,,,,,
+21926,317927,GB-0282,small_airport,Newnham Grounds Airstrip,52.2376234,-1.1416561,,EU,GB,GB-ENG,,no,,,,,,
+21927,317928,GB-0283,small_airport,Lark Engine Farmhouse Airstrip,52.4226804,0.3776757,,EU,GB,GB-ENG,,no,,,,,,
+21928,317943,GB-0284,small_airport,Haxey Airstrip,53.4924766,-0.8143633000000001,,EU,GB,GB-ENG,Haxey,no,,,,,,
+21929,317944,GB-0285,small_airport,Hatton Airstrip,57.40675079999999,-1.9115685000000002,,EU,GB,GB-SCT,Hatton,no,,,,,,
+21930,317945,GB-0286,small_airport,Longside Airfield,57.51696999999999,-1.86417,120.0,EU,GB,GB-SCT,Peterhead,no,,,,http://www.buchanaeroclub.co.uk/,,"Buchan, Peterhead"
+21931,317974,GB-0287,small_airport,Charterhall Airfield,55.7075978,-2.3785037,350.0,EU,GB,GB-SCT,,no,,,,http://www.mortonhall.co.uk/charterhall/charterhall-airfield/,https://en.wikipedia.org/wiki/RAF_Charterhall,
+21932,317979,GB-0288,small_airport,Castle Kennedy Airfield,54.897551,-4.936961,,EU,GB,GB-SCT,,no,,,,http://www.castlekennedyairfield.co.uk,,
+21933,317996,GB-0289,small_airport,Finningley Village Airstrip,53.508162399999996,-0.9409417999999999,,EU,GB,GB-ENG,Finningley,no,,,,,,
+21934,317997,GB-0290,small_airport,Garforth Airstrip,53.79379229999999,-1.3569498,,EU,GB,GB-ENG,Garforth,no,,,,,,
+21935,317999,GB-0291,small_airport,Midlem Airstrip,55.540032999999994,-2.7427099999999998,,EU,GB,GB-SCT,Midlem,no,,,,,,
+21936,318001,GB-0292,small_airport,Milden Airstrip,52.0697469,0.8570614,,EU,GB,GB-ENG,Milden,no,,,,,,
+21937,318002,GB-0293,small_airport,Milson Airstrip,52.3615547,-2.5457821,,EU,GB,GB-ENG,Milson,no,,,,,,
+21938,318003,GB-0294,small_airport,Upwood Glider Field,52.432190000000006,-0.14743499999999998,72.0,EU,GB,GB-ENG,Upwood,no,,,,,,"Nene Valley Gliding Club,RAF Upwood"
+21939,318005,GB-0295,small_airport,Ranston Airstrip,50.915116499999996,-2.1853714,,EU,GB,GB-ENG,,no,,,,,,
+21940,318008,GB-0296,small_airport,East Lochlane Farm Airstrip,56.3678531,-3.8722739,,EU,GB,GB-SCT,,no,,,,,,
+21941,318010,GB-0297,small_airport,Hallwell Airstrip,50.3651272,-3.7068993999999997,,EU,GB,GB-ENG,,no,,,,,,
+21942,318012,GB-0298,small_airport,Green Farm Airstrip,52.16008720000001,-1.5481724,,EU,GB,GB-ENG,,no,,,,,,
+21943,318073,GB-0299,closed,RAF Winfield,55.7496625,-2.1643404,,EU,GB,GB-SCT,Winfield,no,,,,,,
+21944,318074,GB-0300,small_airport,Nayland Airstrip,51.974486,0.8498950000000001,160.0,EU,GB,GB-ENG,Nayland,no,,,,http://www.naylandairfield.co.uk/,,
+21945,318075,GB-0301,small_airport,Great Ashfield Airstrip,52.257253799999994,0.9372999,,EU,GB,GB-ENG,Great Ashfield,no,,,,,,
+21946,318076,GB-0302,small_airport,Claybrooke Farm Airstrip,52.509143,-1.279523,,EU,GB,GB-ENG,,no,,,,,,
+21947,318142,GB-0303,small_airport,Croft Airstrip,53.12312270000001,0.2522559,,EU,GB,GB-ENG,Croft,no,,,,,,
+21948,318143,GB-0304,small_airport,Craysmarch Airstrip,51.363649200000005,-2.0908580000000003,,EU,GB,GB-ENG,Melksham,no,,,,,,
+21949,318144,GB-0305,small_airport,Lyminge Airstrip,51.146176700000005,1.0460664000000002,,EU,GB,GB-ENG,,no,,,,,,
+21950,318145,GB-0306,small_airport,Lymm Dam Airstrip,53.36883829999999,-2.4764095,,EU,GB,GB-ENG,Lymm,no,,,,,,
+21951,318149,GB-0307,closed,RAF Spitalgate Air Base,52.9009328,-0.5983483,,EU,GB,GB-ENG,Grantham,no,,,,,https://en.wikipedia.org/wiki/RAF_Spitalgate,
+21952,318165,GB-0308,small_airport,Streethay Farm Airstrip,52.691874,-1.785665,,EU,GB,GB-ENG,Lichfield,no,,,,,,
+21953,318166,GB-0309,small_airport,Haydock Park Airstrip,53.478356999999995,-2.622433,,EU,GB,GB-ENG,Ashton-In-Makerfield,no,,,,,,
+21954,318167,GB-0310,small_airport,Bryn Gates Airfield,53.513189000000004,-2.625593,,EU,GB,GB-ENG,Wigan,no,,,,,,
+21955,318683,GB-0311,small_airport,Rush Green Airstrip,51.904275399999996,-0.248437,,EU,GB,GB-ENG,Hitchin,no,,,,,,Rush Green Aviation
+21956,318860,GB-0312,closed,RNAS Stretton,53.345240000000004,-2.522535,,EU,GB,GB-ENG,Stretton,no,,,,,,
+21957,318861,GB-0313,closed,RAF Lichfield,52.716804,-1.7843229999999999,,EU,GB,GB-ENG,Lichfield,no,,,,,https://en.wikipedia.org/wiki/RAF_Lichfield,
+21958,318862,GB-0314,small_airport,Otherton Airfield,52.709483999999996,-2.0920810000000003,,EU,GB,GB-ENG,Otherton,no,,,,http://www.othertonairfield.co.uk/,,
+21959,318918,GB-0315,small_airport,RAF Kirknewton Air Base,55.8766667,-3.3994443999999997,,EU,GB,GB-SCT,Kirknewton,no,,,,,https://en.wikipedia.org/wiki/RAF_Kirknewton,
+21960,319032,GB-0316,small_airport,Napps Field Airstrip,51.65625,0.42067,200.0,EU,GB,GB-ENG,Billericay,no,,,,,,
+21961,319061,GB-0317,small_airport,Abergavenny Airport,51.795023,-2.9943720000000003,,EU,GB,GB-WLS,Abergavenny,no,,,,,,
+21962,319062,GB-0318,small_airport,Allensmore Airfield,51.989967,-2.781699,,EU,GB,GB-ENG,Allensmore,no,,,,,,
+21963,319063,GB-0319,small_airport,Archerfield Airstrip,56.043574,-2.801755,,EU,GB,GB-SCT,,no,,,,,,
+21964,319064,GB-0320,small_airport,Arclid Airfield,53.14196999999999,-2.3181380000000003,,EU,GB,GB-ENG,Arclid,no,,,,,,
+21965,319065,GB-0321,small_airport,Woodview Airfield,54.370157999999996,-6.59167,,EU,GB,GB-NIR,Armagh,no,,,,,,
+21966,319066,GB-0322,heliport,Arran Heliport,55.57663,-5.134378,,EU,GB,GB-SCT,Arran,no,,,,,,
+21967,319067,GB-0323,small_airport,Bakersfield Airstrip,52.484869999999994,-0.618103,,EU,GB,GB-ENG,Corby,no,,,,,,
+21968,319068,GB-0324,small_airport,Baxterley Aerodrome,52.568769999999994,-1.614299,,EU,GB,GB-ENG,Baxterley,no,,,,,,
+21969,319069,GB-0325,small_airport,Beeches Farm Airstrip,53.159268999999995,-0.725236,,EU,GB,GB-ENG,South Scarle,no,,,,,,
+21970,319070,GB-0326,small_airport,Belle Vue Airfield,50.976851,-4.0971839999999995,,EU,GB,GB-ENG,Huntshaw Cross,no,,,,,,
+21971,319071,GB-0327,small_airport,Benington Airfield,51.883113,-0.123301,,EU,GB,GB-ENG,Benington,no,,,,,,
+21972,319072,GB-0328,small_airport,Binstead Airfield,50.722077,-1.204915,,EU,GB,GB-ENG,Binstead,no,,,,,,
+21973,319073,GB-0329,small_airport,Blair Atholl Airfield,56.763509,-3.825599,,EU,GB,GB-SCT,Blair Atholl,no,,,,,,
+21974,319074,GB-0330,small_airport,Boughton North Airfield,52.590886,0.5170130000000001,,EU,GB,GB-ENG,Boughton,no,,,,,,
+21975,319075,GB-0331,small_airport,Stoke Ferry Airfield,52.58414499999999,0.515755,,EU,GB,GB-ENG,Boughton,no,,,,,,
+21976,319076,GB-0332,small_airport,Bowerchalke Airfield,50.983647999999995,-1.991682,,EU,GB,GB-ENG,Bowerchalke,no,,,,,,
+21977,319077,GB-0333,small_airport,Bowldown Farm Airstrip,51.628871999999994,-2.237254,,EU,GB,GB-ENG,,no,,,,,,
+21978,319078,GB-0334,small_airport,Breidden Airfield,52.702036,-3.0924490000000002,,EU,GB,GB-WLS,Welshpool,no,,,,,,
+21979,319079,GB-0335,small_airport,Bridlington Airfield,54.120748999999996,-0.236527,,EU,GB,GB-ENG,Bridlington,no,,,,,,
+21980,319080,GB-0336,small_airport,Bucknall Airfield,53.19988000000001,-0.253972,,EU,GB,GB-ENG,Bucknall,no,,,,,,
+21981,319081,GB-0337,small_airport,Calcot Airfield,51.794453000000004,-1.8354849999999998,,EU,GB,GB-ENG,Calcot,no,,,,,,
+21982,319087,GB-0338,heliport,Essex Police Heliport,51.781395,0.52142,,EU,GB,GB-ENG,Boreham,no,,,,,,
+21983,319099,GB-0339,small_airport,Chipping Airfield,53.885042000000006,-2.620864,,EU,GB,GB-ENG,Chipping,no,,,,,,
+21984,319134,GB-0340,small_airport,Skelling Fram Airstrip,54.697922,-2.584196,560.0,EU,GB,GB-ENG,,no,,,,,,Eden Soaring Gliding Club
+21985,319137,GB-0341,small_airport,Garton Field Airstrip,53.79654549999999,-0.09115380000000001,40.0,EU,GB,GB-ENG,,no,,,,,,
+21986,319153,GB-0342,heliport,Vanguard Heliport,51.490626,-0.025373,,EU,GB,GB-ENG,London,no,,,,,,
+21987,319154,GB-0343,heliport,The Royal London Hospital Helipad,51.517868,-0.05834299999999999,,EU,GB,GB-ENG,London,no,,,,,,
+21988,319156,GB-0344,heliport,Wythenshawe Hospital Helipad,53.388414000000004,-2.2896330000000003,,EU,GB,GB-ENG,Manchester,no,,,,,,
+21989,319157,GB-0345,heliport,Royal Stoke University Hospital Helipad,53.002632999999996,-2.210636,,EU,GB,GB-ENG,Stoke-on-Trent,no,,,,,,
+21990,319158,GB-0346,heliport,Queen Elizabeth Hospital Helipad,52.452751,-1.944705,,EU,GB,GB-ENG,Birmingham,no,,,,,,
+21991,319159,GB-0347,heliport,Lundy Island Helipad,51.164763,-4.666801,,EU,GB,GB-ENG,Lundy Island,no,,,,,,
+21992,319160,GB-0348,heliport,Bristol Royal Infirmary Helipad,51.458895,-2.596294,,EU,GB,GB-ENG,Bristol,no,,,,,,
+21993,319161,GB-0349,heliport,Royal Bournemouth Hospital Helipad,50.746805,-1.819998,,EU,GB,GB-ENG,Bournemouth,no,,,,,,
+21994,319162,GB-0350,heliport,Queen Alexandra Hospital Heliport,50.851178000000004,-1.069046,,EU,GB,GB-ENG,Portsmouth,no,,,,,,
+21995,319163,GB-0351,heliport,Southampton University Hospital Helipad,50.933521999999996,-1.432187,,EU,GB,GB-ENG,Southampton,no,,,,,,
+21996,319164,GB-0352,heliport,St Mary's Hospital Helipad,50.711058,-1.298346,,EU,GB,GB-ENG,Newport (IoW),no,,,,,,
+21997,319221,GB-0353,small_airport,Houghton Airstrip,53.0064953,-0.6901654,,EU,GB,GB-ENG,Houghton (Lancashire),no,,,,,,
+21998,319222,GB-0354,small_airport,Grangewood Airstrip,52.73251189999999,-1.582376,,EU,GB,GB-ENG,,no,,,,,,
+21999,319346,GB-0355,small_airport,Dunnyvadden Airstrip,54.84872729999999,-6.2069651,,EU,GB,GB-NIR,,no,,,,,,
+22000,319347,GB-0356,small_airport,Chilsfold Farm Airstrip,51.0600362,-0.5936161999999999,,EU,GB,GB-ENG,,no,,,,,,
+22001,319348,GB-0357,small_airport,Bute Airfield,55.7567765,-5.0479623,46.0,EU,GB,GB-SCT,,no,,,,,,
+22002,319351,GB-0358,small_airport,Springfield Farm Airstrip,52.1496201,-1.6172333,,EU,GB,GB-ENG,Ettington,no,,,,,,
+22003,319353,GB-0359,small_airport,Knocking Airstrip,52.804564899999995,-2.9907931,,EU,GB,GB-ENG,,no,,,,,,
+22004,319365,GB-0360,small_airport,Brook Farm Airstrip,52.919230799999994,-1.7375729,,EU,GB,GB-ENG,Boylestone,no,,,,,,
+22005,319418,GB-0361,small_airport,Cliffe Airstrip,53.7857965,-0.9998435,,EU,GB,GB-ENG,,no,,,,,,
+22006,319419,GB-0362,small_airport,Castlerock Airstrip,55.1582291,-6.7915365,,EU,GB,GB-NIR,Castlerock (Ulster),no,,,,,,
+22007,319446,GB-0363,small_airport,Exning Airstrip,52.290167100000005,0.3698329,,EU,GB,GB-ENG,,no,,,,,,
+22008,319447,GB-0364,small_airport,Cottered Airstrip,51.9481015,-0.0981913,,EU,GB,GB-ENG,,no,,,,,,
+22009,319943,GB-0365,small_airport,Holmbeck Farm Airfield,51.910304499999995,-0.7286654,420.0,EU,GB,GB-ENG,Wing (Bucks),no,,,,http://www.users.globalnet.co.uk/~dartdirx/holmbeck_farm_airfield.html,,
+22010,320049,GB-0366,small_airport,Stoke Airfield,51.4456,0.633467,,EU,GB,GB-ENG,Stoke,no,,,,http://www.ravenmad.co.uk/findus.htm,,Medway
+22011,320071,GB-0367,small_airport,Chatteris Airfield,52.4873,0.08911110000000001,5.0,EU,GB,GB-ENG,Chatteris,no,,,,,,
+22012,320072,GB-0368,small_airport,Sandy Airfield,52.129787,-0.31085300000000005,80.0,EU,GB,GB-ENG,Sandy,no,,,,,,"Long Acres Farm, Bedford Microlight"
+22013,320075,GB-0369,small_airport,Darley Moor Airfield,52.9693,-1.74868,580.0,EU,GB,GB-ENG,,no,,,,http://www.airways-airsports.com,,
+22014,320078,GB-0370,small_airport,Derryogue,54.0517,-6.029625,68.0,EU,GB,GB-NIR,Derryogue,no,,,,,,
+22015,320079,GB-0371,small_airport,Decoy Farm Airstrip,52.8654,-0.306622,9.0,EU,GB,GB-ENG,,no,,,,,,
+22016,320089,GB-0372,small_airport,Shifnal Airfield,52.6668,-2.4,420.0,EU,GB,GB-ENG,Shifnal,no,,,,http://www.wrekinmfc.co.uk,,"wrekin,shaw lane"
+22017,320144,GB-0373,small_airport,Forest Farm Airstrip,52.669214000000004,-3.0299325,,EU,GB,GB-ENG,,no,,,,,,
+22018,320145,GB-0374,small_airport,Viewfield Airstrip,57.6641249,-3.188644,,EU,GB,GB-SCT,,no,,,,,,
+22019,320146,GB-0375,small_airport,Falgunzeon Glider Airfield,54.9445493,-3.7393837999999997,,EU,GB,GB-SCT,Kirkgunzeon by Dalbeattie,no,,,,http://www.dumfriesanddistrictglidingclub.co.uk,,Dumfries and District Cliding Club
+22020,320153,GB-0376,small_airport,Yorkshire Gliding Club,54.230661600000005,-1.2111428999999998,,EU,GB,GB-ENG,,no,,,,,,
+22021,320188,GB-0377,small_airport,Croughton Manor Farm Airstrip,51.9878923,-1.2071768999999999,,EU,GB,GB-ENG,,no,,,,,,
+22022,320198,GB-0378,small_airport,Barling Airfield,51.5684,0.794664,10.0,EU,GB,GB-ENG,Barling,no,,,,,,http://www.airfieldcards.com/php/courtesy_card.php?id=19
+22023,320200,GB-0379,small_airport,Latch Farm Airstrip,55.8742,-3.45464,640.0,EU,GB,GB-SCT,,no,,,,,,
+22024,320253,GB-0380,small_airport,Devon and Somerset Gliding Club,50.851585899999996,-3.2748162,,EU,GB,GB-ENG,,no,,,,,,
+22025,320265,GB-0381,small_airport,Walkeridge Farm Airstrip,51.292227399999994,-1.2482383,,EU,GB,GB-ENG,,no,,,,,,
+22026,320267,GB-0382,small_airport,Seighford Airfield,52.827544499999995,-2.2081646,,EU,GB,GB-ENG,,no,,,,,,Staffordshire Gliding Club
+22027,320275,GB-0383,small_airport,North Wales Gliding Club,53.043229000000004,-3.2219453999999996,,EU,GB,GB-WLS,,no,,,,,,
+22028,320276,GB-0384,small_airport,Kenley Aerodrome,51.305428799999994,-0.0959572,,EU,GB,GB-ENG,Kenley,no,,,,,,
+22029,320282,GB-0385,small_airport,Abbots Bromley Airfield,52.81846899999999,-1.9023860000000001,,EU,GB,GB-ENG,,no,,,,,,
+22030,320283,GB-0386,small_airport,[Duplicate] Skegness Airfield,53.1776,0.335256,10.0,EU,GB,GB-ENG,Skegness,no,,,,,,
+22031,320284,GB-0387,small_airport,Hollym Airfield,53.7157,0.0496694,50.0,EU,GB,GB-ENG,,no,,,,http://www.hollymairfield.metsite.com/,,
+22032,320285,GB-0388,small_airport,Pitsford Water,52.3153,-0.871944,330.0,EU,GB,GB-ENG,,no,,,,,,Moulton Grange Farm
+22033,320287,GB-0389,small_airport,Sutton Meadows Airfield,52.38711,0.060610000000000004,3.0,EU,GB,GB-ENG,,no,,,,http://www.cambsmicrolightclub.co.uk/,,Airplay Aviation
+22034,320289,GB-0390,small_airport,Coleman Green Airstrip,51.7918157,-0.274944,,EU,GB,GB-ENG,,no,,,,,,
+22035,320292,GB-0391,small_airport,Pocklington Airfield,53.926401600000005,-0.7946340000000001,,EU,GB,GB-ENG,,no,,,,,,
+22036,320297,GB-0392,small_airport,South Wales Gliding Club,51.7193476,-2.8487476000000003,,EU,GB,GB-WLS,,no,,,,http://www.uskgc.co.uk,,
+22037,320305,GB-0393,small_airport,Currock Hill Glider Field,54.9331,-1.8468099999999998,800.0,EU,GB,GB-ENG,,no,,,,http://www.northumbria-gliding-club.co.uk/,,Northumbria Gliding Club
+22038,320365,GB-0394,small_airport,Little Snoring Airfield,52.860285,0.903092,,EU,GB,GB-ENG,,no,,,,http://www.mcaullyflyinggroup.org/little-snoring-flying-in.aspx,,
+22039,320366,GB-0395,small_airport,Main Hall Farm Airfield,52.2719444444,-0.0708333333,63.0,EU,GB,GB-ENG,,no,,,,,,
+22040,320367,GB-0396,small_airport,[Duplicate] Great Massingham,52.77916999999999,0.676944,295.0,EU,GB,GB-ENG,,no,,,,,,
+22041,320407,GB-0397,small_airport,Chilbolton,51.1377,-1.41801,292.0,EU,GB,GB-ENG,,no,,,,http://chilboltonflyingclub.co.uk,,
+22042,320408,GB-0398,small_airport,St Michaels,53.8518,-2.79346,28.0,EU,GB,GB-ENG,,no,,,,http://www.northernmicrolights.co.uk/,,
+22043,320409,GB-0399,small_airport,Chase Farm Airstrip,51.5681,-2.38754,325.0,EU,GB,GB-ENG,,no,,,,,,
+22044,320410,GB-0400,small_airport,Lamb Holm Airfield,58.8876,-2.89184,65.0,EU,GB,GB-SCT,,no,,,,,,
+22045,320445,GB-0401,small_airport,Graveley Airstrip,51.9407,-0.203425,334.0,EU,GB,GB-ENG,Graveley,no,,,,,,
+22046,320446,GB-0402,small_airport,Knockbain Farm Airstrip,57.5895,-4.46539,596.0,EU,GB,GB-SCT,,no,,,,,,
+22047,320448,GB-0403,small_airport,Crockham Hill Airfield,51.233604,0.08001,,EU,GB,GB-ENG,,no,,,,,,Orchard House
+22048,320449,GB-0404,small_airport,Norwood Lodge Airstrip,51.8361993,1.1157883,,EU,GB,GB-ENG,,no,,,,,,
+22049,320464,GB-0405,small_airport,Hardwicke Airstrip,52.0853,-3.06163,500.0,EU,GB,GB-ENG,Hardwicke,no,,,,,,
+22050,320465,GB-0406,small_airport,Harringe Airfield,51.0924,0.9886940000000001,275.0,EU,GB,GB-ENG,,no,,,,http://www.kentmicrolightclub.co.uk,,
+22051,320467,GB-0407,small_airport,Yearby Airstrip,54.5847,-1.0695299999999999,89.0,EU,GB,GB-ENG,,no,,,,http://www.acro.co.uk,,
+22052,320479,GB-0408,small_airport,Southdown Gliding Club,50.9240525,-0.47475259999999997,,EU,GB,GB-ENG,,no,,,,,,
+22053,320499,GB-0409,small_airport,Skydive Strathallan,56.325307099999996,-3.7492997999999997,,EU,GB,GB-SCT,,no,,,,http://skydivestrathallan.co.uk,,
+22054,320500,GB-0410,small_airport,Tandragee Airstrip,54.386565100000006,-6.400175099999999,,EU,GB,GB-NIR,Craigavon,no,,,,http://kernanaviation.co.uk,,
+22055,320506,GB-0411,small_airport,Husbands Bosworth Airfield,52.43928979999999,-1.0416094,,EU,GB,GB-ENG,,no,,,,,,
+22056,320507,GB-0412,small_airport,Membury Airfield,51.479812,-1.560453,,EU,GB,GB-ENG,Membury,no,,,,,,
+22057,320508,GB-0413,small_airport,Nether Huntlywood Airstrip,55.676638,-2.60787,,EU,GB,GB-SCT,,no,,,,,,
+22058,320548,GB-0414,small_airport,RAF Weston-on-the-Green,51.8787124,-1.2187748,282.0,EU,GB,GB-ENG,,no,,,,,https://en.wikipedia.org/wiki/RAF_Weston-on-the-Green,
+22059,320551,GB-0415,small_airport,RAF Keevil,51.3129023,-2.111585,,EU,GB,GB-ENG,Keevil,no,,,,,https://en.wikipedia.org/wiki/RAF_Keevil,
+22060,320552,GB-0416,small_airport,Shenington Gliding Club,52.0843451,-1.4735737,,EU,GB,GB-ENG,Shenington,no,,,,,,
+22061,320553,GB-0417,small_airport,Slay Barn private airstrip,51.7306856,-1.1438319,,EU,GB,GB-ENG,"Cuddesdon, Oxford",no,,,,,,
+22062,320554,GB-0418,small_airport,Wishangar Farm private Airstrip,51.1504806,-0.808142,,EU,GB,GB-ENG,Frensham,no,,,,,,
+22063,320610,GB-0419,small_airport,Banbury Airfield,52.100634,-1.381742,525.0,EU,GB,GB-ENG,,no,,,,,,
+22064,320611,GB-0420,small_airport,Norfolk Glider Club,52.4579,1.15495,183.0,EU,GB,GB-ENG,Tibenham,no,,,,,,
+22065,320612,GB-0421,small_airport,Stratford-upon-Avon Gliding Club,52.2354901,-1.7177869,,EU,GB,GB-ENG,Stratford-upon-Avon,no,,,,http://www.stratfordgliding.co.uk/,,
+22066,320631,GB-0422,small_airport,Hook Norton Airstrip,52.0093,-1.4896,591.0,EU,GB,GB-ENG,,no,,,,,,
+22067,320632,GB-0423,small_airport,[Duplicate]Carrickmore,54.5711,-7.0441899999999995,541.0,EU,GB,GB-NIR,,no,,,,http://www.cmore.flyer.co.uk/,,
+22068,320640,GB-0424,small_airport,Jenkins Farm Airstrip,51.6404,0.202711,250.0,EU,GB,GB-ENG,,no,,,,,,
+22069,320641,GB-0425,small_airport,Burnham Airstrip,52.938,0.772644,125.0,EU,GB,GB-ENG,,no,,,,,,
+22070,320642,GB-0426,small_airport,Felthorpe Airfield,52.7059,1.19449,150.0,EU,GB,GB-ENG,,no,,,,http://felthorpe.net,,
+22071,320686,GB-0427,small_airport,Askern Airfield,53.6104,-1.13324,,EU,GB,GB-ENG,,no,,,,http://www.southyorkshiremicrolightclub.org.uk,,
+22072,320687,GB-0428,small_airport,Drayton St. Leonard,51.6641,-1.12693,,EU,GB,GB-ENG,,no,,,,,,
+22073,320703,GB-0429,small_airport,Lleweni Parc Glyndwr Soaring Club,53.21044499999999,-3.3855523,,EU,GB,GB-WLS,,no,,,,,,
+22074,320706,GB-0430,closed,Hook Airstrip,51.276115000000004,-0.9407369000000001,,EU,GB,GB-ENG,,no,,,,,,
+22075,320721,GB-0431,small_airport,Barnards Farm,51.56399999999999,0.355231,80.0,EU,GB,GB-ENG,West Horndon,no,,,,http://www.barnardsfarm.eu/,,
+22076,320749,GB-0432,small_airport,Brook Farm Airfield,53.897788,-2.9022330000000003,20.0,EU,GB,GB-ENG,,no,,,,,,
+22077,320750,GB-0433,small_airport,Tillingham Airstrip,51.6928,0.872767,60.0,EU,GB,GB-ENG,,no,,,,,,
+22078,320763,GB-0434,small_airport,Ludham Airfield,52.7185,1.55172,,EU,GB,GB-ENG,,no,,,,http://www.ludhamairfield.org/,,
+22079,320764,GB-0435,small_airport,Eye Kettleby Airstrip,52.7405,-0.9067440000000001,323.0,EU,GB,GB-ENG,,no,,,,,,
+22080,320766,GB-0436,small_airport,Charlton Mires Airstrip,55.4793,-1.7247700000000001,300.0,EU,GB,GB-U-A,,no,,,,,,
+22081,320773,GB-0437,small_airport,Ayton Castle Airstrip,55.8512,-2.11824,217.0,EU,GB,GB-ENG,,no,,,,,,
+22082,320791,GB-0438,small_airport,Baxby-Husthwaite Airfield,54.1689,-1.22665,130.0,EU,GB,GB-ENG,,no,,,,http://www.baxbyairsports.co.uk,,"Baxby,Husthwaite"
+22083,320792,GB-0439,small_airport,Headon Microlight,53.2826,-0.8719469999999999,136.0,EU,GB,GB-ENG,Retford,no,,,,http://microflight.co.uk,,
+22084,320793,GB-0440,small_airport,Tarn Farm Airfield,53.9354,-2.8432,15.0,EU,GB,GB-ENG,,no,,,,http://www.microLight.me.uk,,
+22085,320821,GB-0441,small_airport,Easterton Glider Field,57.5874,-3.30685,360.0,EU,GB,GB-SCT,Easterton,no,,,,http://www.highglide.co.uk/,,Highland Gliding Club
+22086,320822,GB-0442,small_airport,Fort Augustus Airstrip,57.127577,-4.670706,460.0,EU,GB,GB-SCT,Glendoe,no,,,,,,
+22087,320839,GB-0443,small_airport,Forwood Farm Airstrip,53.3026,-0.85115,135.0,EU,GB,GB-ENG,,no,,,,,,
+22088,320840,GB-0444,small_airport,Alcester Airfield,52.2292,-1.8771400000000003,50.0,EU,GB,GB-ENG,Alcester,no,,,,,,King's Coughton
+22089,320841,GB-0445,small_airport,Park Hall Airstrip,52.9824,-1.3710799999999999,390.0,EU,GB,GB-ENG,,no,,,,http://www.ramairmicrolights.co.uk/,,
+22090,320845,GB-0446,small_airport,Woodlow Farm Private Airstrip,52.1061,-2.45333,360.0,EU,GB,GB-ENG,Bosbury,no,,,,http://www.woodlowfarm.co.uk/,,
+22091,320846,GB-0447,small_airport,Manton Airfield,51.4237,-1.77079,585.0,EU,GB,GB-ENG,,no,,,,http://www.pmaviation.co.uk/,,
+22092,320852,GB-0448,small_airport,Slieve Croob Airfield,54.329595999999995,-5.945292,800.0,EU,GB,GB-NIR,,no,,,,,,
+22093,320853,GB-0449,small_airport,Swanborough Farm Airstrip,50.8539,0.00256389,25.0,EU,GB,GB-ENG,,no,,,,,,
+22094,320869,GB-0450,small_airport,Witherenden Airstrip,51.0046,0.621697,35.0,EU,GB,GB-ENG,,no,,,,,,
+22095,320870,GB-0451,small_airport,Eastchurch Airfield,51.403,0.845842,60.0,EU,GB,GB-ENG,,no,,,,,,
+22096,320893,GB-0452,small_airport,Mendlesham Airstrip,52.2295,1.1239299999999999,181.0,EU,GB,GB-ENG,,no,,,,,,
+22097,320895,GB-0453,small_airport,Willingale Airstrip,51.7292,0.286556,250.0,EU,GB,GB-ENG,,no,,,,,,
+22098,320918,GB-0454,small_airport,Mitton Airstrip,52.73291700000001,-2.1850169999999998,300.0,EU,GB,GB-ENG,,no,,,,,,
+22099,320919,GB-0455,small_airport,Brooklands Farm Airstrip,52.3575,-0.242917,50.0,EU,GB,GB-ENG,,no,,,,http://www.paramotorsuk.co.uk,,
+22100,320928,GB-0456,small_airport,Stonehill Farm Airstrip,55.4669,-3.84473,890.0,EU,GB,GB-SCT,,no,,,,,,
+22101,320929,GB-0457,small_airport,Spilsteads Farm Airstrip,50.937,0.52078,115.0,EU,GB,GB-ENG,Sedlescombe,no,,,,http://www.coleaviation.co.uk,,
+22102,320984,GB-0458,large_airport,[Duplicate] Pic,55.50569399999999,-4.586792,,EU,GB,GB-SCT,Prestwick,no,,,,,,
+22103,321026,GB-0459,small_airport,Broadmeadow Airfield,52.0258,-2.76321,325.0,EU,GB,GB-ENG,,no,,,,,,
+22104,321027,GB-0460,small_airport,Woonton Airstrip,52.1626,-2.9462,399.0,EU,GB,GB-ENG,Woonton,no,,,,,,
+22105,321054,GB-0461,small_airport,Gransden Lodge Glider Field,52.181597,-0.112033,,EU,GB,GB-ENG,,no,,,,http://www.camgliding.uk/,https://en.wikipedia.org/wiki/Gransden_Lodge_Airfield,
+22106,321057,GB-0462,small_airport,Octon Airstrip,54.1266,-0.43036899999999995,227.0,EU,GB,GB-ENG,,no,,,,,,
+22107,321058,GB-0463,small_airport,Davidstow Moor,50.6363,-4.6134,965.0,EU,GB,GB-ENG,,no,,,,,,
+22108,321059,GB-0464,small_airport,Hunsdon Airfield,51.8078,0.06964400000000001,244.0,EU,GB,GB-ENG,,no,,,,http://www.hunsdonmicrolightclub.info,,
+22109,321069,GB-0465,small_airport,Culbokie Airstrip,57.586843,-4.3163599999999995,550.0,EU,GB,GB-SCT,,no,,,,,,
+22110,321080,GB-0466,small_airport,London Colney,51.7056,-0.274931,295.0,EU,GB,GB-ENG,,no,,,,http://www.hertsmicrolightclub.co.uk,,The Dell
+22111,321081,GB-0467,small_airport,Pound Green Airfield,52.403999999999996,-2.35702,360.0,EU,GB,GB-ENG,,no,,,,,,
+22112,321123,GB-0468,small_airport,Ewesley Airstrip,55.2205,-1.9262099999999998,278.0,EU,GB,GB-ENG,,no,,,,,,
+22113,321124,GB-0469,small_airport,Calton Moor Airfield,53.0328,-1.83495,990.0,EU,GB,GB-ENG,,no,,,,http://www.caltonmoorflyers.co.uk/,,
+22114,321186,GB-0470,small_airport,Watnall Airfield,53.0286,-1.25577,410.0,EU,GB,GB-ENG,,no,,,,http://www.microlight.flyer.co.uk,,
+22115,321187,GB-0471,small_airport,Roserrow Airstrip,50.5617,-4.89654,410.0,EU,GB,GB-ENG,,no,,,,http://www.roserrow.co.uk,,
+22116,321188,GB-0472,small_airport,Titsey Airstrip,51.2756,0.026755599999999997,,EU,GB,GB-ENG,,no,,,,,,
+22117,321223,GB-0473,small_airport,Over Farm Microlight,51.8761,-2.28139,50.0,EU,GB,GB-ENG,,no,,,,http://overfarmmicrolights.co.uk,,
+22118,321224,GB-0474,small_airport,Middlebank Top Farm Airstrip,53.7237,-2.25557,968.0,EU,GB,GB-ENG,Lumb-in-Rossendale,no,,,,,,
+22119,321225,GB-0475,small_airport,Osbaston Lodge Farm Airstrip,52.6367,-1.3905100000000001,371.0,EU,GB,GB-ENG,Osbaston,no,,,,,,
+22120,321273,GB-0476,small_airport,Brookfield Farm Airstrip,53.4288,-0.347583,108.0,EU,GB,GB-ENG,,no,,,,,,
+22121,321274,GB-0477,small_airport,Onecoat Morridge Airstrip,53.1154,-1.94472,1386.0,EU,GB,GB-ENG,,no,,,,,,
+22122,321276,GB-0478,small_airport,Rathfriland Airstrip,54.253246,-6.229055000000001,,EU,GB,GB-NIR,Rathfriland,no,,,,,,
+22123,321298,GB-0479,small_airport,Rhedyn Coch Farm Airstrip,53.2833,-3.3671300000000004,615.0,EU,GB,GB-WLS,,no,,,,,,
+22124,321299,GB-0480,small_airport,Kemeys Commander Airstrip,51.7362,-2.93729,130.0,EU,GB,GB-ENG,,no,,,,,,
+22125,321313,GB-0481,small_airport,Viners Airstrip,52.4806,-1.34255,375.0,EU,GB,GB-ENG,,no,,,,,,
+22126,321319,GB-0482,small_airport,Thornhill Airfield,56.148880000000005,-4.18588,,EU,GB,GB-SCT,Thornhill,no,,,,,,
+22127,321356,GB-0483,small_airport,High Flats Farm Airstrip,54.8697,-1.59656,220.0,EU,GB,GB-ENG,,no,,,,,,
+22128,321357,GB-0484,small_airport,Birds Edge Airstrip,53.567,-1.68403,253.0,EU,GB,GB-ENG,,no,,,,,,
+22129,321358,GB-0485,small_airport,Egton Airstrip,54.4606,-0.7434810000000001,700.0,EU,GB,GB-ENG,,no,,,,,,
+22130,321363,GB-0486,small_airport,Crossmaglen Airstrip,54.062915000000004,-6.559010000000001,,EU,GB,GB-NIR,,no,,,,,,
+22131,321364,GB-0487,small_airport,Loughbrickland Airstrip,54.326999,-6.2916620000000005,,EU,GB,GB-NIR,,no,,,,,,
+22132,323667,GB-0488,small_airport,St Mellion Airstrip,50.4752449,-4.3084034,,EU,GB,GB-ENG,Bealbury,no,,,,,,
+22133,321542,GB-0489,small_airport,Redrock Airstrip,54.302863,-6.585688,,EU,GB,GB-NIR,Redrock,no,,,,,,
+22134,321684,GB-0490,small_airport,Oakley Microlight,51.783281099999996,-1.0743639999999999,,EU,GB,GB-ENG,Oakley,no,,,,https://www.bucks-microlight-club.org.uk,,Buckinghamshire Microlight Club
+22135,321835,GB-0491,small_airport,Dunnamanagh Airstrip,54.889694999999996,-7.266047,,EU,GB,GB-NIR,,no,,,,,,
+22136,321864,GB-0492,small_airport,Rattlesden,52.170757,0.872081,,EU,GB,GB-ENG,Rattlesden,no,,,,https://www.rattlesdengliding.com/,https://en.wikipedia.org/wiki/RAF_Rattlesden,RAF Rattlesden
+22137,321943,GB-0493,small_airport,Blackhill Airstrip,54.804220900000004,-6.7556928,,EU,GB,GB-NIR,,no,,,,,,
+22138,322438,GB-0494,small_airport,Avon Lane Airfield,51.4102105,-2.4477922000000003,,EU,GB,GB-ENG,Saltford,no,,,,,,
+22139,322713,GB-0495,small_airport,Preston Capes Airfield,52.178084999999996,-1.176136,,EU,GB,GB-ENG,,no,,,,,,
+22140,322722,GB-0496,heliport,Rotorspan,52.285500001,-2.1823,,EU,GB,GB-ENG,Droitwich,no,,,,,,
+22141,322762,GB-0497,small_airport,Kirton-in-Lindsey Glider Field,53.4622,-0.5769,,EU,GB,GB-ENG,,no,,,,http://tvgc.org.uk,,
+22142,322818,GB-0498,small_airport,Wold Lodge Airstrip,52.368221399999996,-0.6335390999999999,,EU,GB,GB-ENG,Finedon,no,,,,,,
+22143,322881,GB-0499,small_airport,Windsor Farm Airstrip,53.1973943,0.0379326,,EU,GB,GB-ENG,Hagworthingham,no,,,,,,
+22144,322882,GB-0500,small_airport,Lindens Farm Airstrip,53.561574,-0.204035,,EU,GB,GB-ENG,Riby,yes,,,,,,
+22145,322883,GB-0501,small_airport,Northorpe Fen Airstrip,52.7454779,-0.3423425,,EU,GB,GB-ENG,,no,,,,,,
+22146,322884,GB-0502,small_airport,Poplars Farm Airstrip,52.234596,-1.4206706,,EU,GB,GB-ENG,Deppers Bridge,no,,,,,,
+22147,322886,GB-0503,small_airport,Glebe Farm Airstrip,52.2007,-1.3651,,EU,GB,GB-ENG,Southam,no,,,,,,
+22148,323212,GB-0504,small_airport,Salterford Farm Airfield,53.0617449,-1.0942177,,EU,GB,GB-ENG,Calverton,no,,,,,,
+22149,323344,GB-0505,small_airport,Rookery Farm UL,51.473467600000006,-2.4032447,,EU,GB,GB-ENG,Doynton,no,,,,,,
+22150,323443,GB-0506,small_airport,Englefield Airstrip,51.4262846,-1.1114556999999998,,EU,GB,GB-ENG,Theale,no,,,,,,
+22151,323511,GB-0507,small_airport,Lodge Farm Airstrip,52.2348172,-1.0144367,,EU,GB,GB-ENG,Upper Heyford,no,,,,,,
+22152,323605,GB-0508,small_airport,Mill Farm Airstrip,52.5835,-2.637706,,EU,GB,GB-ENG,Hughley,no,,,,,,
+22153,323632,GB-0509,small_airport,Bycross Farm Airstrip,52.077944,-2.9074406,,EU,GB,GB-ENG,Moccas,no,,,,,,
+22154,323981,GB-0510,closed,Doncaster Airfield,53.513889,-1.11,,EU,GB,GB-ENG,Doncaster,no,,,,,,
+22155,324005,GB-0511,closed,RNAS Ford,50.817215999999995,-0.590155,,EU,GB,GB-ENG,Ford,no,,,,,,
+22156,324006,GB-0512,closed,Ipswich Airport,52.030797,1.197901,,EU,GB,GB-ENG,Ipswich,no,,,,,,
+22157,324207,GB-0513,small_airport,Firs Farm Airstrip,51.4722204,-1.3633203999999999,,EU,GB,GB-ENG,,no,,,,,,
+22158,324345,GB-0514,small_airport,Roddige Airfield,52.715263,-1.745357,,EU,GB,GB-ENG,Lichfield,no,,,,,,
+22159,324443,GB-0515,heliport,Weston-super-Mare Heliport,51.3389,-2.9326,,EU,GB,GB-ENG,,no,,,,,,
+22160,324444,GB-0516,closed,RNAS St. Merryn,50.503964,-4.979277,,EU,GB,GB-ENG,,no,,,,,https://en.wikipedia.org/wiki/RNAS_St_Merryn_(HMS_Vulture),HMS Vulture
+22161,324484,GB-0517,small_airport,Glebe Farm Airstrip,51.1332654,-2.0349483,,EU,GB,GB-ENG,Hougham,no,,,,,,
+22162,324610,GB-0518,closed,Erase Me 3,-0.1,0.0,,EU,GB,GB-SCT,,no,,,,,,
+22163,324611,GB-0519,closed,Erase Me 4,0.0,-0.1,,EU,GB,GB-SCT,,no,,,,,,
+22164,324613,GB-0520,closed,Erase Me 8,0.0,-0.2,,EU,GB,GB-ENG,,no,,,,,,
+22165,324614,GB-0521,closed,Erase Me 9,0.3,0.0,,EU,GB,GB-ENG,,no,,,,,,
+22166,324810,GB-0522,small_airport,Wood Farm Airstrip,52.121627399999994,-0.6948611,,EU,GB,GB-ENG,,no,,,,,,
+22167,324828,GB-0523,closed,Erase Me 5,0.2,0.0,,EU,GB,GB-ENG,Dubai,no,,,,,,
+22168,324984,GB-0524,small_airport,Tempest Airstrip,50.1794275,-5.449931200000001,,EU,GB,GB-ENG,,no,,,,,,
+22169,324985,GB-0525,small_airport,Pilmuir Farm Airstrip,56.2240212,-2.9776945,,EU,GB,GB-SCT,,no,,,,,,
+22170,324999,GB-0526,small_airport,North Moreton Airstrip,51.60350579999999,-1.1846508,,EU,GB,GB-ENG,,no,,,,,,
+22171,325000,GB-0527,small_airport,Metropolitan Police Air Support Unit,51.6538182,0.0171705,,EU,GB,GB-ENG,,no,,,,,,
+22172,325091,GB-0528,heliport,Nissan Helipad,54.90891,-1.483143,,EU,GB,GB-ENG,Sunderland,no,,,,,,
+22173,325306,GB-0529,small_airport,Earwig Farm Airstrip,52.1850211,-0.5159564999999999,,EU,GB,GB-ENG,,no,,,,,,
+22174,325399,GB-0530,closed,Erase Me 10,0.0,0.3,,EU,GB,GB-ENG,,no,,,,,,
+22175,325630,GB-0531,small_airport,Orchardleigh Private Airstrip,51.2540766,-2.3247904999999998,,EU,GB,GB-ENG,near Frome,no,,,,,,
+22176,325679,GB-0532,small_airport,Grange Farm private Airstrip,53.3227085,-0.2576933,,EU,GB,GB-ENG,,no,,,,http://www.thegrange-lincolnshire.co.uk/,,
+22177,325932,GB-0533,small_airport,Rendcomb Airfield,51.78252,-1.9515900000000002,,EU,GB,GB-ENG,Rendcomb,no,,,,,,
+22178,325933,GB-0534,closed,Chedworth RAF Air Base,51.816307,-1.940015,807.0,EU,GB,GB-ENG,Chedworth,no,,,,,https://en.wikipedia.org/wiki/RAF_Chedworth,
+22179,326073,GB-0535,small_airport,Luxter Farm Airstrip,51.59597,-0.8928645000000001,,EU,GB,GB-ENG,,no,,,,,,
+22180,326150,GB-0536,large_airport,LHR,0.0,0.0,,EU,GB,GB-ENG,,no,,,,,,
+22181,326151,GB-0537,large_airport,heathrow,0.0,0.0,,EU,GB,GB-ENG,,no,,,,,,
+22182,326208,GB-0538,heliport,+27717069166 LOTTERY SPELLS CASTER UK HONDURAS USA AUSTRIA PHILIPPINES ESTONIA FRANCE.,1.25,8.1666666666667,,EU,GB,GB-ENG,LONDON,no,,,,,,"lottery spells, lotto jackpot, power ball spells"
+22183,326356,GB-0539,small_airport,Achnasheen Airstrip,57.5708442,-5.1888389,,EU,GB,GB-SCT,,no,,,,,,"achnasheen, lubmore"
+22184,326357,GB-0540,small_airport,Ballone Castle Airstrip,57.83229300000001,-3.808089,,EU,GB,GB-SCT,,no,,,,,,
+22185,326358,GB-0541,small_airport,Glensanda Airstrip,56.5610514,-5.5474649000000005,,EU,GB,GB-SCT,,no,,,,,,
+22186,326382,GB-0542,small_airport,Forfar Airstrip,56.65336310000001,-2.8327751,,EU,GB,GB-SCT,Forfar,no,,,,,,
+22187,326575,GB-0543,medium_airport,Newcastle,-4.15,0.0,,EU,GB,GB-ENG,seaham,yes,,,,,,
+22188,326703,GB-0544,small_airport,Rectory Farm Airstrip,53.086138,-0.8484860000000001,,EU,GB,GB-ENG,Averham,no,,,,,,
+22189,326704,GB-0545,small_airport,Portmoak Glider Field,56.191031,-3.3285050000000003,,EU,GB,GB-SCT,Portmoak,no,,,,,,
+22190,326705,GB-0546,small_airport,Carrickmore Airstrip,54.572102,-7.044873,541.0,EU,GB,GB-NIR,Carrickmore,no,,,,http://www.c-moreflyingschool.com/,,
+22191,326746,GB-0547,small_airport,Pear Tree Farm Airstrip,53.279332999999994,-2.297641,200.0,EU,GB,GB-ENG,Marthall,no,,,,,,
+22192,326753,GB-0548,small_airport,Lukesfield Airstrip,51.178559,0.526992,,EU,GB,GB-ENG,,no,,,,,,
+22193,326754,GB-0549,small_airport,Anniesfield Microlight Site,51.751637,0.699028,,EU,GB,GB-ENG,,no,,,,,,
+22194,326755,GB-0550,small_airport,Lower Botrea,50.112244,-5.629731,500.0,EU,GB,GB-ENG,,no,,,,,,
+22195,326756,GB-0551,small_airport,Sackville Farm Airstrip,52.262421999999994,-0.486598,250.0,EU,GB,GB-ENG,RISELEY Bedfordshire,no,,,,http://www.sackvilleflyingclub.co.uk/,,
+22196,326757,GB-0552,small_airport,Meppershall,52.02053,-0.355031,160.0,EU,GB,GB-ENG,,no,,,,http://www.brinkleyaviation.com/,,
+22197,326763,GB-0553,small_airport,Raydon Wings,52.018658,1.007259,170.0,EU,GB,GB-ENG,,no,,,,,,
+22198,326802,GB-0554,small_airport,Carr Valley,53.688505000000006,-2.796592,,EU,GB,GB-ENG,,no,,,,,,
+22199,326803,GB-0555,small_airport,Brown Shutters Farm Airstrip,51.311381,-2.308502,400.0,EU,GB,GB-ENG,,no,,,,,,
+22200,326804,GB-0556,small_airport,Blooms Farm Airstrip,51.994166,0.556438,243.0,EU,GB,GB-ENG,,no,,,,,,
+22201,326805,GB-0557,small_airport,Saltby Glider Field,52.82966700000001,-0.7125,480.0,EU,GB,GB-ENG,Saltby,no,,,,http://www.buckminstergc.co.uk,,
+22202,326821,GB-0558,small_airport,Tarsan Lane Microlights,54.457555000000006,-6.436968,40.0,EU,GB,GB-NIR,Portadown,no,,,,http://www.flyni.co.uk,,
+22203,326848,GB-0559,small_airport,Aughrim Airstrip,54.093810999999995,-6.045952,,EU,GB,GB-NIR,,no,,,,,,
+22204,326881,GB-0560,small_airport,Horham Airstrip,52.309166999999995,1.2255,180.0,EU,GB,GB-ENG,Horham,no,,,,,,
+22205,326887,GB-0561,small_airport,Cae Mawr Tyddyn Hen,53.157272999999996,-4.235529,200.0,EU,GB,GB-WLS,,no,,,,,,
+22206,30935,GB-DOC,small_airport,Dornoch Airfield,57.868999,-4.023,1.0,EU,GB,GB-SCT,Dornoch,no,EGZJ,DOC,,http://www.dornochairfield.com/,,
+22207,31147,GB-FLH,small_airport,Flotta Isle Airport,58.82580184936499,-3.1427800655365004,50.0,EU,GB,GB-SCT,Flotta Isle,no,EGZR,FLH,,,,
+22208,31199,GB-FOA,small_airport,Foula Airport,60.121725,-2.053202,150.0,EU,GB,GB-SCT,Foula,yes,EGFO,FOA,,,http://en.wikipedia.org/wiki/Foula_Airfield,
+22209,35156,GB-OUK,medium_airport,Outer Skerries Airport,60.4252,-0.75,76.0,EU,GB,GB-SCT,Grunay Island,yes,EGOU,OUK,,,,"Out Skerries, Housay, Bruray, Grunay"
+22210,32175,GB-PSV,small_airport,Papa Stour Airport,60.321701049805,-1.6930600404738998,,EU,GB,GB-SCT,Papa Stour Island,yes,EGSZ,PSV,,,,
+22211,29640,GB-ULL,small_airport,Glenforsa Airfield,56.517502,-5.9141699999999995,15.0,EU,GB,GB-SCT,Glenforsa,no,EGZU,,,http://www.glenforsaairfield.co.uk/1.html,,
+29687,3982,LCRA,large_airport,RAF Akrotiri,34.590401,32.9879,76.0,EU,GB,GB-U-A,Akrotiri,yes,LCRA,AKT,,http://www.raf.mod.uk/rafakrotiri/passengerinformation/,http://en.wikipedia.org/wiki/Akrotiri,"Royal Air Force,"
+30430,325333,LGW,closed,Erase Me 24,0.0,0.7,,EU,GB,GB-ENG,,no,,,,,,
+32189,300789,MJG,closed,RAF Castle Combe,51.489722,-2.2125,,EU,GB,GB-ENG,Wiltshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Castle_Combe,
+47691,302218,US-0214,closed,RAF Castle Archdale/RAF Lough Erne,54.4806105242,-7.72707939148,,EU,GB,GB-NIR,County Fermanagh,no,,,,,http://en.wikipedia.org/wiki/RAF_Castle_Archdale,
+47693,302246,US-0216,closed,RAF Carnaby,54.060832999999995,-0.261667,33.0,EU,GB,GB-ENG,East Riding of Yorkshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Carnaby,
+47695,302254,US-0218,closed,RAF Catfoss,53.91996009060001,-0.276460647583,36.0,EU,GB,GB-ENG,Yorkshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Catfoss,
+47696,302255,US-0219,closed,RNAS Cattewater/RAF Cattewater/RAF Mount Batten,50.358889000000005,-4.13,,EU,GB,GB-ENG,Devon,no,,,,,http://en.wikipedia.org/wiki/RAF_Cattewater,
+47697,302269,US-0220,closed,Kingstown Municipal Airport/RAF Kingstown/RAF Carlisle,54.92694399999999,-2.9602779999999997,,EU,GB,GB-ENG,Cumbria,no,,,,,http://en.wikipedia.org/wiki/RAF_Carlisle,
+47698,302270,US-0221,closed,RAF Cardington,52.108922,-0.42249899999999996,98.0,EU,GB,GB-ENG,Bedfordshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Cardington,
+47699,302272,US-0222,closed,RAF Chailey,50.955278,-0.055555999999999994,,EU,GB,GB-ENG,East Sussex,no,,,,,http://en.wikipedia.org/wiki/RAF_Chailey,
+48171,325236,US-0693,closed,Erase Me 15,0.0,0.5,,EU,GB,GB-U-A,,no,,,,,,
+50812,41918,XBRO,small_airport,Broadford Airstrip,57.253399,-5.8279,24.0,EU,GB,GB-SCT,Ashaig,no,EGEI,,,,http://en.wikipedia.org/wiki/Broadford_Airfield,"Ashaig Airstrip, Isle of Sky Airstrip, Broadford"
+50824,41917,XPLO,small_airport,Plockton Airstrip,57.335499,-5.673080000000001,226.0,EU,GB,GB-SCT,Plockton,no,EGEV,,XPLO,,,
+52876,300640,ZA-0102,closed,Castle Bromwich Aerodrome/RAF Castle Bromwich,52.517222,-1.7866669999999998,,EU,GB,GB-ENG,Warwickshire,no,,,,,http://en.wikipedia.org/wiki/RAF_Castle_Bromwich,
+53246,46378,ZZ-0001,heliport,Sealand Helipad,51.894444,1.4825,40.0,EU,GB,GB-ENG,Sealand,no,,,,http://www.sealandgov.org/,http://en.wikipedia.org/wiki/Principality_of_Sealand,Roughs Tower Helipad
