@@ -56,3 +56,8 @@
 			* ``` python -m girder -p 8085 ```
 	* Now, go to http://localhost:8085 and enable the imagespace and imagespace_flann plugins.
 * Happy searching.
+
+
+# Details for ufo.usc.edu website
+
+* The code for the visualizations depicted on ufo.usc.edu website for our team can be found in HW3_website folder. 
